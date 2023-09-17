@@ -20,7 +20,7 @@ code_reviews:
   details:
     - title: Test-Driven Development with C#
       visible_class_week: 2
-      filename: https://github.com/epicodus-classroom/c-sharp-curriculum/blob/main/1_test_driven_development_with_c/5a_cr_teacher_c_sharp_independent_project.md
+      filename: https://github.com/epicodus-curriculum/code-reviews/blob/main/c-sharp/1_cr_teacher_c_sharp_independent_project.md
       objectives:
       - "Code includes two custom classes and uses namespaces."
       - "Console application works correctly."
@@ -32,10 +32,10 @@ code_reviews:
     - title: Recognizing Privilege
       always_visible: true
       journal: true
-      filename: https://github.com/epicodus-classroom/dei-curriculum/blob/main/dei-reflections/8_recognizing_privilege_reflection.md
+      filename: https://github.com/epicodus-curriculum/code-reviews/blob/main/dei/8_recognizing_privilege_reflection.md
     - title: Basic Web Applications
       visible_class_week: 4
-      filename: https://github.com/epicodus-classroom/c-sharp-curriculum/blob/main/2_basic_web_apps/5a_teacher_notes_basic_mvc_web_apps.md
+      filename: https://github.com/epicodus-curriculum/code-reviews/blob/main/c-sharp/2_teacher_notes_basic_mvc_web_apps.md
       objectives:
       - "A splash page is used."
       - "Project has `Vendor` and `Order` classes."
@@ -47,7 +47,7 @@ code_reviews:
       - "The prompt's required functionality and baseline project requirements are in place by the deadline."
     - title: Database Basics
       visible_class_week: 6
-      filename: https://github.com/epicodus-classroom/c-sharp-curriculum/blob/main/3_database_basics/5b_teachers_notes_database_basics_independent_project.md
+      filename: https://github.com/epicodus-curriculum/code-reviews/blob/main/c-sharp/3_teachers_notes_database_basics_independent_project.md
       objectives:
       - "Do the database table and column names follow proper naming conventions?" 
       - "Do the project folder and exported database follow the specific naming requirements for this project?"
@@ -61,10 +61,10 @@ code_reviews:
     - title: "Inclusive Terminology: Using a Main Branch"
       always_visible: true
       journal: true
-      filename: https://github.com/epicodus-classroom/dei-curriculum/blob/main/dei-reflections/10_changing_master_to_main_gh_reflection.md
+      filename: https://github.com/epicodus-curriculum/code-reviews/blob/main/dei/10_changing_master_to_main_gh_reflection.md
     - title: Many-To-Many Relationships
       visible_class_week: 8
-      filename: https://github.com/epicodus-classroom/c-sharp-curriculum/blob/main/4_many_to_many_relationships/5a_teachers_notes_advanced_databases_independent_project.md
+      filename: https://github.com/epicodus-curriculum/code-reviews/blob/main/c-sharp/4_teachers_notes_advanced_databases_independent_project.md
       objectives:
       - "Does at least one of your classes have all CRUD methods implemented in your application?"
       - "Are you able to view both sides of the many-many relationship? For a particular instance of a class, are you able to view all of the instances of the other class that are related to it?"
@@ -73,7 +73,7 @@ code_reviews:
       - "The prompt's required functionality and baseline project requirements are in place by the deadline."
     - title: Authentication with Identity
       visible_class_week: 10
-      filename: https://github.com/epicodus-classroom/c-sharp-curriculum/blob/main/5_authentication_with_identity/5a_teachers_notes_authentication_with_identity_independent_project.md
+      filename: https://github.com/epicodus-curriculum/code-reviews/blob/main/c-sharp/5_teachers_notes_authentication_with_identity_independent_project.md
       objectives:
       - "Does at least one of your classes have all CRUD methods implemented in your app?"
       - "Are you able to view both sides of the many-many relationship? For a particular instance of a class, are you able to view all of the instances of the other class that are related to it?"
@@ -85,10 +85,10 @@ code_reviews:
     - title: Jokes and Appropriate Humor
       always_visible: true
       journal: true
-      filename: https://github.com/epicodus-classroom/dei-curriculum/blob/main/dei-reflections/12_jokes_and_humor_reflection.md
+      filename: https://github.com/epicodus-curriculum/code-reviews/blob/main/dei/12_jokes_and_humor_reflection.md
     - title: Building an API
       visible_class_week: 12
-      filename: https://github.com/epicodus-classroom/c-sharp-curriculum/blob/main/6_apis/5a_cr_building_an_api_independent_project.md
+      filename: https://github.com/epicodus-curriculum/code-reviews/blob/main/c-sharp/6_cr_building_an_api_independent_project.md
       objectives:
       - "Application includes CRUD functionality and successfully returns responses to API calls."
       - "Application includes at least one of the further exploration objectives: authentication, versioning, pagination, Swagger documentation, or CORS."
@@ -98,6 +98,6 @@ code_reviews:
       - "The prompt's required functionality and baseline project requirements are in place by the deadline."
     - title: Team Week
       visible_class_week: 14
-      filename: https://github.com/epicodus-classroom/shared-curriculum/blob/main/team_week/team_week_cr.md
+      filename: https://github.com/epicodus-curriculum/code-reviews/blob/main/shared/team_week_cr.md
       objectives:
       - "Did you participate in planning, creating, and presenting a project, including working effectively with teammates?"
