@@ -1,18 +1,10 @@
 ---
-part_time: true
-internship: false
-number_of_weeks: 14
-class_times:
-  Monday: 8:00-12:00
-  Tuesday: 8:00-12:00
-  Wednesday: 8:00-12:00
-  Thursday: 8:00-12:00
 code_reviews:
   settings:
-    visible_day_of_week: friday
-    visible_time: "8:00"
-    due_days_later: 0
-    due_time: "17:00"
+    visible_day_of_week: thursday
+    visible_time: "17:00"
+    due_days_later: 3
+    due_time: "9:00"
     submissions_not_required: false
     always_visible: false
   details:
