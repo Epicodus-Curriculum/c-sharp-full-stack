@@ -1,0 +1,106 @@
+section: Building an API
+order: 16
+repo: c-sharp-full-stack
+directory: 16_building-an-api
+lessons:
+  - title: Building an API Objectives
+    filename: 0a_backend_apis.md
+    day: weekend
+    type: lesson
+  - title: Scaffolding a .NET Application with dotnet new
+    filename: 0b_dotnet_new.md
+    day: weekend
+    type: lesson
+  - title: Exploring the dotnet new Web API Template
+    filename: 0c_new_api_template.md
+    day: weekend
+    type: lesson
+  - title: Adding a Model and Database
+    filename: 0d_establish_models_and_database.md
+    day: weekend
+    type: lesson
+  - title: Seeding the Database
+    filename: 0da_seeding_database.md
+    day: weekend
+    type: lesson
+  - title: 'API: Create and Read'
+    filename: 0e_API_create_and_read.md
+    day: weekend
+    type: lesson
+  - title: 'API: Update and Delete'
+    filename: 0f_API_update_and_delete.md
+    day: weekend
+    type: lesson
+  - title: 'API: Adding Parameters to a Get Request to Support Query Strings'
+    filename: 0g_adding_parameters_to_get_request.md
+    day: weekend
+    type: lesson
+  - title: Adding API Model Validation
+    filename: 0h_adding_validations.md
+    day: weekend
+    type: lesson
+  - title: Scaffolding API Controllers
+    filename: 0i_scaffolding_api_controller.md
+    day: weekend
+    type: lesson
+  - title: Further Exploration with APIs
+    filename: 1b_further_exploration_with_apis.md
+    day: weekend
+    type: lesson
+  - title: 'Team Week: Project Pitch'
+    filename: team_week_project_pitch.md
+    day: weekend
+    type: lesson
+    repo: shared-full-stack
+  - title: 'Journal #13'
+    filename: 1_week_thirteen_prompt.md
+    day: weekend
+    type: lesson
+    repo: career-services-full-stack
+  - title: Prior Course Section Survey
+    filename: course_section_survey.md
+    day: sunday
+    type: lesson
+    repo: pre-work-full-stack
+  - title: 'Journal #13 Discussion'
+    filename: 2_week_thirteen_discussion_classwork.md
+    day: sunday
+    type: exercise
+    repo: career-services-full-stack
+  - title: Building an API - Part 1
+    filename: 1a_classwork_building_an_api.md
+    day: sunday
+    type: exercise
+  - title: Configuring Application URLs to Run Two ASP.NET Core Applications
+    filename: 1c_running_two_applications.md
+    day: sunday
+    type: lesson
+  - title: Building an API - Part 2
+    filename: 1a_classwork_building_an_api.md
+    day: monday
+    type: exercise
+  - title: 'MVC Client: GetAll()'
+    filename: 2a_client_get_all.md
+    day: monday
+    type: lesson
+  - title: Building an API - Part 3
+    filename: 1a_classwork_building_an_api.md
+    day: tuesday
+    type: exercise
+  - title: 'MVC Client: GetDetails()'
+    filename: 2b_client_get_details.md
+    day: tuesday
+    type: lesson
+  - title: Building an API - Part 4
+    filename: 1a_classwork_building_an_api.md
+    day: wednesday
+    type: exercise
+  - title: 'MVC Client: POST, PUT, and DELETE'
+    filename: 2c_client_post_put_delete.md
+    day: wednesday
+    type: lesson
+  - title: Informational Interviews
+    filename: informational-interviews.md
+    day: wednesday
+    type: lesson
+    repo: career-services-full-stack

@@ -1,0 +1,159 @@
+section: Database Basics
+order: 10
+repo: c-sharp-full-stack
+directory: 10_database-basics
+lessons:
+  - title: Database Basics Objectives
+    filename: 0a_database_basics_objectives.md
+    day: weekend
+    type: lesson
+  - title: Introduction to Databases
+    filename: 0b_introduction_to_databases.md
+    day: weekend
+    type: lesson
+  - title: 'SQL Basics: Managing MySQL Databases from the Command Line'
+    filename: 0d_sql_basics.md
+    day: weekend
+    type: lesson
+  - title: 'Introduction to MySQL Workbench: Creating a Database'
+    filename: 0e_introducing_mysql_workbench.md
+    day: weekend
+    type: lesson
+  - title: Connecting a Database to an ASP.NET Core App with MySqlConnector
+    filename: 0f_creating_the_database_object.md
+    day: weekend
+    type: lesson
+  - title: Retrieving Objects From the Database
+    filename: 0g_retrieving_objects_from_the_database.md
+    day: weekend
+    type: lesson
+  - title: Testing Database Backed Applications
+    filename: 0h_testing_database_backed_applications.md
+    day: weekend
+    type: lesson
+  - title: 'Creating a Test Database: Exporting and Importing Databases with MySQL Workbench'
+    filename: 0ha_exporting_and_importing_databases.md
+    day: weekend
+    type: lesson
+  - title: Using the Test Database
+    filename: 0hb_using_the_test_database.md
+    day: weekend
+    type: lesson
+  - title: Deleting Objects in the Database
+    filename: 0i_deleting_objects_in_the_database.md
+    day: weekend
+    type: lesson
+  - title: Testing for an Empty Database
+    filename: 0j_testing_for_an_empty_database.md
+    day: weekend
+    type: lesson
+  - title: Overriding Equals and GetHashCode
+    filename: 0k_overriding_equals.md
+    day: weekend
+    type: lesson
+  - title: Saving Objects in the Database
+    filename: 0l_saving_objects_in_the_database.md
+    day: weekend
+    type: lesson
+  - title: Finding Objects in the Database
+    filename: 0n_finding_objects_in_the_database.md
+    day: weekend
+    type: lesson
+  - title: More SQL Queries
+    filename: 0o_more_sql_queries.md
+    day: weekend
+    type: lesson
+  - title: 'Journal #10'
+    filename: 1_week_ten_prompt.md
+    day: weekend
+    type: lesson
+    repo: career-services-full-stack
+  - title: Prior Course Section Survey
+    filename: course_section_survey.md
+    day: sunday
+    type: lesson
+    repo: pre-work-full-stack
+  - title: 'Journal #10 Discussion'
+    filename: 2_week_ten_discussion_classwork.md
+    day: sunday
+    type: exercise
+    repo: career-services-full-stack
+  - title: To Do List and Project Rebuild
+    filename: 1a_classwork_to_do_list_and_project_rebuild.md
+    day: sunday
+    type: exercise
+  - title: Database Schema and Relationship Types
+    filename: database_schema_and_relationship_types.md
+    day: sunday
+    type: lesson
+    repo: shared-full-stack
+  - title: Using SQL Designer
+    filename: sql_designer_walkthrough.md
+    day: sunday
+    type: lesson
+    repo: shared-full-stack
+  - title: Introducing Entity Framework Core
+    filename: 1b_introducing_entity_framework.md
+    day: sunday
+    type: lesson
+  - title: Configuration for Entity Framework Core
+    filename: 1c_configuration_for_ef_core.md
+    day: sunday
+    type: lesson
+  - title: Read with EF Core
+    filename: 1d_ef_core_with_an_existing_database.md
+    day: sunday
+    type: lesson
+  - title: Create with EF Core
+    filename: 1e_crud_with_ef_core_create_and_read.md
+    day: sunday
+    type: lesson
+  - title: HTML Helper Methods, Lambda Expressions, and String Interpolation
+    filename: 1f_html_helpers.md
+    day: sunday
+    type: lesson
+  - title: Showing Item Details with EF Core
+    filename: 1g_showing_item_detail.md
+    day: sunday
+    type: lesson
+  - title: Further Exploration with Testing
+    filename: 1h_further_exploration_with_testing.md
+    day: sunday
+    type: lesson
+  - title: To Do List, Animal Shelter, and Inventory - Part 1
+    filename: 2a_classwork_to_do_list_animal_shelter_and_inventory.md
+    day: monday
+    type: exercise
+  - title: To Do List, Animal Shelter, and Inventory - Part 2
+    filename: 2a_classwork_to_do_list_animal_shelter_and_inventory.md
+    day: tuesday
+    type: exercise
+  - title: To Do List, Animal Shelter, and Inventory - Part 3
+    filename: 2a_classwork_to_do_list_animal_shelter_and_inventory.md
+    day: wednesday
+    type: exercise
+  - title: Update with EF Core
+    filename: 2g_update_with_ef_core.md
+    day: wednesday
+    type: lesson
+  - title: Delete with EF Core
+    filename: 2h_delete_with_ef_core.md
+    day: wednesday
+    type: lesson
+  - title: Establishing a One-To-Many Relationship with Navigation Properties
+    filename: 2j_relationships_with_entity_framework.md
+    day: wednesday
+    type: lesson
+  - title: Using ViewBag
+    filename: 2k_using_viewbag.md
+    day: wednesday
+    type: lesson
+  - title: Create and Update with a One-To-Many Relationship
+    filename: 2l_create_update_one_to_many.md
+    day: wednesday
+    type: lesson
+  - title: 'Inclusive Terminology: Using a Main Branch'
+    filename: changing_master_to_main_gh.md
+    day: wednesday
+    type: lesson
+    repo: DEI-full-stack

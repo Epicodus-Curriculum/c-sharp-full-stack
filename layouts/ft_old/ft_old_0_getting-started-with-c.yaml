@@ -1,0 +1,25 @@
+section: Getting Started with C#
+order: 2
+repo: c-sharp-full-stack
+directory: 2_getting-started-with-c
+lessons:
+  - title: Welcome to C#
+    filename: 0a_welcome_to_c.md
+    day: weekend
+    type: lesson
+  - title: Installing C# and .NET
+    filename: 0c_installing_c_and_net.md
+    day: weekend
+    type: lesson
+  - title: Installing dotnet-script
+    filename: 0d_installing_dotnet_script.md
+    day: weekend
+    type: lesson
+  - title: Installing and Configuring MySQL
+    filename: 0e_installing_and_configuring_mysql.md
+    day: weekend
+    type: lesson
+  - title: Documentation and Resources
+    filename: 0f_documentation_and_resources.md
+    day: weekend
+    type: lesson

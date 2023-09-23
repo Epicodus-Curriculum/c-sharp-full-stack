@@ -1,0 +1,192 @@
+section: Basic Web Applications
+order: 7
+repo: c-sharp-full-stack
+directory: 7_basic-web-applications
+lessons:
+  - title: Basic Web Applications Objectives
+    filename: 0a_web_apps_with_c_objectives.md
+    day: weekend
+    type: lesson
+  - title: 'How the Web Works: Clients and Servers'
+    filename: 0b_how_the_web_works_clients_and_servers.md
+    day: weekend
+    type: lesson
+  - title: 'How the Web Works: Uniform Resource Locator'
+    filename: 0c_how_the_web_works_uniform_resource_locator_url.md
+    day: weekend
+    type: lesson
+  - title: 'How the Web Works: Developer Tools'
+    filename: 0d_how_the_web_works_developer_tools.md
+    day: weekend
+    type: lesson
+  - title: Introduction to ASP.NET Core
+    filename: 0e_introduction_to_asp_net_core_mvc.md
+    day: weekend
+    type: lesson
+  - title: 'How the Web Works: Server-Side Rendering'
+    filename: 0f_how_the_web_works_server-side_rendering.md
+    day: weekend
+    type: lesson
+  - title: 'How the Web Works: MVC Pattern'
+    filename: 0g_how_the_web_works_mvc_pattern.md
+    day: weekend
+    type: lesson
+  - title: Constructing and Configuring an ASP.NET Core MVC Web App
+    filename: 0h_constructing_and_configuring_an_asp_net_core_mvc_project.md
+    day: weekend
+    type: lesson
+  - title: Building and Running an ASP.NET Core MVC Web App
+    filename: 0i_building_and_running_a_asp_net_core_mvc_web_application.md
+    day: weekend
+    type: lesson
+  - title: Introduction to Controllers, Routes and URLs
+    filename: 0ja_introduction_to_controllers_routes_and_urls.md
+    day: weekend
+    type: lesson
+  - title: Custom URL Paths
+    filename: 0k_custom_url_paths.md
+    day: weekend
+    type: lesson
+  - title: Creating and Using Views
+    filename: 0l_creating_and_using_views.md
+    day: weekend
+    type: lesson
+  - title: Creating a Basic Model
+    filename: 0m_creating_a_basic_model.md
+    day: weekend
+    type: lesson
+  - title: Dynamic Views with Razor Markup Syntax
+    filename: 0n_dynamic_views_with_razor_view_engine.md
+    day: weekend
+    type: lesson
+  - title: Using Forms with MVC
+    filename: 0o_using_forms_with_mvc.md
+    day: weekend
+    type: lesson
+  - title: Debugging Views and Configuring a Development Environment with launchSettings.json
+    filename: 0p_debugging_views.md
+    day: weekend
+    type: lesson
+  - title: Redirecting to HTTPS and Issuing a Security Certificate
+    filename: 0pa_https_redirect_and_security_certificates.md
+    day: weekend
+    type: lesson
+  - title: Configuration Quick Reference
+    filename: 0q_configuration_quick_reference.md
+    day: weekend
+    type: lesson
+  - title: 'Journal #9 Prompt'
+    filename: 1_week_nine_journal_prompt.md
+    day: weekend
+    type: lesson
+    repo: career-services-full-stack
+  - title: Prior Course Section Survey
+    filename: course_section_survey.md
+    day: monday
+    type: lesson
+    repo: pre-work-full-stack
+  - title: 'Journal #9 Discussion'
+    filename: 2_week_nine_journal_discussion_classwork.md
+    day: monday
+    type: exercise
+    repo: career-services-full-stack
+  - title: ASP.NET Core MVC Practice
+    filename: 1a_classwork_mvc_practice.md
+    day: monday
+    type: exercise
+  - title: To Do List MVC Setup
+    filename: 1b_to_do_list_mvc_setup.md
+    day: monday
+    type: lesson
+  - title: To Do List with MVC Forms
+    filename: 1c_to_do_list_with_mvc_forms.md
+    day: monday
+    type: lesson
+  - title: Request-Response Loop and HTTP Methods with ASP.NET Core MVC
+    filename: 1d_request_response_loop_and_http_methods_with_asp_net_mvc.md
+    day: monday
+    type: lesson
+  - title: Lists and Redirects in a Controller
+    filename: 1e_lists_and_redirects_in_a_controller.md
+    day: monday
+    type: lesson
+  - title: Loops and Conditionals with Razor
+    filename: 1f_loops_and_conditionals_with_razor.md
+    day: monday
+    type: lesson
+  - title: Multiple Controllers
+    filename: 1g_multiple_controllers.md
+    day: monday
+    type: lesson
+  - title: To Do List, Car Dealership, Parcels, Job Board
+    filename: 2a_classwork_mvc_apps_with_razor.md
+    day: tuesday
+    type: exercise
+  - title: HTTP CRUD Methods
+    filename: 2b_http_crud_methods.md
+    day: tuesday
+    type: lesson
+  - title: Deleting Items
+    filename: 2c_deleting_items.md
+    day: tuesday
+    type: lesson
+  - title: Finding Objects with Unique IDs
+    filename: 2d_finding_objects_with_unique_ids.md
+    day: tuesday
+    type: lesson
+  - title: Introduction to RESTful Routing
+    filename: 2e_introduction_to_restful_routing.md
+    day: tuesday
+    type: lesson
+  - title: Applying RESTful Routing
+    filename: 2f_applying_restful_routing.md
+    day: tuesday
+    type: lesson
+  - title: To Do List, Places You've Been, Packer Tracker, Tamagotchi
+    filename: 3a_classwork_to_do_places_youve_been_packing_list_and_more.md
+    day: wednesday
+    type: exercise
+  - title: Objects Within Objects Setup
+    filename: 3b_objects_within_objects_setup.md
+    day: wednesday
+    type: lesson
+  - title: Saving Objects Within Other Objects
+    filename: 3c_saving_objects_within_other_objects.md
+    day: wednesday
+    type: lesson
+  - title: Objects Within Objects Interface Part 1
+    filename: 3d_objects_within_objects_interface_part_one.md
+    day: wednesday
+    type: lesson
+  - title: Objects Within Objects Interface Part 2
+    filename: 3e_objects_within_objects_interface_part_2_advanced_restful_routing.md
+    day: wednesday
+    type: lesson
+  - title: Using Static Content
+    filename: 3f_using_static_content.md
+    day: wednesday
+    type: lesson
+  - title: Layouts and Partials
+    filename: 3g_layouts_and_partials.md
+    day: wednesday
+    type: lesson
+  - title: To Do List, CD Organizer, Go Fish, Word Puzzle
+    filename: 4a_to_do_list_cd_organizer_hangman_and_go_fish_classwork.md
+    day: thursday
+    type: exercise
+  - title: Optional Features of C# Versions 9 and 10
+    filename: 4d_net_6_and_c_sharp_10_features.md
+    day: thursday
+    type: lesson
+  - title: The Previous Hosting Model versus the New Minimal Hosting Model
+    filename: 4d_the_old_hosting_model.md
+    day: thursday
+    type: lesson
+  - title: Technical Interview Prep
+    filename: 4b_technical_interview_prep.md
+    day: thursday
+    type: lesson
+  - title: Basic Web Applications Independent Project
+    filename: 5a_basic_mvc_web_apps_independent_project.md
+    day: friday
+    type: exercise

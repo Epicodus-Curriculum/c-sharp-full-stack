@@ -1,0 +1,45 @@
+section: Team Week
+order: 12
+repo: c-sharp-full-stack
+directory: 12_team-week
+lessons:
+  - title: Team Week Objectives
+    filename: team_week_objectives.md
+    day: weekend
+    type: lesson
+  - title: 'Git with Collaborators: Setup'
+    filename: git_with_collaborators_setup.md
+    day: weekend
+    type: lesson
+  - title: 'Git with Collaborators: Workflow'
+    filename: git_with_collaborators_workflow.md
+    day: weekend
+    type: lesson
+  - title: Rewriting History with Git
+    filename: git_rewriting_history.md
+    day: weekend
+    type: lesson
+  - title: Learning More About Git
+    filename: learning_more_about_git.md
+    day: weekend
+    type: lesson
+  - title: Practicing the Git Workflow
+    filename: practicing_git_workflow.md
+    day: weekend
+    type: lesson
+  - title: Pull Requests with Branches
+    filename: pull_requests_with_branches.md
+    day: weekend
+    type: lesson
+  - title: Pull Requests with Forks
+    filename: pull_requests_with_forks.md
+    day: weekend
+    type: lesson
+  - title: Hosting a MySQL database and ASP.NET Core API or Web App on Azure
+    filename: 6_hosting_mvc_sql_database_azure.md
+    day: weekend
+    type: lesson
+  - title: Team Week Presentations and Independent Project
+    filename: team_week_presentations_and_code_review.md
+    day: thursday
+    type: lesson

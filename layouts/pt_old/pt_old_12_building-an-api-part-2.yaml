@@ -1,0 +1,35 @@
+section: Building an API Part 2
+order: 17
+repo: c-sharp-full-stack
+directory: 17_building-an-api-part-2
+lessons:
+  - title: Communicating With An API - Part 1
+    filename: 3a_classwork_communicating_with_an_api.md
+    day: sunday
+    type: exercise
+  - title: Communicating With An API - Part 2
+    filename: 3a_classwork_communicating_with_an_api.md
+    day: monday
+    type: exercise
+  - title: Communicating With An API - Part 3
+    filename: 3a_classwork_communicating_with_an_api.md
+    day: tuesday
+    type: exercise
+  - title: 'Review: Internship Overview'
+    filename: 1_internship_overview.md
+    day: wednesday
+    type: lesson
+    repo: career-services-full-stack
+  - title: Applying for Internships Pt. 2
+    filename: classwork_applying_for_internships.md
+    day: wednesday
+    type: exercise
+    repo: career-services-full-stack
+  - title: Weekly Technical Interview Prep
+    filename: 4b_weekly_technical_interview_prep_week_6.md
+    day: wednesday
+    type: lesson
+  - title: Basic Web Applications Independent Project
+    filename: 5a_building_an_api_independent_project.md
+    day: thursday
+    type: exercise
