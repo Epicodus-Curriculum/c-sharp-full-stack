@@ -7,34 +7,42 @@ lessons:
     filename: team_week_objectives.md
     day: weekend
     type: lesson
+    repo: shared-full-stack
   - title: 'Git with Collaborators: Setup'
     filename: git_with_collaborators_setup.md
     day: weekend
     type: lesson
+    repo: shared-full-stack
   - title: 'Git with Collaborators: Workflow'
     filename: git_with_collaborators_workflow.md
     day: weekend
     type: lesson
+    repo: shared-full-stack
   - title: Rewriting History with Git
     filename: git_rewriting_history.md
     day: weekend
     type: lesson
+    repo: shared-full-stack
   - title: Learning More About Git
     filename: learning_more_about_git.md
     day: weekend
     type: lesson
+    repo: shared-full-stack
   - title: Practicing the Git Workflow
     filename: practicing_git_workflow.md
     day: weekend
     type: lesson
+    repo: shared-full-stack
   - title: Pull Requests with Branches
     filename: pull_requests_with_branches.md
     day: weekend
     type: lesson
+    repo: shared-full-stack
   - title: Pull Requests with Forks
     filename: pull_requests_with_forks.md
     day: weekend
     type: lesson
+    repo: shared-full-stack
   - title: Hosting a MySQL database and ASP.NET Core API or Web App on Azure
     filename: 6_hosting_mvc_sql_database_azure.md
     day: weekend
@@ -43,3 +51,4 @@ lessons:
     filename: team_week_presentations_and_code_review.md
     day: thursday
     type: lesson
+    repo: shared-full-stack
