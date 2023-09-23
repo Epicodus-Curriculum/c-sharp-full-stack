@@ -1,0 +1,76 @@
+section: Many-to-Many Relationships
+order: 12
+repo: c-sharp-full-stack
+directory: 12_many-to-many-relationships
+lessons:
+  - title: Many-To-Many Objectives
+    filename: 0a_advanced_database_objectives.md
+    day: weekend
+    type: lesson
+  - title: Many-to-Many Relationship Review
+    filename: 0b_many_to_many_relationship_review.md
+    day: weekend
+    type: lesson
+  - title: Code First Development and Migrations
+    filename: 0ba_code_first_development_and_migrations.md
+    day: weekend
+    type: lesson
+  - title: 'Many-to-Many Relationships: Join Entities'
+    filename: 0c_many_to_many_relationships_join_entities.md
+    day: weekend
+    type: lesson
+  - title: Many-to-Many Read Functionality
+    filename: 0d_read_with_many_to_many.md
+    day: weekend
+    type: lesson
+  - title: Many-to-Many Create Functionality
+    filename: 0e_create_with_many_to_many.md
+    day: weekend
+    type: lesson
+  - title: Many-to-Many Update Functionality
+    filename: 0f_update_with_many_to_many.md
+    day: weekend
+    type: lesson
+  - title: Many-to-Many Delete Functionality
+    filename: 0g_delete_with_many_to_many.md
+    day: weekend
+    type: lesson
+  - title: 'Journal #11'
+    filename: 1_week_eleven_prompt.md
+    day: weekend
+    type: lesson
+    repo: career-services-full-stack
+  - title: Prior Course Section Survey
+    filename: course_section_survey.md
+    day: sunday
+    type: lesson
+    repo: pre-work-full-stack
+  - title: 'Journal #11 Discussion'
+    filename: 2_week_eleven_discussion_classwork.md
+    day: sunday
+    type: exercise
+    repo: career-services-full-stack
+  - title: University Registrar, Doctor's Office (Week-Long Project) - Part 1
+    filename: 1a_classwork_university_registrar_and_doctors_office.md
+    day: sunday
+    type: exercise
+  - title: Model Validation with Validation Attributes
+    filename: 1b_using_validation_attributes_to_validate_model.md
+    day: sunday
+    type: lesson
+  - title: Customizing Entity Properties with Data Annotations
+    filename: 1c_customizing_entity_properties_with_data_annotations.md
+    day: sunday
+    type: lesson
+  - title: University Registrar, Doctor's Office (Week-Long Project) - Part 2
+    filename: 1a_classwork_university_registrar_and_doctors_office.md
+    day: monday
+    type: exercise
+  - title: University Registrar, Doctor's Office (Week-Long Project) - Part 3
+    filename: 1a_classwork_university_registrar_and_doctors_office.md
+    day: tuesday
+    type: exercise
+  - title: University Registrar, Doctor's Office (Week-Long Project) - Part 4
+    filename: 1a_classwork_university_registrar_and_doctors_office.md
+    day: wednesday
+    type: exercise

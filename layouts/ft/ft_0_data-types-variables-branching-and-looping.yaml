@@ -1,0 +1,57 @@
+section: Data Types, Variables, Branching, and Looping
+order: 3
+repo: c-sharp-full-stack
+directory: 3_data-types-variables-branching-and-looping
+lessons:
+  - title: Using a C# REPL
+    filename: 0a_c_repl.md
+    day: weekend
+    type: lesson
+  - title: Strings, String Concatenation and Interpolation, and Chars
+    filename: 0b_strings_and_concatenation.md
+    day: weekend
+    type: lesson
+  - title: Integers, Decimals, and Arithmetic
+    filename: 0c_integers_and_arithmetic.md
+    day: weekend
+    type: lesson
+  - title: Variables
+    filename: 0d_variables.md
+    day: weekend
+    type: lesson
+  - title: Booleans, Branching, and Operators
+    filename: 0e_branching_and_booleans.md
+    day: weekend
+    type: lesson
+  - title: Classes and Instance Methods
+    filename: 0f_methods_and_classes.md
+    day: weekend
+    type: lesson
+  - title: Namespaces and Checking the Type of an Object
+    filename: 0g_checking_the_type_of_an_object.md
+    day: weekend
+    type: lesson
+  - title: Using Static Methods to Write and Read from the Console
+    filename: 0h_reading_from_and_writing_to_the_console.md
+    day: weekend
+    type: lesson
+  - title: Arrays
+    filename: 0i_arrays.md
+    day: weekend
+    type: lesson
+  - title: Lists
+    filename: 0j_lists.md
+    day: weekend
+    type: lesson
+  - title: Dictionaries
+    filename: 0k_dictionaries.md
+    day: weekend
+    type: lesson
+  - title: 'Iterators: Foreach and For Loops'
+    filename: 0l_for_each_loops.md
+    day: weekend
+    type: lesson
+  - title: Type Casting
+    filename: 0m_type_casting.md
+    day: weekend
+    type: lesson
