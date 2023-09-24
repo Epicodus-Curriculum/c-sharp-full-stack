@@ -1,7 +1,7 @@
 ---
 title: C# and .NET (Pre-October Cohorts)
 id: index
-slug: /c_and_net_old
+slug: /c_and_net_classic
 hide_table_of_contents: true
 sidebar_position: 0
 ---
