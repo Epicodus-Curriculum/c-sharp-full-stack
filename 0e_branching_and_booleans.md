@@ -139,7 +139,7 @@ It's worth noting that all of the operators we used in JavaScript, we can also u
 
 | Operator | Definition | Example |
 |----------|------------|---------|
-| `\|\|`     | The conditional logical "or" operator returns true if either statements is true; the second statement won't be evaluated if the first is true.| The code `num < 4 || num > 6` will evaluate as true if `num` is less than 4 OR if `num` is greater than 6.|
+| <code>&#124;&#124;</code>     | The conditional logical "or" operator returns true if either statements is true; the second statement won't be evaluated if the first is true.| The code <code>num &lt; 4 &#124;&#124; num &gt; 6</code> will evaluate as true if `num` is less than 4 OR if `num` is greater than 6.|
 | `&&`     | The conditional logical "and" operator returns true if both statements are true.| The code `num < 4 && num > 1` will evaluate as true if `num` is BOTH less than 4 AND greater than 1; `num` would have to be `2` or `3`.|
 | `!`      | The logical negation operator returns false if the result is true.| The code `num != 2` will evaluate as true so long as `num` is not `2`.|
 
