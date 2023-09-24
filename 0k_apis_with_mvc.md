@@ -288,7 +288,7 @@ The view for `Home/Index.cshtml` will also be simple:
   <li>Url: @article.Url</li>
   <li>Byline: @article.Byline</li>
   <li>Item Type: @article.Item_Type</li>
-  <br>
+  <br />
 }
 </ul>
 ```

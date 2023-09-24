@@ -165,7 +165,7 @@ Finally, we need to create a new `Index` view in the `Home` folder inside of the
   <body>
     <h1>Welcome to the To Do List!</h1>
     <a href='/items/new'>Add a new item</a>
-    <br>
+    <br />
     <a href='/items'>See list of items</a>
   </body>
 </html>

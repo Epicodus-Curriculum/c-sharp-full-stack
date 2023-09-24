@@ -113,7 +113,7 @@ Here's the updated code for the `Home/Index.cshtml` view:
 
 <h1>Welcome to the To Do List!</h1>
 
-<hr>
+<hr />
 
 <h4>Categories</h4>
 @if (Model["categories"].Length == 0)
@@ -139,7 +139,7 @@ Here's the updated code for the `Home/Index.cshtml` view:
   }
 </ul>
 
-<hr>
+<hr />
 
 <p>@Html.ActionLink("Manage items", "Index", "Items")</p> 
 <p>@Html.ActionLink("Manage categories", "Index", "Categories")</p>
@@ -151,7 +151,7 @@ Let's work through the changes:
 * We include `@using ToDoList.Models;` so we can reference the `Item` and `Category` types in our foreach loops.
 * For both items and categories, we include a conditional that checks if there are any of those objects, and if not, informs the user of this. This is nothing new to us! Notice that arrays don't have a `Count` property, but instead a `Length` property that contains the number of elements within the array.  
 * For both items and categories, we loop through each array and make an unordered list of the objects. Each object is a direct link to the details page for that object. 
-* We've wrapped the list of categories and items with `<hr>` tags to create a basic visual distinction on the page.
+* We've wrapped the list of categories and items with `<hr />` tags to create a basic visual distinction on the page.
 * Finally, the last update we make is updating the links at the bottom of the view to display `"Manage..."` instead of `"View all..."`. This change isn't strictly necessary, but I think it's a more descriptive name. As always, it's up to you to decide what makes the most sense.
 
 And with that, we're done with this mini update to our homepage! Run your app and check out the new homepage. 

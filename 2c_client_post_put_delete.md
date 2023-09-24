@@ -125,18 +125,18 @@ Next, let's make the `Animals/Create.cshtml` view. This view will look similar t
 {
   @Html.LabelFor(model => model.Name)
   @Html.TextBoxFor(model => model.Name)
-  <br>
+  <br />
   @Html.LabelFor(model => model.Species)
   @Html.TextBoxFor(model => model.Species)
-  <br>
+  <br />
   @Html.LabelFor(model => model.Age)
   @Html.TextBoxFor(model => model.Age)
-  <br>
-  <br>
+  <br />
+  <br />
   <input type="submit" value="Add new animal" class="btn btn-primary"/>
 }
 
-<br>
+<br />
 <p>@Html.ActionLink("Back to all animals", "Index")</p>
 ```
 
@@ -255,18 +255,18 @@ Next, we'll create the actual `Animals/Edit.cshtml` view. Here our form will clo
   @Html.HiddenFor(model => model.AnimalId)
   @Html.LabelFor(model => model.Name)
   @Html.TextBoxFor(model => model.Name, new { @Value = Model.Name})
-  <br>
+  <br />
   @Html.LabelFor(model => model.Species)
   @Html.TextBoxFor(model => model.Species, new { @Value = Model.Species})
-  <br>
+  <br />
   @Html.LabelFor(model => model.Age)
   @Html.TextBoxFor(model => model.Age, new { Value = Model.Age})
-  <br>
-  <br>
+  <br />
+  <br />
   <input type="submit" value="Edit animal" class="btn btn-primary"/>
 }
 
-<br>
+<br />
 <p>@Html.ActionLink("Back to details", "Details", new {id = @Model.AnimalId})</p>
 ```
 

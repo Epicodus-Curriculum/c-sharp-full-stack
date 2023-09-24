@@ -435,7 +435,7 @@ Here's the updated code for the entire `Home/Index.cshtml`:
 
 <h1>Welcome to the To Do List!</h1>
 
-<hr>
+<hr />
 
 <h4>Categories</h4>
 @if (Model["categories"].Length == 0)
@@ -469,7 +469,7 @@ else
   <p>Please @Html.ActionLink("log in", "LogIn", "Account") to view or manage your items.</p>
 }
 
-<hr>
+<hr />
 
 <p>@Html.ActionLink("Manage items", "Index", "Items")</p> 
 <p>@Html.ActionLink("Manage categories", "Index", "Categories")</p>

@@ -120,78 +120,28 @@ It's worth noting that all of the operators we used in JavaScript, we can also u
 
 ### Equality
 
-<table class="table">
-  <tr>
-    <th>Operator</th>
-    <th>Definition</th>
-    <th>Example</th>
-  </tr>
-  <tr>
-    <th scope="row"><code>==</code></td>
-    <td>equal to</td>
-    <td><code>1 == 1</code> is true. <code>1 == 2</code> is false.</td>
-  </tr>
-  <tr>
-    <th scope="row"><code>!=</code></td>
-    <td>not equal to</td>
-    <td><code>1 != 2</code> is true. <code>1 != 1</code> is false.</td>
-  </tr>
-</table>
+| Operator | Definition  | Example                                    |
+|----------|-------------|--------------------------------------------|
+| `==`     | equal to    | `1 == 1` is true. `1 == 2` is false.       |
+| `!=`     | not equal to| `1 != 2` is true. `1 != 1` is false.       |
 
 ### Relational
 
-<table class="table">
-  <tr>
-    <th>Operator</th>
-    <th>Definition</th>
-    <th>Example</th>
-  </tr>
-  <tr>
-    <th scope="row"><code>></code></td>
-    <td>greater than</td>
-    <td><code>2 > 1</code> is true.  <code>1 > 2</code> is false.</td>
-  </tr>
-  <tr>
-    <th scope="row"><code>>=</code></td>
-    <td>greater than or equal to</td>
-    <td><code>2 >= 2</code> and <code>2 >= 1</code> are both true. <code>2 >= 3</code> is false.</td>
-  </tr>
-  <tr>
-    <th scope="row"><code><</code></td>
-    <td>less than</td>
-    <td><code>1 < 2</code> is true.  <code>2 < 1</code> is false.</td>
-  </tr>
-  <tr>
-    <th scope="row"><code><=</code></td>
-    <td>less than or equal to</td>
-    <td> <code>1 <= 1</code> and <code>1 <= 2</code> are both true.  <code>2 <= 1</code> is false.</td>
-  </tr>
-</table>
+| Operator | Definition              | Example                                                   |
+|----------|-------------------------|-----------------------------------------------------------|
+| `>`      | greater than            | `2 > 1` is true.  `1 > 2` is false.                       |
+| `>=`     | greater than or equal to| `2 >= 2` and `2 >= 1` are both true. `2 >= 3` is false.   |
+| `<`      | less than               | `1 < 2` is true.  `2 < 1` is false.                       |
+| `<=`     | less than or equal to   | `1 <= 1` and `1 <= 2` are both true.  `2 <= 1` is false.  |
+
 
 ### Logical
 
-<table class="table">
-  <tr>
-    <th>Operator</th>
-    <th>Definition</th>
-    <th>Example</th>
-  </tr>
-  <tr>
-    <th scope="row"><code>||</code></td>
-    <td>The conditional logical "or" operator returns true if either statements is true; if the first statement if true, then the second one won't be evaluated at all.</td>
-    <td>The code <code>num < 4 || num > 6</code> will evaluate as true is <code>num</code> is less than 4 OR if <code>num</code> is greater than 6.</td>
-  </tr>
-  <tr>
-    <th scope="row"><code>&&</code></td>
-    <td>The conditional logical "and" operator returns true if both statements are true.</td>
-    <td>The code <code>num < 4 && num > 1</code> will evaluate as true is <code>num</code> is BOTH less than 4 AND greater than 1; for this to return true <code>num</code> would have to be <code>2</code> or <code>3</code>.</td>
-  </tr>
-  <tr>
-    <th scope="row"><code>!</code></td>
-    <td>The logical negation operator returns false if the result is true.</td>
-    <td>The code <code>num != 2</code>  will evaluate as true so long as <code>num</code> is not <code>2</code>.</td>
-  </tr>
-</table>
+| Operator | Definition | Example |
+|----------|------------|---------|
+| `\|\|`     | The conditional logical "or" operator returns true if either statements is true; the second statement won't be evaluated if the first is true.| The code `num < 4 || num > 6` will evaluate as true if `num` is less than 4 OR if `num` is greater than 6.|
+| `&&`     | The conditional logical "and" operator returns true if both statements are true.| The code `num < 4 && num > 1` will evaluate as true if `num` is BOTH less than 4 AND greater than 1; `num` would have to be `2` or `3`.|
+| `!`      | The logical negation operator returns false if the result is true.| The code `num != 2` will evaluate as true so long as `num` is not `2`.|
 
 ## More Resources
 ---
