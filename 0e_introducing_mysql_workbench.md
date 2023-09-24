@@ -89,7 +89,7 @@ Functions
 
 * Enter `items` in the _name_ field.
 
-* Add an `id` column by clicking _<click to edit>_ in the window right below the name of our new table.
+* Add an `id` column by clicking _&lt;click to edit&gt;_ in the window right below the name of our new table.
   * Name the column `id` by double-clicking on the `Column` field and typing in the new name.
   * Select _INT_ from the _Datatype_ dropdown.
   * Check the _PK_ (primary key), _NN_ (not null) and _AI_ (auto increment) checkboxes. Our `id` column will be our primary key, which means we don't ever want it to have a `null` value and we always want it to auto-increment.
