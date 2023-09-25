@@ -36,6 +36,6 @@ All independent coding projects at Epicodus have these baseline requirements:
 ## Submission
 ---
 
-Submit your Github repository to the **Authentication with Identity** Code Review on [Epicenter](epicenter.epicodus.com).
+Submit your Github repository to the **Authentication with Identity** Code Review on [Epicenter](https://epicenter.epicodus.com).
 
 Visit [Independent Projects and Code Reviews](https://www.learnhowtoprogram.com/introduction-to-programming/getting-started-at-epicodus/independent-projects-and-code-reviews)  for details on how to submit your code, how feedback works and course completion requirements.
