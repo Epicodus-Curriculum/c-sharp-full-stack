@@ -222,7 +222,7 @@ We want to be able to get and set the value of our `_side1` private field, so th
 
 ### 2.  Write a coded test for this behavior.
 
-Here's our new test. Note that we don't have to include the commends `// Arrage`, `// Act`, `// Assert`:
+Here's our new test. Note that we don't have to include the comments `// Arrage`, `// Act`, `// Assert`:
 
 <div class="filename">ShapeTracker.Solution/ShapeTracker.Tests/ModelTests/TriangleTests.cs</div>
 

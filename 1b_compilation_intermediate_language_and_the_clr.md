@@ -51,7 +51,7 @@ The next thing MSBuild does is compile our project's source code — the C# code
 
 If there are no compiler errors, MSBuild will end its work by putting all of the compiled code in a `bin` folder, including an executable file that we can run (with the `dotnet run` command). The executable file will end in `.exe` or `.dll`. 
 
-Take note that the executable file no longer contains C# — it actually contains code written in the **Common Intermediate Language (CIL)**. What's that? The CLI is a programming language that various higher-level languages (C#, Visual Basic, F#) are turned into during the compilation process. It's an **intermediary** language, because it will eventually be compiled again into machine code when we run our program. We'll go over that next! To read more about the common intermediate language, visit the [MS docs](https://learn.microsoft.com/en-us/dotnet/standard/managed-code#intermediate-language--execution).
+Take note that the executable file no longer contains C# — it actually contains code written in the **Common Intermediate Language (CIL)**. What's that? The CIL is a programming language that various higher-level languages (C#, Visual Basic, F#) are turned into during the compilation process. It's an **intermediary** language, because it will eventually be compiled again into machine code when we run our program. We'll go over that next! To read more about the common intermediate language, visit the [MS docs](https://learn.microsoft.com/en-us/dotnet/standard/managed-code#intermediate-language--execution).
 
 ## Running C# Code with the Common Language Runtime (CLR)
 ---
@@ -64,7 +64,7 @@ After our C# program is compiled, we run it with the command `dotnet run`. This 
 
 The CLR exists in order to help developers write quality code that is cross-platform, meaning code that can be run on (most) operating systems (like Mac and Linux). We don't need to understand the extended details of the CLR, but if you want to learn more, start with [this article from Microsoft](https://learn.microsoft.com/en-us/dotnet/standard/clr). 
 
-So in the end, our C# code gets compiled twice — once to the CLI, and a second time to machine code. 
+So in the end, our C# code gets compiled twice — once to the CIL, and a second time to machine code. 
 
 ## A Diagram of Compiling and Executing C# Programs
 ---

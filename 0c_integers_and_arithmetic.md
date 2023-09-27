@@ -98,7 +98,7 @@ This will work as expected! In this case, the `aNumber` variable is of the type 
 9222222222222222
 ```
 
-Generally we shouldn't use a `long` data type for small numbers that could be declared as `int`. That's because `long` takes up more space in memory than `int` does, and we should be mindful of conversing memory in simple cases like these. 
+Generally we shouldn't use a `long` data type for small numbers that could be declared as `int`. That's because `long` takes up more space in memory than `int` does, and we should be mindful of conserving memory in simple cases like these. 
 
 In the example projects for this course, we'll primarily use the `int` data type because we won't be working with long whole numbers. However, if you know that you are dealing with very large numbers in a project you create, you should be mindful to investigate whether or not it's best to use the `long` data type. 
 

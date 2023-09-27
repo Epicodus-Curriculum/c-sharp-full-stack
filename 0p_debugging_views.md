@@ -86,7 +86,7 @@ info: Microsoft.Hosting.Lifetime[0]
 
 ### Configure a `launchSettings.json` File
 
-However, there's an even better option for us than adding the command line flag `--environment Development` to run our apps in development mode: we can create a file called `launchSettings.json` that contains information about what environment we want our project to be run. Let's start by creating this file and adding in the configurations. 
+However, there's an even better option for us than adding the command line flag `--environment Development` to run our apps in development mode: we can create a file called `launchSettings.json` that contains information about the environment in which we want our project to be run. Let's start by creating this file and adding in the configurations. 
 
 Within the project's production directory, add the following:
 

@@ -24,7 +24,7 @@ ShapeTracker.Solution/
 
 ### The "Parent" or "Root" Directory
 
-We'll start by creating the **parent directory** called `ShapeTraker.Solution`. We can also call this the **root directory**, because it is the directory that will contain all of our project's subfiles and subfolders. This will include source code for the console app, as well as another folder that we'll add later that will contain all of the unit tests we write for our source code.
+We'll start by creating the **parent directory** called `ShapeTracker.Solution`. We can also call this the **root directory**, because it is the directory that will contain all of our project's subfiles and subfolders. This will include source code for the console app, as well as another folder that we'll add later that will contain all of the unit tests we write for our source code.
 
 In the example projects at Epicodus, you'll see that we regularly include the word 'solution' in the name of our parent directory. When we Include 'solution' this indicates that this directory is a complete solution to the given project prompt. In this case `ShapeTracker.Solution` contains all of the code relevant to the Shape Tracker project. Note that **it is not required to follow the naming convention of including "solution" in the parent directory's name.**
 
@@ -84,11 +84,11 @@ In every project we create in this course section, the project file for our prod
 
 Keep in mind a few things:
 
-* It is customary for the name of the project file to match the name of the project directory. In our case we have `ShapeTracker.csproj` within the `ShapeTraker` directory.
+* It is customary for the name of the project file to match the name of the project directory. In our case we have `ShapeTracker.csproj` within the `ShapeTracker` directory.
 * `<OutputType>Exe</OutputType>` directs the C# compiler to create an executable file that we can run using the command `dotnet run`. 
 * `<TargetFramework>net6.0</TargetFramework>` specifies the version of the .NET framework we are using.
 
-OOur file/folder structure should now look like this:
+Our file/folder structure should now look like this:
 
 ```
 ShapeTracker.Solution/
