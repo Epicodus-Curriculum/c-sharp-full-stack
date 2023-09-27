@@ -1,7 +1,7 @@
 ## Independent Projects Overview
 ---
 
-Project prompts will be available on Epicenter at 8:00 am Friday for full-time students and 8:00 am on Thursday for part-time students. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](https://new.learnhowtoprogram.com/pre-work/getting-started-at-epicodus/independent-projects-and-code-reviews) lesson.
+Project prompts will be available on Epicenter at 8:00 am Friday for full-time students and 8:00 am on Thursday for part-time students. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](https://new.learnhowtoprogram.com/prework/getting-started-at-epicodus/independent-projects-and-code-reviews) lesson.
 
 ## Authentication with Identity Project Objectives
 ---
@@ -38,4 +38,4 @@ All independent coding projects at Epicodus have these baseline requirements:
 
 Submit your Github repository to the **Authentication with Identity** Code Review on [Epicenter](https://epicenter.epicodus.com).
 
-Visit [Independent Projects and Code Reviews](https://new.learnhowtoprogram.com/pre-work/getting-started-at-epicodus/independent-projects-and-code-reviews)  for details on how to submit your code, how feedback works and course completion requirements.
+Visit [Independent Projects and Code Reviews](https://new.learnhowtoprogram.com/prework/getting-started-at-epicodus/independent-projects-and-code-reviews)  for details on how to submit your code, how feedback works and course completion requirements.
