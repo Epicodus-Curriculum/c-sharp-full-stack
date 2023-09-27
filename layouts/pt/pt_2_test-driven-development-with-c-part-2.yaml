@@ -3,7 +3,7 @@ order: 7
 repo: c-sharp-full-stack
 directory: 7_test-driven-development-with-c-part-2
 lessons:
- - title: 'Career Prep Day: Resumes and Cover Letters'
+  - title: 'Career Prep Day: Resumes and Cover Letters'
     filename: 3_classwork_resumes_coverletters_career_prep_day_reminder.md
     day: monday
     type: exercise
