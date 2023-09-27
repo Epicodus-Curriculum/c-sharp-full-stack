@@ -59,48 +59,48 @@ lessons:
     repo: career-services-full-stack
   - title: Prior Course Section Survey
     filename: course_section_survey.md
-    day: sunday
+    day: monday
     type: lesson
     repo: pre-work-full-stack
   - title: 'Journal #13 Discussion'
     filename: 2_week_thirteen_discussion_classwork.md
-    day: sunday
+    day: monday
     type: exercise
     repo: career-services-full-stack
   - title: Building an API - Part 1
     filename: 1a_classwork_building_an_api.md
-    day: sunday
+    day: monday
     type: exercise
   - title: Configuring Application URLs to Run Two ASP.NET Core Applications
     filename: 1c_running_two_applications.md
-    day: sunday
+    day: monday
     type: lesson
   - title: Building an API - Part 2
     filename: 1a_classwork_building_an_api.md
-    day: monday
+    day: tuesday
     type: exercise
   - title: 'MVC Client: GetAll()'
     filename: 2a_client_get_all.md
-    day: monday
+    day: tuesday
     type: lesson
   - title: Building an API - Part 3
     filename: 1a_classwork_building_an_api.md
-    day: tuesday
+    day: wednesday
     type: exercise
   - title: 'MVC Client: GetDetails()'
     filename: 2b_client_get_details.md
-    day: tuesday
+    day: wednesday
     type: lesson
   - title: Building an API - Part 4
     filename: 1a_classwork_building_an_api.md
-    day: wednesday
+    day: thursday
     type: exercise
   - title: 'MVC Client: POST, PUT, and DELETE'
     filename: 2c_client_post_put_delete.md
-    day: wednesday
+    day: thursday
     type: lesson
   - title: Informational Interviews
     filename: informational-interviews.md
-    day: wednesday
+    day: thursday
     type: lesson
     repo: career-services-full-stack

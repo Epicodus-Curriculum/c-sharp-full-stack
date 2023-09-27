@@ -5,33 +5,33 @@ directory: 13_many-to-many-relationships-part-2
 lessons:
   - title: Refactoring with Many-To-Many (Week-Long Project) - Part 1
     filename: 3a_classwork_refactoring_with_many_to_many.md
-    day: sunday
+    day: monday
     type: exercise
   - title: Creating a Splash Page with Data from Multiple Database Tables
     filename: 2a_displaying_data_from_multiple_db_tables.md
-    day: sunday
+    day: monday
     type: lesson
   - title: Refactoring with Many-To-Many (Week-Long Project) - Part 2
     filename: 3a_classwork_refactoring_with_many_to_many.md
-    day: monday
+    day: tuesday
     type: exercise
   - title: Refactoring with Many-To-Many (Week-Long Project) - Part 3
     filename: 3a_classwork_refactoring_with_many_to_many.md
-    day: tuesday
+    day: wednesday
     type: exercise
   - title: Refactoring with Many-To-Many (Week-Long Project) - Part 4
     filename: 3a_classwork_refactoring_with_many_to_many.md
-    day: wednesday
+    day: thursday
     type: exercise
   - title: Whiteboard Practice
     filename: 4a_whiteboarding_practice.md
-    day: wednesday
+    day: thursday
     type: lesson
   - title: Technical Interview Prep
     filename: 4b_weekly_technical_interview_prep_week_4.md
-    day: wednesday
+    day: thursday
     type: lesson
   - title: Many-To-Many Independent Project
     filename: 5a_many_to_many_databases_independent_project.md
-    day: thursday
+    day: friday
     type: exercise

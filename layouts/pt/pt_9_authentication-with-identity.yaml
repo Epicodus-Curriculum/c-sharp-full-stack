@@ -46,41 +46,41 @@ lessons:
     repo: career-services-full-stack
   - title: Prior Course Section Survey
     filename: course_section_survey.md
-    day: sunday
+    day: monday
     type: lesson
     repo: pre-work-full-stack
   - title: 'Journal #12 Discussion'
     filename: 2_week_twelve_discussion_classwork.md
-    day: sunday
+    day: monday
     type: exercise
     repo: career-services-full-stack
   - title: Library Catalog, Recipe Box - Part 1
     filename: 3a_classwork_library_catalog_or_recipe_box_two_day_project.md
-    day: sunday
+    day: monday
     type: exercise
   - title: Further Exploration Opportunities with Identity
     filename: 3c_further_exploration_opportunities_with_identity.md
-    day: sunday
+    day: monday
     type: lesson
   - title: Library Catalog, Recipe Box - Part 2
     filename: 3a_classwork_library_catalog_or_recipe_box_two_day_project.md
-    day: monday
+    day: tuesday
     type: exercise
   - title: Library Catalog, Recipe Box - Part 3
     filename: 3a_classwork_library_catalog_or_recipe_box_two_day_project.md
-    day: tuesday
+    day: wednesday
     type: exercise
   - title: Library Catalog, Recipe Box - Part 4
     filename: 3a_classwork_library_catalog_or_recipe_box_two_day_project.md
-    day: wednesday
+    day: thursday
     type: exercise
   - title: Jokes and Appropriate Humor
     filename: 8_jokes_and_humor.md
-    day: wednesday
+    day: thursday
     type: lesson
     repo: DEI-full-stack
   - title: Open Source Projects
     filename: open-source.md
-    day: wednesday
+    day: thursday
     type: lesson
     repo: career-services-full-stack

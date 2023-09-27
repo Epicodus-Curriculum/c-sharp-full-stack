@@ -82,71 +82,71 @@ lessons:
     repo: career-services-full-stack
   - title: Prior Course Section Survey
     filename: course_section_survey.md
-    day: sunday
+    day: monday
     type: lesson
     repo: pre-work-full-stack
   - title: 'Journal #9 Discussion'
     filename: 2_week_nine_journal_discussion_classwork.md
-    day: sunday
+    day: monday
     type: exercise
     repo: career-services-full-stack
   - title: ASP.NET Core MVC Practice
     filename: 1a_classwork_mvc_practice.md
-    day: sunday
+    day: monday
+    type: exercise
+  - title: ASP.NET Core MVC Practice - Part 2
+    filename: 1a_classwork_mvc_practice.md
+    day: tuesday
     type: exercise
   - title: To Do List MVC Setup
     filename: 1b_to_do_list_mvc_setup.md
-    day: sunday
+    day: tuesday
     type: lesson
   - title: To Do List with MVC Forms
     filename: 1c_to_do_list_with_mvc_forms.md
-    day: sunday
+    day: tuesday
     type: lesson
   - title: Request-Response Loop and HTTP Methods with ASP.NET Core MVC
     filename: 1d_request_response_loop_and_http_methods_with_asp_net_mvc.md
-    day: sunday
+    day: tuesday
     type: lesson
   - title: Lists and Redirects in a Controller
     filename: 1e_lists_and_redirects_in_a_controller.md
-    day: sunday
+    day: tuesday
     type: lesson
   - title: Loops and Conditionals with Razor
     filename: 1f_loops_and_conditionals_with_razor.md
-    day: sunday
+    day: tuesday
     type: lesson
   - title: Multiple Controllers
     filename: 1g_multiple_controllers.md
-    day: sunday
+    day: tuesday
     type: lesson
   - title: To Do List, Car Dealership, Parcels, Job Board - Part 1
     filename: 2a_classwork_mvc_apps_with_razor.md
-    day: monday
+    day: wednesday
     type: exercise
   - title: To Do List, Car Dealership, Parcels, Job Board - Part 2
     filename: 2a_classwork_mvc_apps_with_razor.md
-    day: tuesday
-    type: exercise
-  - title: To Do List, Car Dealership, Parcels, Job Board - Part 3
-    filename: 2a_classwork_mvc_apps_with_razor.md
-    day: wednesday
+    day: thursday
     type: exercise
   - title: HTTP CRUD Methods
     filename: 2b_http_crud_methods.md
-    day: wednesday
+    day: thursday
     type: lesson
   - title: Deleting Items
     filename: 2c_deleting_items.md
-    day: wednesday
+    day: thursday
     type: lesson
   - title: Finding Objects with Unique IDs
     filename: 2d_finding_objects_with_unique_ids.md
-    day: wednesday
+    day: thursday
     type: lesson
   - title: Introduction to RESTful Routing
     filename: 2e_introduction_to_restful_routing.md
-    day: wednesday
+    day: thursday
     type: lesson
   - title: Applying RESTful Routing
     filename: 2f_applying_restful_routing.md
-    day: wednesday
+    day: thursday
     type: lesson

@@ -14,68 +14,68 @@ lessons:
     repo: career-services-full-stack
   - title: Prior Course Section Survey
     filename: course_section_survey.md
-    day: sunday
+    day: monday
     type: lesson
     repo: pre-work-full-stack
   - title: 'Journal #8 Discussion'
     filename: 2_week_eight_journal_discussion_classwork.md
-    day: sunday
+    day: monday
     type: exercise
     repo: career-services-full-stack
   - title: Shape Tracker, Ping Pong, Sphinx, Queen Attack
     filename: 1a_classwork_shape_tracker_ping_pong_sphinx_queen_attack.md
-    day: sunday
+    day: monday
     type: exercise
   - title: A Closer Look at Compiling and Executing C# Programs
     filename: 1b_compilation_intermediate_language_and_the_clr.md
-    day: sunday
+    day: monday
     type: lesson
   - title: Overloading Constructors and Methods
     filename: 1c_overloaded_constructors.md
-    day: sunday
+    day: monday
     type: lesson
   - title: Anagram, Coin Combos, Palindromes, Allergies, Numbers to Words - Part 1
     filename: 2a_classwork_to_do_anagram_allergies_coin_combo_palindromes.md
-    day: monday
+    day: tuesday
     type: exercise
   - title: More Built-In C# Classes and Tips for Using the MS Docs
     filename: 1e_other_csharp_classes_to_explore.md
-    day: monday
+    day: tuesday
     type: lesson
   - title: Anagram, Coin Combos, Palindromes, Allergies, Numbers to Words - Part 2
     filename: 2a_classwork_to_do_anagram_allergies_coin_combo_palindromes.md
-    day: tuesday
+    day: wednesday
     type: exercise
   - title: 'APIE: Abstraction'
     filename: 1f_oop_abstraction.md
-    day: tuesday
+    day: wednesday
     type: lesson
   - title: Anagram, Coin Combos, Palindromes, Allergies, Numbers to Words - Part 3
     filename: 2a_classwork_to_do_anagram_allergies_coin_combo_palindromes.md
-    day: wednesday
+    day: thursday
     type: exercise
   - title: Career Prep Day
     filename: 4_resumes_coverletters_career_prep_day_homework.md
-    day: wednesday
+    day: thursday
     type: lesson
     repo: career-services-full-stack
   - title: Internship Overview
     filename: 1_internship_overview.md
-    day: wednesday
+    day: thursday
     type: lesson
     repo: career-services-full-stack
   - title: Writing Cover Letters and Resumes
     filename: 0_writing_cover_letters_and_resumes.md
-    day: wednesday
+    day: thursday
     type: lesson
     repo: career-services-full-stack
   - title: Write Your Cover Letter
     filename: 1_write_your_cover_letter.md
-    day: wednesday
+    day: thursday
     type: lesson
     repo: career-services-full-stack
   - title: Write Your Resume
     filename: 2_write_your_resume.md
-    day: wednesday
+    day: thursday
     type: lesson
     repo: career-services-full-stack
