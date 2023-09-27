@@ -154,7 +154,7 @@ lessons:
     day: wednesday
     type: exercise
   - title: ACID Databases
-    filename: 3c_acid_databases.md
+    filename: 3c_acid_databases_old.md
     day: wednesday
     type: lesson
   - title: Technical Interview Practice

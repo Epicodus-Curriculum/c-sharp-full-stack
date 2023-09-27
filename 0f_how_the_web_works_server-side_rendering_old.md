@@ -59,9 +59,9 @@ So what does this mean for us? Let's summarize:
 * When users navigate **server-side** applications, the client enters into a 'back-and-forth' conversation with the server, known as a **request-response loop**. Each new area a user navigates to results in a new request to the server.
 
 * In **client-side** applications, the server is generally only contacted once. _All_ content for the _entire_ website is provided. When users navigate to new areas, the client has to find resources for that new page in the single big response, instead of contacting the server again.
-  
-* We explored client-side architecture in the previous course,  React. As a reminder, like many JavaScript-powered website tools, React is client-side! This means we'll have plenty of experience with _both_ major web design paradigms before graduation.
 
 * **ASP.NET Core MVC is a server-side framework.** It _will_ make a series of requests to the server in a request-response loop. A new request for each page or area the user navigates to. This is very, very important to remember, as it will affect how we construct our applications.
+
+* But we'll also learn more about client-side architecture in our level three class when we study React. Like many JavaScript-powered website tools, React is client-side! This means we'll have plenty of experience with _both_ major web design paradigms before graduation.
 
 In the next lesson we'll explore what an **MVC** is, and how it influences how we'll create our sites with ASP.NET Core MVC. Then we'll finally build our first C# web application together. Stay tuned!
