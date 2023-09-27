@@ -32,6 +32,6 @@ lessons:
     day: wednesday
     type: lesson
   - title: Many-To-Many Independent Project
-    filename: 5a_many_to_many_databases_independent_project.md
+    filename: 5a_many_to_many_databases_independent_project_old.md
     day: thursday
     type: exercise

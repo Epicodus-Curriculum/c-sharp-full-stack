@@ -56,6 +56,6 @@ lessons:
     day: wednesday
     type: lesson
   - title: Basic Web Applications Independent Project
-    filename: 5a_basic_mvc_web_apps_independent_project.md
+    filename: 5a_basic_mvc_web_apps_independent_project_old.md
     day: thursday
     type: exercise
