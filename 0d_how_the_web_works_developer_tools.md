@@ -38,7 +38,7 @@ When we click on a request we can see more details about it. In the _General_ se
 
 <img src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/SHARED/how-the-web-works/developer-tools-screenshot-2.png" width="100%" />
 
-Under _Request Headers_ we can see the headers, including several previously noted in the [URL](https://www.learnhowtoprogram.com/c-and-net/basic-web-applications/how-the-web-works-uniform-resource-locator) lesson: the host name (a subcomponent of `authority`), path, scheme, etc:
+Under _Request Headers_ we can see the headers, including several previously noted in the [URL](https://new.learnhowtoprogram.com/c-and-net/basic-web-applications/how-the-web-works-uniform-resource-locator) lesson: the host name (a subcomponent of `authority`), path, scheme, etc:
 
 <img src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/SHARED/how-the-web-works/developer-tools-screenshot-3.png" width="100%" />
 

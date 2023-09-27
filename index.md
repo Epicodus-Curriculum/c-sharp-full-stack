@@ -1,7 +1,7 @@
 ---
 title: C# and .NET
 id: index
-slug: /c_and_net
+slug: /c-and-net
 hide_table_of_contents: true
 sidebar_position: 0
 ---

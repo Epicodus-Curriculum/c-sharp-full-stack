@@ -1,4 +1,4 @@
-**Note:** See the [Installing and Configuring MySQL](https://www.learnhowtoprogram.com/c-and-net/getting-started-with-c/installing-and-configuring-mysql) lesson for instructions on installing MySQL.
+**Note:** See the [Installing and Configuring MySQL](https://new.learnhowtoprogram.com/c-and-net/getting-started-with-c/installing-and-configuring-mysql) lesson for instructions on installing MySQL.
 
 In this lesson, we'll start using SQL commands in the command line. We'll use MySQL as our database management system.
 
