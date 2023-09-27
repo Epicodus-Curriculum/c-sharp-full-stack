@@ -3,54 +3,59 @@ order: 7
 repo: c-sharp-full-stack
 directory: 7_test-driven-development-with-c-part-2
 lessons:
-  - title: 'Career Prep Day: Resumes and Cover Letters'
+ - title: 'Career Prep Day: Resumes and Cover Letters'
     filename: 3_classwork_resumes_coverletters_career_prep_day_reminder.md
-    day: sunday
+    day: monday
+    type: exercise
+    repo: career-services-full-stack
+  - title: 'Career Prep Day: Resumes and Cover Letters - Part 2'
+    filename: 3_classwork_resumes_coverletters_career_prep_day_reminder.md
+    day: tuesday
     type: exercise
     repo: career-services-full-stack
   - title: 'APIE: Inheritance, Abstract Classes, and Virtual Class Members'
     filename: 2b_oop_inheritance_and_abstract_classes.md
-    day: sunday
+    day: tuesday
     type: lesson
   - title: 'Interfaces: Another Tool for Abstraction and Inheritance'
     filename: 2c_interfaces.md
-    day: sunday
+    day: tuesday
     type: lesson
   - title: Recognizing Privilege
     filename: 3_recognizing_privilege.md
-    day: sunday
+    day: tuesday
     type: lesson
     repo: DEI-full-stack
   - title: Workplace Accommodations
     filename: accommodations.md
-    day: sunday
+    day: tuesday
     type: lesson
     repo: career-services-full-stack
   - title: 'APIE: Polymorphism'
     filename: 2d_apie_polymorphism.md
-    day: sunday
+    day: tuesday
     type: lesson
   - title: 'More About Data Types: Value Types, Reference Types, Generic Types, and More'
     filename: 2e_more_about_data_types_value_reference_generic.md
-    day: sunday
-    type: lesson
-  - title: Weekday Finder, Scrabble Scorer, Rock Paper Scissors, Find and Replace, Prime Sifting - Part 2
-    filename: 3a_classwork_rock_paper_scissors_weekday_finder.md
     day: tuesday
+    type: lesson
+  - title: Weekday Finder, Scrabble Scorer, Rock Paper Scissors, Find and Replace, Prime Sifting - Part 1
+    filename: 3a_classwork_rock_paper_scissors_weekday_finder.md
+    day: wednesday
     type: exercise
   - title: Nullable Types
     filename: 2f_nullable_types.md
-    day: tuesday
-    type: lesson
-  - title: Weekday Finder, Scrabble Scorer, Rock Paper Scissors, Find and Replace, Prime Sifting - Part 3
-    filename: 3a_classwork_rock_paper_scissors_weekday_finder.md
     day: wednesday
+    type: lesson
+  - title: Weekday Finder, Scrabble Scorer, Rock Paper Scissors, Find and Replace, Prime Sifting - Part 2
+    filename: 3a_classwork_rock_paper_scissors_weekday_finder.md
+    day: thursday
     type: exercise
   - title: 'Weekly Technical Interview Prep: Testing'
     filename: 4b_weekly_technical_interview_prep_testing.md
-    day: wednesday
+    day: thursday
     type: lesson
   - title: Test-Driven Development with C# Independent Project
     filename: 5a_cr_c_sharp_independent_project.md
-    day: thursday
+    day: friday
     type: exercise
