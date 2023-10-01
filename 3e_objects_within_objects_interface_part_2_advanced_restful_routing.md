@@ -46,7 +46,7 @@ Our `Item.ClearAll()` method won't clear all items as expected anymore. That's b
 
 There's nothing wrong with our `Item.ClearAll()` method, and we still use it in our tests so we won't update that method. Instead, if we want to add functionality to clear the items from a `Category`, we'll need to create a new `Category` method that handles clearing out the `Category.Items` property. We'll leave that for further exploration. 
 
-For now, simply delete the `DeleteAll()` action in the `ItemsController.cs` along with the `Views/Itesm/DeleteAll.cshtml` view, as it is no longer functional.
+For now, simply delete the `DeleteAll()` action in the `ItemsController.cs` along with the `Views/Items/DeleteAll.cshtml` view, as it is no longer functional.
 
 ### Item Show Route (Detail Page)
 

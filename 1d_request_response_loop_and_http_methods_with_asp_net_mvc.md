@@ -20,7 +20,7 @@ To access a page on a website, including one made with ASP.NET MVC, the user eit
 
 #### GET Requests
 
-Requests with GET methods _retrieve_ resources from the server. For example, when we navigate to the [Learn How to Program Courses page](https://new.learnhowtoprogram.com/courses) the client requests the resource at the URL `https://www.learnhowtoprogram.com/courses`. The server locates the content corresponding to the `/courses` URL path and sends it back to the client in a response. Our client essentially went out and _got_ the necessary resources to render a page.
+Requests with GET methods _retrieve_ resources from the server. For example, when we navigate to the [Learn How to Program Courses page](https://www.learnhowtoprogram.com/courses) the client requests the resource at the URL `https://www.learnhowtoprogram.com/courses`. The server locates the content corresponding to the `/courses` URL path and sends it back to the client in a response. Our client essentially went out and _got_ the necessary resources to render a page.
 
 #### POST Requests
 

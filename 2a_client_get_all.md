@@ -21,7 +21,7 @@ Next, run the following command within the `CretaceousClient.Solution/` director
 $ dotnet new mvc -o CretaceousClient --framework net6.0
 ``` 
 
-Next, add the `RestSharp` and `NewtonSoft.Json` packages as shown in [Making an API Call with RestSharp](https://new.learnhowtoprogram.com/c-and-net/authentication-with-identity/making-an-api-call-with-restsharp) and [Deserializing API Responses with Newtonsoft.Json](https://new.learnhowtoprogram.com/c-and-net/authentication-with-identity/deserializing-api-responses-with-newtonsoft-json):
+Next, add the `RestSharp` and `NewtonSoft.Json` packages as shown in [Making an API Call with RestSharp](https://new.learnhowtoprogram.com/c-and-net/authentication-with-identity/making-an-api-call-with-restsharp) and [Deserializing API Responses with Newtonsoft.Json](https://new.learnhowtoprogram.com/c-and-net/authentication-with-identity/deserializing-api-responses-with-newtonsoftjson):
 
 ```
 $ dotnet add package RestSharp --version 108.0.3
