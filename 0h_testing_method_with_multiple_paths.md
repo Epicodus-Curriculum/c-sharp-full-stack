@@ -109,6 +109,10 @@ if ((_side1 > (Side2 + _side3)) || (Side2 > (_side1 + _side3)) || (_side3 > (_si
 {
   return "not a triangle";
 } 
+else 
+{
+  return "";
+}
 ```
 
 Both approaches are acceptable.

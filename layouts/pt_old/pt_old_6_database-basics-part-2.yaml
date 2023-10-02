@@ -37,6 +37,6 @@ lessons:
     type: lesson
     repo: shared-full-stack
   - title: Database Basics Independent Project
-    filename: 5a_database_basics_independent_project.md
+    filename: 5a_database_basics_independent_project_old.md
     day: thursday
     type: exercise

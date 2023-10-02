@@ -51,6 +51,6 @@ lessons:
     day: wednesday
     type: lesson
   - title: Test-Driven Development with C# Independent Project
-    filename: 5a_cr_c_sharp_independent_project.md
+    filename: 5a_cr_c_sharp_independent_project_old.md
     day: thursday
     type: exercise

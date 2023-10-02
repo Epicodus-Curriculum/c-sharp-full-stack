@@ -1,15 +1,18 @@
 ## Independent Projects Overview
 ---
 
-Project prompts will be available on Epicenter at 8:00 am Friday for both full-time and part-time students. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](https://new.learnhowtoprogram.com/prework/getting-started-at-epicodus/independent-projects-and-code-reviews) lesson.
+Project prompts will be available on Epicenter at 8:00 am Friday for full-time students and 8:00 am on Thursday for part-time students. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](https://new.learnhowtoprogram.com/prework/getting-started-at-epicodus/independent-projects-and-code-reviews) lesson.
 
-## Many-To-Many Relationships Project Objectives
+## Database Basics Project Objectives
 ---
 
 Your code will be reviewed for the following objectives:
 
-* Does at least one of your classes have all CRUD methods implemented in your app?
-* Are you able to view both sides of the many-many relationship? For a particular instance of a class, are you able to view all of the instances of the **other** class that are related to it?
+* Do the database table and column names follow proper naming conventions? 
+* Do the project folder and exported database follow the specific naming requirements for this project?
+* Are the instructions for re-creating your database thorough and clear?
+* Is there a one-to-many relationship set up correctly in the database?
+* Is CREATE functionality included for one class and is CREATE and VIEW functionality included for the other class?
 * Build files and sensitive information are included in `.gitignore` file and is not to be tracked by Git, and includes instructions on how to create the `appsettings.json` and set up the project.
 * Project is in a polished, portfolio-quality state.
 * The prompt’s required functionality and baseline project requirements are in place by the deadline.
@@ -29,9 +32,18 @@ All independent coding projects at Epicodus have these baseline requirements:
   * 4 hours completed over the weekend is required for part-time students
 * Completion of the project based on the prompt _and_ objectives. The prompt contains details on the project's theme and features that are not always detailed in the objective. Carefully read through the prompt towards the end of your work session to make sure that you are not missing anything.
 
+### Previous Objectives
+
+For reference, here are the previous sections' objectives:
+
+* Do MVC routes follow RESTful convention?
+* Classes are encapsulated and getter methods are used to access properties.
+* Logic is easy to understand.
+* Code and Git documentation follows best practices (descriptive variables names, proper indentation and spacing, separation between front and back-end logic, detailed commit messages in the correct tense, and a well-formatted README).
+
 ## Submission
 ---
 
-Submit your Github repository to the **Many-To-Many Relationships** Code Review on [Epicenter](https://epicenter.epicodus.com).
+Submit your code for review to the **Database Basics** code review on [Epicenter](https://epicenter.epicodus.com/).
 
 Visit [Independent Projects and Code Reviews](https://new.learnhowtoprogram.com/prework/getting-started-at-epicodus/independent-projects-and-code-reviews) for details on how to submit your code, how feedback works and course completion requirements.

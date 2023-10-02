@@ -105,6 +105,6 @@ lessons:
     day: thursday
     type: lesson
   - title: Authentication with Identity Independent Project
-    filename: 5a_advanced_databases_independent_project.md
+    filename: 5a_advanced_databases_independent_project_old.md
     day: friday
     type: exercise
