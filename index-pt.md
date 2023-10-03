@@ -1,7 +1,7 @@
 ---
 title: C# and .NET (Part-Time)
 id: index
-slug: /c-and-net-part-time
+slug: /c-and-net
 hide_table_of_contents: true
 sidebar_position: 0
 ---
