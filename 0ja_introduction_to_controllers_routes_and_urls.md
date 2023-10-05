@@ -63,7 +63,7 @@ namespace FriendLetter.Controllers
 }
 ```
 
-The `Hello()` method represents a **route** in our application. As we discussed in the [Uniform Resource Locators (URLS)](https://new.learnhowtoprogram.com/c-and-net/basic-web-applications/how-the-web-works-uniform-resource-locator) lesson:
+The `Hello()` method represents a **route** in our application. As we discussed in the [Uniform Resource Locators (URLS)](/c-and-net/basic-web-applications/how-the-web-works-uniform-resource-locator) lesson:
 
 > The **path** consists of one or more segments separated by slashes. It provides a name for identifying the specific resource requested.
 
