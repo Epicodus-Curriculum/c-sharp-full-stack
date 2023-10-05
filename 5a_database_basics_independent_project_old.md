@@ -1,7 +1,7 @@
 ## Independent Projects Overview
 ---
 
-Project prompts will be available on Epicenter at 8:00 am Friday for full-time students and 8:00 am on Thursday for part-time students. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](/pre-work/getting-started-at-epicodus/independent-projects-and-code-reviews) lesson.
+Project prompts will be available on Epicenter at 8:00 am Friday for full-time students and 8:00 am on Thursday for part-time students. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](https://pre-work.learnhowtoprogram.com/getting-started-at-epicodus/independent-projects-and-code-reviews) lesson.
 
 ## Database Basics Project Objectives
 ---
@@ -46,4 +46,4 @@ For reference, here are the previous sections' objectives:
 
 Submit your code for review to the **Database Basics** code review on [Epicenter](https://epicenter.epicodus.com/).
 
-Visit [Independent Projects and Code Reviews](/pre-work/getting-started-at-epicodus/independent-projects-and-code-reviews) for details on how to submit your code, how feedback works and course completion requirements.
+Visit [Independent Projects and Code Reviews](https://pre-work.learnhowtoprogram.com/getting-started-at-epicodus/independent-projects-and-code-reviews) for details on how to submit your code, how feedback works and course completion requirements.
