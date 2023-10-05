@@ -1,7 +1,7 @@
 ## Independent Projects Overview
 ---
 
-Project prompts will be available on Epicenter at 8:00 am Friday for both full-time and part-time students. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](https://pre-work.learnhowtoprogram.com/getting-started-at-epicodus/independent-projects-and-code-reviews) lesson.
+Project prompts will be available on Epicenter at 8:00 am Friday for both full-time and part-time students. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](https://new.learnhowtoprogram.com/pre-work/getting-started-at-epicodus/independent-projects-and-code-reviews) lesson.
 
 ## Building an API Project Objectives
 ---
@@ -42,4 +42,4 @@ All independent coding projects at Epicodus have these baseline requirements:
 
 Submit your Github repository to the **Building an API** Code Review on [Epicenter](https://epicenter.epicodus.com).
 
-Visit [Independent Projects and Code Reviews](https://pre-work.learnhowtoprogram.com/getting-started-at-epicodus/independent-projects-and-code-reviews) for details on how to submit your code, how feedback works and course completion requirements.
+Visit [Independent Projects and Code Reviews](https://new.learnhowtoprogram.com/pre-work/getting-started-at-epicodus/independent-projects-and-code-reviews) for details on how to submit your code, how feedback works and course completion requirements.
