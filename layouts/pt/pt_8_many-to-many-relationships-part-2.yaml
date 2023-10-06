@@ -23,10 +23,6 @@ lessons:
     filename: 3a_classwork_refactoring_with_many_to_many.md
     day: thursday
     type: exercise
-  - title: Whiteboard Practice
-    filename: 4a_whiteboarding_practice.md
-    day: thursday
-    type: lesson
   - title: Technical Interview Prep
     filename: 4b_weekly_technical_interview_prep_week_4.md
     day: thursday

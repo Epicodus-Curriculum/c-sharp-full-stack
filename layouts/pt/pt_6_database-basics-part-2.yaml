@@ -27,10 +27,6 @@ lessons:
     filename: 3a_classwork_best_restaurants_in_town_two_day_project.md
     day: thursday
     type: exercise
-  - title: Whiteboard Practice
-    filename: 4b_classwork_whiteboard_practice_prime_checker_and_multiples.md
-    day: thursday
-    type: exercise
   - title: Pull Requests and Submitting Great Work
     filename: developer_reality_pull_requests_and_submitting_great_work.md
     day: thursday
