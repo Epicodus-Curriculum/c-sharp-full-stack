@@ -161,10 +161,6 @@ lessons:
     filename: 4a_classwork_weekly_technical_interview_practice.md
     day: thursday
     type: exercise
-  - title: Whiteboard Practice
-    filename: 4b_classwork_whiteboard_practice_prime_checker_and_multiples.md
-    day: thursday
-    type: exercise
   - title: Pull Requests and Submitting Great Work
     filename: developer_reality_pull_requests_and_submitting_great_work.md
     day: thursday

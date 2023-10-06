@@ -41,10 +41,6 @@ lessons:
     filename: 4b_weekly_technical_interview_prep_week_5.md
     day: thursday
     type: lesson
-  - title: Whiteboard Practice
-    filename: 4a_whiteboarding_practice.md
-    day: thursday
-    type: lesson
   - title: Authentication with Identity Independent Project
     filename: 5a_advanced_databases_independent_project.md
     day: friday
