@@ -192,7 +192,7 @@ Let's explain the updates:
 
 With EF Core now configured to run as a service, EF Core will automatically handle opening and closing a database connection each time we query our database. Pretty neat! 
 
-Note that while we name our EF Core database context `ToDolistContext`, the name of the actual database is still set in `appsettings.json`.
+Note that while we name our EF Core database context `ToDoListContext`, the name of the actual database is still set in `appsettings.json`.
 
 And finally, if you'd like to read more about how to configure EF Core as a service, visit the documentation [Configuring DbContext with Dependency Injection](https://docs.microsoft.com/en-us/ef/core/miscellaneous/configuring-dbcontext#configuring-dbcontextoptions) and scroll down to the "Using DbContext with dependency injection" section. 
 

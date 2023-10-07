@@ -28,7 +28,7 @@ $ dotnet add package RestSharp --version 108.0.3
 $ dotnet add package Newtonsoft.Json --version 13.0.2
 ```
 
-The next thing we'll want to do is disable a nullable context for the entire project. Comment out the line `<Nullable>enable</Nullable>` within `CreatceousClient.csproj`.
+The next thing we'll want to do is disable a nullable context for the entire project. Comment out the line `<Nullable>enable</Nullable>` within `CretaceousClient.csproj`.
 
 <div class="filename">CretaceousClient.csproj</div>
 
