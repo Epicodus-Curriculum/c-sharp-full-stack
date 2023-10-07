@@ -36,7 +36,7 @@ To access a website we make a **request** from a **client**.
 
 ### Request Message
 
-When we create a request, the client constructs a special message. Among other things, this message includes the web address we are sending a request to. (For example, when we click a link to visit [this area of the website](https://new.learnhowtoprogram.com/courses), the web address `https://www.learnhowtoprogram.com/courses` is included.)
+When we create a request, the client constructs a special message. Among other things, this message includes the web address we are sending a request to. (For example, when we click a link to visit [this area of the website](/courses), the web address `https://www.learnhowtoprogram.com/courses` is included.)
 
 This message is formatted using a strict set of rules, or protocol, called [Hypertext Transfer Protocol (HTTP)](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) Continuing with the postal mail example, **Hypertext Transfer Protocol**, **HTTP** for short, is similar to formatting rules for addressing paper envelopes. We can't write an address _anywhere_ on an envelope, or format it however we please. The postal service outlines distinct protocol for what information is required (street address, city, state, zip), how it's formatted, and where it's written on the envelope. Deviation from this protocol results in letters not reaching their destinations.
 
