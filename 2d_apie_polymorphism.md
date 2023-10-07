@@ -133,7 +133,7 @@ public class Triangle : Shape
 }
 ```
 
-Now if we re-run our program code, as-is, without making any addditional changes:
+Now if we re-run our program code, as-is, without making any additional changes:
 
 ```csharp
 class Program

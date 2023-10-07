@@ -5,7 +5,7 @@ One of the biggest advantages of SQL database is that they are incredibly stable
 
 A SQL database must have all of the following:
 
-**Atomicity**: Just as an atom is undividable, the same must be true about a SQL database transaction. In other words, a transaction must either completely succeed or completely fail. For instance, if we were to make a query to return all of the `Album`s from our database, we would expect _all_ results to be returned, not just most of them. If our database cannot return every result, then the query should fail. After all, our database wouldn't be very reliable if it only gave us some of the information we needed.
+**Atomicity**: Just as an atom is indivisible, the same must be true about a SQL database transaction. In other words, a transaction must either completely succeed or completely fail. For instance, if we were to make a query to return all of the `Album`s from our database, we would expect _all_ results to be returned, not just most of them. If our database cannot return every result, then the query should fail. After all, our database wouldn't be very reliable if it only gave us some of the information we needed.
 
 **Consistency**: A SQL database must be consistent. This simply means that a database must always be in a valid state. In order to enforce this, any data we add to our database must be valid according to the constraints imposed by our database. A SQL database will enforce consistency by rejecting invalid transactions.
 

@@ -24,7 +24,7 @@ Make a website where you can enter places you've been to create an online travel
 
 * A place should be represented by a `Place` class. Begin by giving it the property `cityName`.
 
-* After testing all model logic and developing controllers and views this application, expand your `Place` model to include relevant properties like picture(s), how long you stayed, whom you travelled with, a journal entry, and so on. Integrate these into your controllers and views.
+* After testing all model logic and developing controllers and views this application, expand your `Place` model to include relevant properties like picture(s), how long you stayed, whom you traveled with, a journal entry, and so on. Integrate these into your controllers and views.
 
 * At the very least, this app should include RESTful Index, New, Create, and Show routes for the `Place` class.  
 
