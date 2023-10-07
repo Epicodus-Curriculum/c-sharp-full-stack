@@ -1,4 +1,4 @@
-Now that we can successfully save `Item`s to the database, we're ready to update our `Find()` method to so that we can retrieve specific `Item`s by their ID.
+Now that we can successfully save `Item`s to the database, we're ready to update our `Find()` method so that we can retrieve specific `Item`s by their ID.
 
 ## Writing a Test for `Find()`
 ---

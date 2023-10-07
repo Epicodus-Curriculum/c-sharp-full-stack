@@ -60,7 +60,7 @@ namespace ShapeTracker.Models
       _side1 = length1;
       _side2 = length2;
       _side3 = length3;
-      _instance.Add(this);  // new code
+      _instances.Add(this);  // new code
     }
 
     ... // other code omitted for brevity
@@ -96,7 +96,7 @@ namespace ShapeTracker.Models
       _side1 = length1;
       _side2 = length2;
       _side3 = length3;
-      _instance.Add(this);  // new code
+      _instances.Add(this);  // new code
     }
 
     ... // other code omitted for brevity
@@ -137,7 +137,7 @@ namespace ShapeTracker.Models
       _side1 = length1;
       _side2 = length2;
       _side3 = length3;
-      _instance.Add(this);  // new code
+      _instances.Add(this);  // new code
     }
 
     ... // other code omitted for brevity

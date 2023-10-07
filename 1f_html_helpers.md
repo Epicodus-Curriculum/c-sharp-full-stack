@@ -186,7 +186,7 @@ You may be wondering, why bother using strongly typed HTML helper methods? Well,
 
 The above code snippet is for demonstration only — don't add it to your code.
 
-In the end, it's fine to use a mix of strongly typed and standard HTML helpers. If you use a strongly typed HTML helper, make sure to include an `@model` directive for every the class that you are using with the strongly typed HTML helper.
+In the end, it's fine to use a mix of strongly typed and standard HTML helpers. If you use a strongly typed HTML helper, make sure to include a `@model` directive for each class that you are using with the strongly typed HTML helper.
 
 ### HTML Helpers for Other Form Elements
 

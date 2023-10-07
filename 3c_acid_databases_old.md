@@ -1,4 +1,4 @@
-One of the biggest advantages of SQL database is that they are incredibly stable. In computer science, the acronym **ACID** is used to describe the ways in which a SQL database is reliable. In this lesson, we'll cover **ACID** and why it is important. The content in this lesson isn't required for this section's independent project. However, it is a key part of understanding how SQL databases work and how they are different from noSQL databases. We will be using a NoSQL database in the React course.
+One of the biggest advantages of SQL database is that they are incredibly stable. In computer science, the acronym **ACID** is used to describe the ways in which a SQL database is reliable. In this lesson, we'll cover **ACID** and why it is important. The content in this lesson isn't required for this section's independent project. However, it is a key part of understanding how SQL databases work and how they are different from NoSQL databases. We will be using a NoSQL database in the React course.
 
 ## ACID Databases
 ---
@@ -21,4 +21,4 @@ Ultimately, there are many levels of isolation leading to various tradeoffs in r
 
 **Durability**: Once a database transaction is complete, it remains complete. Data cannot be erased or changed without further transactions. This just means that SQL databases must retain their data even in the case of potential issues such as outages or power failures. For this reason, data is generally recorded in non-volatile memory, which does not need constant power like volatile memory does.
 
-In general, SQL databases are at their strongest when we can use relationships and a clear schema to represent our data. If we can't clearly define a schema and we don't need relationships in our application, noSQL databases can be a better solution.
+In general, SQL databases are at their strongest when we can use relationships and a clear schema to represent our data. If we can't clearly define a schema and we don't need relationships in our application, NoSQL databases can be a better solution.
