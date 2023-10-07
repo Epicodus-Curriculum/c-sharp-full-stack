@@ -157,7 +157,7 @@ namespace MvcApiCall.Models
     public static async Task<string> ApiCall(string apiKey)
     {
       RestClient client = new RestClient("https://api.nytimes.com/svc/topstories/v2");
-      RestRequest request = new RestRequest($"home.json?api-key={apiKey}", Method.GET);
+      RestRequest request = new RestRequest($"home.json?api-key={apiKey}", Method.Get);
       RestResponse response = await client.ExecuteAsync(request);
       return response.Content;
     }

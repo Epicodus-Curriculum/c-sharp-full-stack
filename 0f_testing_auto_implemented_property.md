@@ -76,7 +76,7 @@ C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ModelTests\Trian
 
 Let's add just enough code to get beyond the compiler error. Let's update our code in the following ways:
 
-* Create a public auto-implemented property called `Side1` with a get action defined.
+* Create a public auto-implemented property called `Side2` with a get action defined.
 * Add `length2` as a parameter to our constructor and have it assigned as the value of our `Side2` property.
 
 <div class="filename">ShapeTracker/Models/Triangle.cs</div>

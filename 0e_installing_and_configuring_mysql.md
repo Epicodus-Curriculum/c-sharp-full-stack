@@ -16,6 +16,9 @@ Start by downloading the MySQL Community Server .`dmg` file from the MySQL Commu
 
 *  Students with Catalina, Big Sur, Monterey or a newer OS **and an M1 chip** should [use this link](https://dev.mysql.com/downloads/file/?id=508094). Scroll down and click the _No thanks, just start my download_ link.
 
+*  Students with Catalina, Big Sur, Monterey or a new OS **and an M2 chip** should [use this link](https://dev.mysql.com/downloads/file/?id=518602). Scroll down and click the _No thanks, just start my download_ link.
+
+
 Next, follow along with the **Installer** until you reach the **Configuration** page. Once you've reached **Configuration**, select or set the following options (use default if not specified):
 
 * Use Legacy Password Encryption.
