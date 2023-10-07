@@ -16,19 +16,19 @@ Alternatively, keyboard shortcuts are _Command + Option + J_ on Mac and _Ctrl + 
 
 The Developer Tools pane will open on the side or bottom of our browser window. To see HTTP requests and responses for pages we visit, we can select the _Network_ tab (the fourth tab from the left) on the top toolbar of the pane.
 
-While located in the _Network_ area of the Chrome developer tools, we'll navigate to this URL on Learn How to Program:
+While located in the _Network_ area of the Chrome developer tools, we'll navigate to this URL on Learn How to Program (your courses URL might look slightly different depending on your track):
 
 ```
-https://www.learnhowtoprogram.com/tracks
+https://full-time.learnhowtoprogram.com/courses
 ```
 
 We'll see the following appear in the _Network_ area:
 
-<img alt="Developer Tools Network Tab" src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/SHARED/how-the-web-works/developer-tools-screenshot-1.png" width="100%" />
+<img alt="Developer Tools Network Tab" src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/dev-tools/dev-tool-network-tab.png" width="100%" />
 
 * Each of these lines represents a request made from our client to the LearnHowToProgram server.
 
-* The first request in this list is for the `tracks` resource. We see it was successful because there is a status of `200`.
+* The first request in this list is for the `courses` resource. We see it was successful because there is a status of `200`.
 
 * The `type` of resource is `document` (in this case an HTML document). As you may imagine, there are still more resources necessary to display this page beyond the HTML document. For each additional resource (stylesheet, script, image files, etc) required in the HTML, the client makes a new request and the server will return a new response. We can see other `Type`s listed in this pane, like `script`, `font`, and `stylesheet`.
 
@@ -36,26 +36,26 @@ We'll see the following appear in the _Network_ area:
 
 When we click on a request we can see more details about it. In the _General_ section we see the IP address for the server and the URL sent in the request, among other things:
 
-<img src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/SHARED/how-the-web-works/developer-tools-screenshot-2.png" width="100%" />
+<img src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/dev-tools/dev-tool-network-tab-request-details.png" width="100%" />
 
 Under _Request Headers_ we can see the headers, including several previously noted in the [URL](https://new.learnhowtoprogram.com/c-and-net/basic-web-applications/how-the-web-works-uniform-resource-locator) lesson: the host name (a subcomponent of `authority`), path, scheme, etc:
 
-<img src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/SHARED/how-the-web-works/developer-tools-screenshot-3.png" width="100%" />
+<img src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/dev-tools/dev-tool-network-tab-request-headers.png" width="100%" />
 
 ### Response Details
 
-We can also see response details for the `tracks` request in the _Response Headers_ section:
+We can also see response details for the `courses` request in the _Response Headers_ section:
 
-<img alt="Dev Tools Response Headers" src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/SHARED/how-the-web-works/developer-tools-screenshot-4.png" width="100%" />
+<img alt="Dev Tools Response Headers" src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/dev-tools/dev-tool-network-tab-response-headers.png" width="100%" />
 
-We see that the _Status Code_ shows a `200`. This means that the server completed the successful processing of the request. We can also see the content type, date, etc. returned in the response message.
+We see that the server completed the successful processing of the request, showing us content type, date, etc. returned in the response message.
 
 To see the raw response that also includes the response body, click the _Response_ tab to the right of _Headers_:
 
-<img alt="Dev Tools Response Body" src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/SHARED/how-the-web-works/developer-tools-screenshot-5.png" width="100%" />
+<img alt="Dev Tools Response Body" src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/dev-tools/dev-tool-network-tab-response-body.png" width="100%" />
 
 And check it out! There's all the HTML for the page!
 
-Notice also the lower left of the window states that a total of 15 requests were made to load this `/tracks` area of the site. So when we arrive on the Tracks page for Learn How To Program the HTTP request-response cycle includes 15 unique requests with 15 unique responses.
+Notice also the lower left of the window states that a total of 30 requests were made to load this `/courses` area of the site. So when we arrive on the Courses page for Learn How To Program the HTTP request-response cycle includes 30 unique requests with 30 unique responses.
 
 Visit several sites with the Developer Tools and see if you can analyze the request-response details behind the final display that you see in your browser window.
