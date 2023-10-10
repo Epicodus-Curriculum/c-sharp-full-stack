@@ -29,7 +29,7 @@ Now let's try it with a semicolon.
 
 Adding a semicolon produces an error:
 
-<code style="color:red">
+<code style={{color:"red"}}>
 (1,1): error CS0201: Only assignment, call, increment, decrement, await, and new object expressions can be used as a statement
 </code>
 

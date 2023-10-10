@@ -76,7 +76,7 @@ So what happens if we store a long in an int?
 
 We'll actually get a helpful error message:
 
-<code style="color:red">
+<code style={{color:"red"}}>
 (1,22): error CS0266: Cannot implicitly convert type 'long' to 'int'. An explicit conversion exists (are you missing a cast?)
 </code>
 
@@ -154,7 +154,7 @@ We can store floats in a variable by declaring our variable of the `float` data 
 
 Notice that we need to include an `F` suffix at the end of the decimal number that we're declaring as a float: `3.14F`. If we don't include the `F`, we'll get an error:
 
-<code style="color:red">
+<code style={{color:"red"}}>
 (1,12): error CS0664: Literal of type double cannot be implicitly converted to type 'float'; use an 'F' suffix to create a literal of this type
 </code>
 

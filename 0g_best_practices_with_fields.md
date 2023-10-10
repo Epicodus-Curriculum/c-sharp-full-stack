@@ -111,7 +111,7 @@ Now let's run our project and see what happens. Run `dotnet run` in the `ShapeTr
 As predicted, we'll get a wall of compiler errors:
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
 /Users/staff/Desktop/ShapeTracker.Solution/ShapeTracker/Program.cs(11,67): error CS0122: 'Triangle.Side1' is inaccessible due to its protection level [/Users/staff/Desktop/ShapeTracker.Solution/ShapeTracker/ShapeTracker.csproj]
 /Users/staff/Desktop/ShapeTracker.Solution/ShapeTracker/Program.cs(12,67): error CS0122: 'Triangle.Side2' is inaccessible due to its protection level [/Users/staff/Desktop/ShapeTracker.Solution/ShapeTracker/ShapeTracker.csproj]
 /Users/staff/Desktop/ShapeTracker.Solution/ShapeTracker/Program.cs(13,69): error CS0122: 'Triangle.Side3' is inaccessible due to its protection level [/Users/staff/Desktop/ShapeTracker.Solution/ShapeTracker/ShapeTracker.csproj]

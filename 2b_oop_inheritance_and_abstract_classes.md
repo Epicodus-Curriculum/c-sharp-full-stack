@@ -137,7 +137,7 @@ Feline fel = new Feline();
 
 We would receive the following error:
 
-<code style="color:red">
+<code style={{color:"red"}}>
 error CS0144: Cannot create an instance of the abstract type or interface 'Feline'
 </code>
 

@@ -369,7 +369,7 @@ We should now be able to build and run our application and navigate through it i
 
 If you're having a hard time conceptualizing how to plan your routes, controllers, and views, consider creating a diagram like the one below. Route names here don't follow RESTful convention exactly, but this is just a demonstration:
 
-<img src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/ToDoListActions%20.png" style="width: 75%;" />
+<img src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/ToDoListActions%20.png" style={{width: "75%"}} />
 
 Note: Open the image in a separate tab to see it at full size.
 

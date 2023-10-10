@@ -119,7 +119,7 @@ We make a point to **avoid a common data type error** by parsing the user input 
 If we do NOT parse the string into an int in the above code, we'll get a compiler error:
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
 /Users/staff/Desktop/ShapeTracker.Solution/ShapeTracker/Program.cs(23,35): error CS1503: Argument 1: cannot convert from 'string' to 'int' [/Users/staff/Desktop/ShapeTracker.Solution/ShapeTracker/ShapeTracker.csproj]
 </code>
 </pre>

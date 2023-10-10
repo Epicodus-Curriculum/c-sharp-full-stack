@@ -136,7 +136,7 @@ Triangle coolTriangle = new Triangle(100, 010, 001);
 When we call our constructor, we need to pass in an argument for each parameter, or else we'll get a compiler error. For example, if we put no arguments into our `Triangle()` constructor call, we'll get this error:
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
 /Users/staff/Desktop/ShapeTracker.Solution/ShapeTracker/Program.cs(10,35): error CS7036: There is no argument given that corresponds to the required formal parameter 'length1' of 'Triangle.Triangle(int, int, int)' [/Users/staff/Desktop/ShapeTracker.Solution/ShapeTracker/ShapeTracker.csproj]
 
 The build failed. Fix the build errors and run again.

@@ -12,7 +12,7 @@ Let's try to multiply a decimal-holding number, which is called a `double`, and 
 
 We'll quickly get an error:
 
-<code style="color:red">
+<code style={{color:"red"}}>
 (1,24): error CS0266: Cannot implicitly convert type 'double' to 'int'. An explicit conversion exists (are you missing a cast?)
 </code>
 
