@@ -5,12 +5,13 @@ Before we begin implementing many-to-many relationships, let's review what they 
 
 Imagine we have the following database table containing our friends' contact information:
 
+
 ```
 friends
 -------
 
  id | name    | phone
- ---+---------+-----------
+ ---|---------|-----------
  1  | Pedro   | 9165551212
  2  | Jessica | 3235551212
  3  | Jake    | 4155551212
@@ -23,7 +24,7 @@ cities
 ------
 
  id | city     | state | friend_id
- ---+----------+-------+----------
+ ---|----------|-------|----------
   1 | Chicago  | IL    | 1
   2 | New York | NY    | 1
   3 | Oakland  | CA    | 2
@@ -35,12 +36,11 @@ Each city contains a `friend_id` that corresponds to the friend who has visited 
 However, what if Jessica, Jake, _and_ Pedro have all been to Chicago? To record this, our `cities` table would look like this:
 
 ```
-
 friends
 -------
 
  id | name    | phone
- ---+---------+-----------
+ ---|---------|-----------
  1  | Pedro   | 9165551212
  2  | Jessica | 3235551212
  3  | Jake    | 4155551212
@@ -50,7 +50,7 @@ cities
 ------
 
  id | city     | state | friend_id
- ---+----------+-------+----------
+ ---|----------|-------|----------
   1 | Chicago  | IL    | 1
   2 | New York | NY    | 1
   3 | Oakland  | CA    | 2
@@ -71,12 +71,13 @@ We can't accurately reflect this information with the tools we used to associate
 
 The right way to handle a many-to-many relationship is by using a third table called **join table**.
 
+
 ```
 friends
 -------
 
  id | name    | phone
- ---+---------+-----------
+ ---|---------|-----------
  1  | Pedro   | 9165551212
  2  | Jessica | 3235551212
  3  | Jake    | 4155551212
@@ -86,7 +87,7 @@ cities
 ------
 
  id | city     | state
- ---+----------+------
+ ---|----------|------
  1  | Chicago  | IL
  2  | New York | NY
  3  | Oakland  | CA
@@ -97,7 +98,7 @@ cities_friends
 --------------
 
  id | city_id | friend_id
- ---+---------+----------
+ ---|---------|----------
  1  | 1       | 1
  2  | 1       | 2
  3  | 2       | 3
@@ -114,12 +115,13 @@ Join tables are generally named by combining names of the two tables they're "jo
 
 Let's consider one more example. Let's say we're making an application for a school. Each course the school offers has many different students in it. A student is also capable of taking many different courses. Recording this information in a many-to-many database relationship might look like this:
 
+
 ```
 courses
 -------
 
  id | course
- ---+------------------------
+ ---|------------------------
   1 | Epicodus
   2 | How to cook vegan
   3 | Intro to rocket science
@@ -128,7 +130,7 @@ students
 --------
 
  id | student
- ---+--------
+ ---|--------
   1 | libby  
   2 | tiny   
   3 | bub    
@@ -139,7 +141,7 @@ enrollments
 -----------
 
  id | student_id | course_id
- ---------------------------
+ ---|------------|----------
   1 | 1          | 1
   2 | 2          | 1
   3 | 3          | 2
