@@ -5,7 +5,6 @@ Before we begin implementing many-to-many relationships, let's review what they 
 
 Imagine we have the following database table containing our friends' contact information:
 
-<pre>
 friends
 -------
 
@@ -14,11 +13,9 @@ friends
  1  | Pedro   | 9165551212
  2  | Jessica | 3235551212
  3  | Jake    | 4155551212
-</pre>
 
 What if we also want to track what cities our friends have visited? We can add a second `cities` table that contains a `friend_id` foreign key, like this:
 
-<pre>
 cities
 ------
 
@@ -28,13 +25,10 @@ cities
   2 | New York | NY    | 1
   3 | Oakland  | CA    | 2
   4 | Portland | OR    | 3
-</pre>
 
 Each city contains a `friend_id` that corresponds to the friend who has visited that city. So far so good.
 
 However, what if Jessica, Jake, _and_ Pedro have all been to Chicago? To record this, our `cities` table would look like this:
-
-<pre>
 
 friends
 -------
@@ -57,7 +51,6 @@ cities
   4 | Portland | OR    | 3
   5 | Chicago  | IL    | 2
   6 | Chicago  | IL    | 3
-</pre>
 
 Here we've created three entries for Chicago. Each one has a different `friend_id` corresponding with one of the friends in our `friends` table.
 
@@ -71,7 +64,6 @@ We can't accurately reflect this information with the tools we used to associate
 
 The right way to handle a many-to-many relationship is by using a third table called **join table**.
 
-<pre>
 friends
 -------
 
@@ -102,7 +94,6 @@ cities_friends
  2  | 1       | 2
  3  | 2       | 3
  4  | 2       | 1
-</pre>
 
 * We have a `friends` table with information about each of our three friends.
 
@@ -114,7 +105,6 @@ Join tables are generally named by combining names of the two tables they're "jo
 
 Let's consider one more example. Let's say we're making an application for a school. Each course the school offers has many different students in it. A student is also capable of taking many different courses. Recording this information in a many-to-many database relationship might look like this:
 
-<pre>
 courses
 -------
 
@@ -147,7 +137,6 @@ enrollments
   5 | 5          | 3
   6 | 2          | 3
   7 | 4          | 3
-</pre>
 
 * We have a `courses` table recording each course the school offers.
 
@@ -159,13 +148,11 @@ enrollments
 
 To familiarize you with how a database works, we've been showing you tables with example data. However, when you want to describe all the tables and relations in a database, also called the database **schema**, it's not convenient to include sample data because it takes up too much space. Instead, tables are depicted only with the table name and column names, like this:
 
-<pre>
 friends
 -------
 name
 phone
 birthday
-</pre>
 
 As we can see, we're now listing the column names vertically under the table name, instead of horizontally. Also, there's no data listed.
 
