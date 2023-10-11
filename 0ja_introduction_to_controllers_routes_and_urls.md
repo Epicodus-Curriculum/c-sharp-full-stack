@@ -67,13 +67,13 @@ The `Hello()` method represents a **route** in our application. As we discussed 
 
 > The **path** consists of one or more segments separated by slashes. It provides a name for identifying the specific resource requested.
 
-For instance, we can see all courses on LearnHowToProgram.com by visiting this URL:
+For instance, we can see all tracks on LearnHowToProgram.com by visiting this URL:
 
 ```
-https://www.learnhowtoprogram.com/courses
+https://www.learnhowtoprogram.com/tracks
 ```
 
-In this example, `/courses` is the **path**. 
+In this example, `/tracks` is the **path**. 
 
 How does this relate to our `Hello()` method? Because the `Hello()` method is a **route**, it will create a special path, or **pattern**, in our application. If we were to host this application at _www.learnhowtoprogram.com_, we'd have the following route because of the `Hello()` method in our `Home` controller:
 
