@@ -110,7 +110,7 @@ First, let's add the `Details()` action to the `TagsController.cs`:
 
 Notice the new method we are using: `ThenInclude()`. Let's go over what's happening here.
 
-Our `_db.Tags` expression gives us a list of `Tag` objects from the database. However, if we completed the query now (using the `FirstOrDefault()` method), we'd simply have an `Tag` without its related `Category`s.
+Our `_db.Tags` expression gives us a list of `Tag` objects from the database. However, if we completed the query now (using the `FirstOrDefault()` method), we'd simply have an `Tag` without its related `Item`s.
 
 We need to `.Include(tag => tag.JoinEntities)` to load the `JoinEntities` property of each `Tag`. However, the `JoinEntities` property on an `Tag` is just a collection of join entities (`List<ItemTag>`), which are tracked by ids: `ItemTagId`, `TagId`, and `ItemId`. These are **not** the actual item objects related to a `Tag`.
 
