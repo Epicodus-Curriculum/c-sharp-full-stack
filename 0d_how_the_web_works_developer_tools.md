@@ -19,7 +19,7 @@ The Developer Tools pane will open on the side or bottom of our browser window. 
 While located in the _Network_ area of the Chrome developer tools, we'll navigate to this URL on Learn How to Program (your courses URL might look slightly different depending on your track):
 
 ```
-https://full-time.learnhowtoprogram.com/courses
+https://full-time.learnhowtoprogram.com/
 ```
 
 We'll see the following appear in the _Network_ area:
@@ -56,6 +56,6 @@ To see the raw response that also includes the response body, click the _Respons
 
 And check it out! There's all the HTML for the page!
 
-Notice also the lower left of the window states that a total of 30 requests were made to load this `/courses` area of the site. So when we arrive on the Courses page for Learn How To Program the HTTP request-response cycle includes 30 unique requests with 30 unique responses.
+Notice also the lower left of the window states that a total of 30 requests were made to load this `/` area of the site. So when we arrive on the Courses page for Learn How To Program the HTTP request-response cycle includes 30 unique requests with 30 unique responses.
 
 Visit several sites with the Developer Tools and see if you can analyze the request-response details behind the final display that you see in your browser window.
