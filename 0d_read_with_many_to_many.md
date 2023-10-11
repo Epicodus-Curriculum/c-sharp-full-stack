@@ -306,7 +306,7 @@ Next, notice how we've refactored the first (outer) `foreach` loop:
 
 Phew! That is a lot of new logic. Note that you can format your code however you like and you don't need to create complicated formatting in your own projects. You also don't _need_ to display each item's tags on a category's detail page. However, you should consider what is best for a user's experience as far as navigating a site and accessing information. As always, have fun and try exploring something new. 
 
-With our category `Details` view ready to display each item's join entities, we now need to revisit our `Details()` action in the `CategoriesController.cs` to fetch not only a list of items, but each's item's tags. 
+With our category `Details` view ready to display each item's join entities, we now need to revisit our `Details()` action in the `CategoriesController.cs` to fetch not only a list of items, but each item's tags. 
 
 Here's the update we'll make:
 
