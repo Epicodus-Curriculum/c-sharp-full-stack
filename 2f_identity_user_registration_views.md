@@ -50,7 +50,7 @@ namespace ToDoList.ViewModels
 
 As we can see, this ViewModel looks similar to a typical Model: it's really just a grouping of properties and data annotations. Some of these data annotations may be unfamiliar, so we'll go over them now.
 
-* [The `[DataType(DataType.Password)]` annotation](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.datatypeattribute?view=net-6.0) lets us specify what how data should look or be formatted, more than a conventional C# type like `string` indicates on its own.
+* [The `[DataType(DataType.Password)]` annotation](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.datatypeattribute?view=net-6.0) lets us specify how data should look or be formatted more precisely than a conventional C# type like `string` indicates on its own.
 * [The `[Display]` annotation](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.displayattribute?view=net-6.0) lets us specify a different way for our property to be displayed. Looking at  `[Display(Name = "Confirm password")]` as an example, we're specifying that if we use the property's name in our UI that it should be displayed as "Confirm Password" instead of "ConfirmPassword". 
 * [The `[EmailAddress]` annotation](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.emailaddressattribute?view=net-6.0) handles validating any input associated with this property to ensure it meets the expected email address format.
 * [With the `[Compare]` annotation](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.compareattribute?view=net-6.0), we can tell our program to compare two properties and return an error if they don't match.
