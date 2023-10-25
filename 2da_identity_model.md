@@ -15,11 +15,11 @@ Each table focuses on different data that Identity uses to track its users, role
 * `aspnetuserroles` corresponds to [the `IdentityUserRole<TKey>` class](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.identityuserrole-1?view=aspnetcore-6.0)
 * `aspnetusertokens` corresponds to [the `IdentityUserToken<TKey>` class](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.identityusertoken-1?view=aspnetcore-6.0)
 
-We only have an `ApplicationUser : IdentityUser` model explicitly in our To Do list app. We also haven't updated our `ToDoListContext` with the above entities either! So how do these entities get added to our database? It happens implicitly so long as we've configured Identity to work with EF Core and our To Do List database context! (Of course, we still need to create a migration and update the database.) 
+We only have an `ApplicationUser : IdentityUser` model explicitly in our To Do List app. We also haven't updated our `ToDoListContext` with the above entities either! So how do these entities get added to our database? It happens implicitly so long as we've configured Identity to work with EF Core and our To Do List database context! (Of course, we still need to create a migration and update the database.) 
 
 In fact, we only created the `ApplicationUser` model in our application so that we have the option to customize it with custom user data.
 
-Because all of the Identity entities are added to our database implicitly, the docs make sure to clearly explain the Identity model and the purpose of each. First, check our the following table [from the MS docs](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/customize-identity-model?view=aspnetcore-6.0) that explains each entity type:
+Because all of the Identity entities are added to our database implicitly, the docs make sure to clearly explain the Identity model and the purpose of each. First, check out the following table [from the MS docs](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/customize-identity-model?view=aspnetcore-6.0) that explains each entity type:
 
 ![Table listing the Identity model and entities.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/aspnet-identity-model.png)
 
