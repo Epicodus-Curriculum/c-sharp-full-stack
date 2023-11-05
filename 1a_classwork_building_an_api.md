@@ -36,7 +36,7 @@ Build an API that allows users to `GET` and `POST` reviews about various travel 
 * As a user, I want to `GET` and `POST` reviews about travel destinations.
 * As a user, I want to `GET` reviews by country or city.
 * As a user, I want to see the most popular travel destinations by number of reviews or by overall rating.
-* As a user, I want to `PUT` and `DELETE` reviews, but only if I wrote them. (Start by requiring a `user_name` param to match the `user_name` of the author on the message. You can always try authentication later.)
+* As a user, I want to `PUT` and `DELETE` reviews, but only if I wrote them. (Start by requiring a `user_name` param to match the `user_name` of the author on the message. For now, don't worry about authentication or adding a User class with Identity. You can always try authentication later.)
 * As a user, I want to look up random destinations just for fun.
 
 ### Message Board API
@@ -47,7 +47,7 @@ Create a message board service that can be accessed via your API. Users should b
 * As a user, I want to be able to `POST` messages to a specific group.
 * As a user, I want to be able to see a list of all groups.
 * As a user, I want to input date parameters and retrieve only messages posted during that time frame.
-* As a user, I want to be able to `PUT` and `DELETE` messages, but only if I wrote them. (Start by requiring a `user_name` param to match the `user_name` of the author on the message. You can always try authentication later.)
+* As a user, I want to be able to `PUT` and `DELETE` messages, but only if I wrote them. (Start by requiring a `user_name` param to match the `user_name` of the author on the message. For now, don't worry about authentication or adding a User class with Identity.  You can always try authentication later.)
 
 ### API of Choice
 

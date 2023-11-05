@@ -179,6 +179,7 @@ If you are working with a scaffolded MVC app (using the `dotnet new` tool), simp
 ```csharp
 using Microsoft.AspNetCore.Mvc;
 using MvcApiCall.Models;
+using System.Collections.Generic; // New using directive added so that we can use List<Article> in the Index action.
 
 namespace MvcApiCall.Controllers
 {
@@ -186,7 +187,7 @@ namespace MvcApiCall.Controllers
   {
     public IActionResult Index()
     {
-        Task<string> allArticles = Article.GetArticles("[YOUR-API-KEY-HERE]");
+        List<Article> allArticles = Article.GetArticles("[YOUR-API-KEY-HERE]");
         return View(allArticles);
     }
   }
@@ -240,7 +241,8 @@ Here's how we'll update our `HomeController.cs`:
 ```csharp
 using Microsoft.AspNetCore.Mvc;
 using MvcApiCall.Models;
-using Microsoft.Extensions.Configuration;
+using System.Collections.Generic;
+using Microsoft.Extensions.Configuration; // New using directive.
 
 namespace MvcApiCall.Controllers
 {
@@ -256,7 +258,7 @@ namespace MvcApiCall.Controllers
 
     public IActionResult Index()
     {
-        Task<string> allArticles = Article.GetArticles(_apikey); // Using _apikey here!
+        List<Article> allArticles = Article.GetArticles(_apikey); // Using _apikey here!
         return View(allArticles);
     }
   }
