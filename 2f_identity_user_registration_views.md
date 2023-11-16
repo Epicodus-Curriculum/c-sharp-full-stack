@@ -86,13 +86,13 @@ Now let's take care of the `Register` view, which will include a form asking the
 @using (Html.BeginForm("Register", "Account", FormMethod.Post))
 {
   @Html.LabelFor(user => user.Email)
-  @Html.TextBoxFor(user=> user.Email)
+  @Html.TextBoxFor(user => user.Email)
 
-  @Html.LabelFor(user=> user.Password)
-  @Html.EditorFor(user=> user.Password)
+  @Html.LabelFor(user => user.Password)
+  @Html.EditorFor(user => user.Password)
 
-  @Html.LabelFor(user=> user.ConfirmPassword)
-  @Html.EditorFor(user=> user.ConfirmPassword)
+  @Html.LabelFor(user => user.ConfirmPassword)
+  @Html.EditorFor(user => user.ConfirmPassword)
 
   <input type="submit" value="Register" />
 }
