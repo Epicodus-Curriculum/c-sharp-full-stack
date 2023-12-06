@@ -7,9 +7,9 @@ Seeding a database is simply populating a database with data. The data can range
 
 In the case of the Cretaceous Park API, we'll seed the database with a handful of `Animal` entries so that we can test the endpoints we create in upcoming lessons.
 
-In order to add the data, we'll make changes to our `CretaceousParkContext` class: we'll override [the `DbContext.OnModelCreating()` method](https://learn.microsoft.com/en-us/dotnet/api/system.data.entity.dbcontext.onmodelcreating?view=entity-framework-6.2.0) in order to have it add multiple `Animal` objects to our `Animal` entity: 
+In order to add the data, we'll make changes to our `CretaceousApiContext` class: we'll override [the `DbContext.OnModelCreating()` method](https://learn.microsoft.com/en-us/dotnet/api/system.data.entity.dbcontext.onmodelcreating?view=entity-framework-6.2.0) in order to have it add multiple `Animal` objects to our `Animal` entity: 
 
-<div class="filename">Models/CretaceousParkContext.cs</div>
+<div class="filename">Models/CretaceousApiContext.cs</div>
 
 ```csharp
 using Microsoft.EntityFrameworkCore;
