@@ -44,8 +44,8 @@ lessons:
     day: weekend
     type: lesson
     repo: career-services-full-stack
-  - title: 'Journal #12'
-    filename: 1_week_twelve_prompt.md
+  - title: 'Journal #17 Prompt'
+    filename: 1_week_19_prompt.md
     day: weekend
     type: lesson
     repo: career-services-full-stack
@@ -54,8 +54,8 @@ lessons:
     day: monday
     type: lesson
     repo: pre-work-full-stack
-  - title: 'Journal #12 Discussion'
-    filename: 2_week_twelve_discussion_classwork.md
+  - title: 'Journal #17 Discussion'
+    filename: 2_week_19_discussion_classwork.md
     day: monday
     type: exercise
     repo: career-services-full-stack

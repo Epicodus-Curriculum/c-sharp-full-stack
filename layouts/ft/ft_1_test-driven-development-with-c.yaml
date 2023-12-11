@@ -7,8 +7,8 @@ lessons:
     filename: 0a_c_sharp_basics_objectives.md
     day: weekend
     type: lesson
-  - title: 'Journal #8'
-    filename: 1_week_eight_journal_prompt.md
+  - title: 'Journal #13'
+    filename: 1_week_thirteen_prompt.md
     day: weekend
     type: lesson
     repo: career-services-full-stack
@@ -17,8 +17,8 @@ lessons:
     day: monday
     type: lesson
     repo: pre-work-full-stack
-  - title: 'Journal #8 Discussion'
-    filename: 2_week_eight_journal_discussion_classwork.md
+  - title: 'Journal #13 Discussion'
+    filename: 2_week_thirteen_discussion_classwork.md
     day: monday
     type: exercise
     repo: career-services-full-stack

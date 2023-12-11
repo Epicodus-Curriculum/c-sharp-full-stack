@@ -75,8 +75,8 @@ lessons:
     filename: 0q_configuration_quick_reference.md
     day: weekend
     type: lesson
-  - title: 'Journal #9 Prompt'
-    filename: 1_week_nine_journal_prompt.md
+  - title: 'Journal #14'
+    filename: 1_week_16_prompt.md
     day: weekend
     type: lesson
     repo: career-services-full-stack
@@ -85,8 +85,8 @@ lessons:
     day: monday
     type: lesson
     repo: pre-work-full-stack
-  - title: 'Journal #9 Discussion'
-    filename: 2_week_nine_journal_discussion_classwork.md
+  - title: 'Journal #14 Discussion'
+    filename: 2_week_16_discussion_classwork.md
     day: monday
     type: exercise
     repo: career-services-full-stack
