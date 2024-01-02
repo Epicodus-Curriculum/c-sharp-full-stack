@@ -27,13 +27,8 @@ lessons:
     filename: 3a_classwork_library_catalog_or_recipe_box_two_day_project.md
     day: wednesday
     type: exercise
-  - title: Internship Overview
-    filename: 1_internship_overview.md
-    day: thursday
-    type: lesson
-    repo: career-services-full-stack
-  - title: Applying for Internships Pt. 1
-    filename: classwork_applying_for_internships.md
+  - title: Applying for Jobs
+    filename: classwork_applying_for_jobs.md
     day: thursday
     type: exercise
     repo: career-services-full-stack
