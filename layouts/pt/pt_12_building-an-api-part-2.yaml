@@ -15,16 +15,6 @@ lessons:
     filename: 3a_classwork_communicating_with_an_api.md
     day: wednesday
     type: exercise
-  - title: 'Review: Internship Overview'
-    filename: 1_internship_overview.md
-    day: thursday
-    type: lesson
-    repo: career-services-full-stack
-  - title: Applying for Internships Pt. 2
-    filename: classwork_applying_for_internships.md
-    day: thursday
-    type: exercise
-    repo: career-services-full-stack
   - title: Weekly Technical Interview Prep
     filename: 4b_weekly_technical_interview_prep_week_6.md
     day: thursday
