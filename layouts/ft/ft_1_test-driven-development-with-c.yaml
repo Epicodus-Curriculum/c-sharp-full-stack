@@ -46,6 +46,11 @@ lessons:
     filename: 1f_oop_abstraction.md
     day: tuesday
     type: lesson
+  - title: 'Portfolio Update and Personal Brand'
+    filename: portfolio_update_and_personal_brand.md
+    day: tuesday
+    type: lesson
+    repo: career-services-full-stack
   - title: Recognizing Privilege
     filename: 3_recognizing_privilege.md
     day: tuesday
