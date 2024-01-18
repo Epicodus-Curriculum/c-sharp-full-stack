@@ -70,6 +70,21 @@ lessons:
     filename: 2a_displaying_data_from_multiple_db_tables.md
     day: tuesday
     type: lesson
+  - title: Non-Technical Mock Interview
+    filename: mock_interview_curriculum_updates.md
+    day: tuesday
+    type: lesson
+    repo: career-services-full-stack
+  - title: Demonstrating Skills to Employers
+    filename: demonstrating_skills_to_employers.md
+    day: tuesday
+    type: lesson
+    repo: career-services-full-stack
+  - title: Formulate Answers to Most Common Interview Questions
+    filename: most_common_interview_questions.md
+    day: tuesday
+    type: lesson
+    repo: career-services-full-stack
   - title: Refactoring with Many-To-Many (Two-Day Project) - Part 1
     filename: 3a_classwork_refactoring_with_many_to_many.md
     day: wednesday

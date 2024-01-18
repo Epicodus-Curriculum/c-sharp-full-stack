@@ -3,6 +3,11 @@ order: 12
 repo: c-sharp-full-stack
 directory: 12_team-week
 lessons:
+  - title: Status Update and Goal Setting
+    filename: status_update_goal_setting.md
+    day: weekend
+    type: lesson
+    repo: career-services-full-stack
   - title: Team Week Objectives
     filename: team_week_objectives.md
     day: weekend

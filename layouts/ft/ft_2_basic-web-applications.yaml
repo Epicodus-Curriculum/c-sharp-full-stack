@@ -170,6 +170,11 @@ lessons:
     filename: 3g_layouts_and_partials.md
     day: wednesday
     type: lesson
+  - title: Modular Cover Letter and Resume
+    filename: creating_modular_resume_cl.md
+    day: monday
+    type: exercise
+    repo: career-services-full-stack
   - title: To Do List, CD Organizer, Go Fish, Word Puzzle
     filename: 4a_to_do_list_cd_organizer_hangman_and_go_fish_classwork.md
     day: thursday

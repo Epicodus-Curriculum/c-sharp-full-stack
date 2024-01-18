@@ -157,6 +157,16 @@ lessons:
     filename: 3c_acid_databases.md
     day: wednesday
     type: lesson
+  - title: Application Screening Methods
+    filename: application_screening_methods.md
+    day: wednesday
+    type: lesson
+    repo: career-services-full-stack
+  - title: The Hidden Job Market
+    filename: the_hidden_job_market.md
+    day: wednesday
+    type: lesson
+    repo: career-services-full-stack
   - title: Technical Interview Practice
     filename: 4a_classwork_weekly_technical_interview_practice.md
     day: thursday

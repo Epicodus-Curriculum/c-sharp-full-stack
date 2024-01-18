@@ -100,6 +100,26 @@ lessons:
     filename: 4b_weekly_technical_interview_prep_week_5.md
     day: thursday
     type: lesson
+  - title: How to Research Job Companies
+    filename: how_to_research_companies.md
+    day: thursday
+    type: exercise
+    repo: career-services-full-stack
+  - title: Job Boards
+    filename: job_boards_updated.md
+    day: thursday
+    type: exercise
+    repo: career-services-full-stack
+  - title: Applying to Jobs 1 through 4
+    filename: applying_to_jobs_1-4.md
+    day: thursday
+    type: exercise
+    repo: career-services-full-stack
+  - title: Identifying Enterprise Skills and Creating a Job Tracker
+    filename: identifying_enterprise_skills_job_tracker.md
+    day: thursday
+    type: exercise
+    repo: career-services-full-stack
   - title: Authentication with Identity Independent Project
     filename: 5a_advanced_databases_independent_project.md
     day: friday
