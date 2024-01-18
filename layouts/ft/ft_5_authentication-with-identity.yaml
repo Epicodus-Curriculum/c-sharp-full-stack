@@ -106,7 +106,7 @@ lessons:
     type: exercise
     repo: career-services-full-stack
   - title: Job Boards
-    filename: job_boards_updated.md
+    filename: job_board_updated.md
     day: thursday
     type: exercise
     repo: career-services-full-stack
