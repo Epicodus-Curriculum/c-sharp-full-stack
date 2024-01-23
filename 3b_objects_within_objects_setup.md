@@ -7,7 +7,7 @@ Let's update our To Do List application to allow users to organize their tasks b
 
 Let's start by creating a `Category` class in a new `ToDoList/Models/Category.cs` file. It will also need a corresponding test file at `ToDoList.Tests/ModelTests/CategoryTests.cs`. The updated project structure looks like this:
 
-<pre>
+```
 ToDoList.Solution
 ├── ToDoList
 │   ├── Controllers
@@ -33,7 +33,7 @@ ToDoList.Solution
     │   ├── CategoryTests.cs
     │   └── ItemTests.cs
     └── ToDoList.Tests.csproj
-</pre>
+```
 
 
 In our new file, we'll do the following: declare a namespace and class, import the `System.Collections.Generic` library to use `List`s, and declare properties.
@@ -199,14 +199,14 @@ Next, we'll test that we can retrieve `Category` IDs:
 
 However, if we run our tests, they don't pass. We get a failure message:
 
-<pre>
+```
 <code style="color:red">
 Error Message:
  Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;3&gt;.
 Stack Trace:
    at ToDoList.Tests.CategoryTests.GetId_ReturnsCategoryId_Int() in ToDoList.Solution/ToDoList.Tests/ModelTests/CategoryTests.cs:line 44
 </code>
-</pre>
+```
 
 It says we expected to receive `1` but got an ID of `3` instead. This is because we assign each `Category` `Id` by running `Id = _instances.Count;` in the constructor. The third test is receiving a `Category` with an `Id` of `3` because sample `Category`s created in previous tests remain in the static `_instances` list.
 
