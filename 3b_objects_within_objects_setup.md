@@ -7,7 +7,7 @@ Let's update our To Do List application to allow users to organize their tasks b
 
 Let's start by creating a `Category` class in a new `ToDoList/Models/Category.cs` file. It will also need a corresponding test file at `ToDoList.Tests/ModelTests/CategoryTests.cs`. The updated project structure looks like this:
 
-<pre>
+```
 ToDoList.Solution
 ├── ToDoList
 │   ├── Controllers
@@ -33,7 +33,7 @@ ToDoList.Solution
     │   ├── CategoryTests.cs
     │   └── ItemTests.cs
     └── ToDoList.Tests.csproj
-</pre>
+```
 
 
 In our new file, we'll do the following: declare a namespace and class, import the `System.Collections.Generic` library to use `List`s, and declare properties.

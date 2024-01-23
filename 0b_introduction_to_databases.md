@@ -9,7 +9,7 @@ If you've ever used Microsoft Excel or other similar software to create spreadsh
 
 Let's make a mock database table that includes names and phone numbers:
 
-<pre>
+```
 contacts
 -------
 
@@ -18,7 +18,7 @@ contacts
  1  | Ahmed   | 9165551212
  2  | Jessica | 3235551212
  3  | Sofia   | 4155551212
-</pre>
+```
 
 * Just like a spreadsheet, this database **table** has a name. This one is called `contacts`.
 
@@ -28,7 +28,8 @@ contacts
 
 Here's another example. This one contains booleans:
 
-<pre>
+
+```
 things_in_portland
 ------------------
 
@@ -37,7 +38,7 @@ things_in_portland
  1  | sunshine     | false
  2  | moonshine    | true
  3  | shiny things | true
-</pre>
+```
 
 * This **table** is titled `things_in_portland`.
 
