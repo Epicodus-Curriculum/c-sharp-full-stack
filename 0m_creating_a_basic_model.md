@@ -7,12 +7,12 @@ Models always reside in a `Models` subdirectory of the production project. This 
 
 The resulting file structure for models looks like this:
 
-<pre>
+```
 FriendLetter.Solution
 └── FriendLetter
     └── Models
         └── LetterVariable.cs
-</pre>
+```
 
 ## Writing a Model
 ---

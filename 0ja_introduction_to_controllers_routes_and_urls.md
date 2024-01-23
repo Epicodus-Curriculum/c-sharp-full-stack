@@ -7,12 +7,12 @@ If you followed along with the previous lessons, you already have a subdirectory
 
 The resulting structure for our `Controllers` directory and `HomeController` file should look like this:
 
-<pre>
+```
 FriendLetter.Solution
 └── FriendLetter
     └── Controllers
         └── HomeController.cs
-</pre>
+```
 
 Let's add code to our new controller file:
 
