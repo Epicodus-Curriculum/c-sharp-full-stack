@@ -63,8 +63,8 @@ lessons:
     filename: 0o_more_sql_queries.md
     day: weekend
     type: lesson
-  - title: 'Journal #10 Prompt'
-    filename: 1_week_ten_prompt.md
+  - title: 'Journal #15'
+    filename: 1_week_17_prompt.md
     day: weekend
     type: lesson
     repo: career-services-full-stack
@@ -73,8 +73,8 @@ lessons:
     day: monday
     type: lesson
     repo: pre-work-full-stack
-  - title: 'Journal #10 Discussion'
-    filename: 2_week_ten_discussion_classwork.md
+  - title: 'Journal #15 Discussion'
+    filename: 2_week_17_discussion_classwork.md
     day: monday
     type: exercise
     repo: career-services-full-stack
@@ -157,12 +157,18 @@ lessons:
     filename: 3c_acid_databases.md
     day: wednesday
     type: lesson
+  - title: Application Screening Methods
+    filename: application_screening_methods.md
+    day: wednesday
+    type: lesson
+    repo: career-services-full-stack
+  - title: The Hidden Job Market
+    filename: the_hidden_job_market.md
+    day: wednesday
+    type: lesson
+    repo: career-services-full-stack
   - title: Technical Interview Practice
     filename: 4a_classwork_weekly_technical_interview_practice.md
-    day: thursday
-    type: exercise
-  - title: Whiteboard Practice
-    filename: 4b_classwork_whiteboard_practice_prime_checker_and_multiples.md
     day: thursday
     type: exercise
   - title: Pull Requests and Submitting Great Work

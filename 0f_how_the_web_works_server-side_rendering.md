@@ -7,7 +7,7 @@ After that, the next lesson will detail what an **MVC** is, before we finally be
 
 ASP.NET Core MVC is a server-side MVC framework. In a **server-side** application the client's request to view a page depends on the server delivering the correct content for that specific page (HTML, CSS, files, etc.) to the client. The client then renders this content for the user.
 
-Before we can discuss what server-side means, we must first understand the difference between a client and a server. We covered this in the [_How the Web Works: Clients and Servers_](https://www.learnhowtoprogram.com/c-and-net/basic-web-applications/how-the-web-works-clients-and-servers) lesson; but let's quickly review.
+Before we can discuss what server-side means, we must first understand the difference between a client and a server. We covered this in the [_How the Web Works: Clients and Servers_](/c-and-net/basic-web-applications/how-the-web-works-clients-and-servers) lesson; but let's quickly review.
 
 ## Clients & Servers
 ---
@@ -28,7 +28,7 @@ A **client** is usually a web browser, like Chrome, but can be anything that fac
 
 * As we continue navigating the site, our client begins a sort of discussion with the server. Each time a new page is visited, the client must send _another_ request to the server for information for _that specific_ area of the site. And, unless something goes wrong, the server continues to respond with new content. This ongoing conversation is called a **request-response loop.**
 
-(If any of this feels unclear, we recommend revisiting and reviewing the [_How the Web Works: Clients and Servers_](https://www.learnhowtoprogram.com/c-and-net/basic-web-applications/how-the-web-works-clients-and-servers) lesson before advancing.)
+(If any of this feels unclear, we recommend revisiting and reviewing the [_How the Web Works: Clients and Servers_](/c-and-net/basic-web-applications/how-the-web-works-clients-and-servers) lesson before advancing.)
 
 This process is considered **server-side** because the server is responsible for sending required content for the specific page a user attempts to view. The server is also continually contacted as the user navigates the page, in that **request-response loop**.
 
@@ -59,9 +59,9 @@ So what does this mean for us? Let's summarize:
 * When users navigate **server-side** applications, the client enters into a 'back-and-forth' conversation with the server, known as a **request-response loop**. Each new area a user navigates to results in a new request to the server.
 
 * In **client-side** applications, the server is generally only contacted once. _All_ content for the _entire_ website is provided. When users navigate to new areas, the client has to find resources for that new page in the single big response, instead of contacting the server again.
+  
+* We explored client-side architecture in the previous course,  React. As a reminder, like many JavaScript-powered website tools, React is client-side! This means we'll have plenty of experience with _both_ major web design paradigms before graduation.
 
 * **ASP.NET Core MVC is a server-side framework.** It _will_ make a series of requests to the server in a request-response loop. A new request for each page or area the user navigates to. This is very, very important to remember, as it will affect how we construct our applications.
-
-* But we'll also learn more about client-side architecture in our level three class when we study React. Like many JavaScript-powered website tools, React is client-side! This means we'll have plenty of experience with _both_ major web design paradigms before graduation.
 
 In the next lesson we'll explore what an **MVC** is, and how it influences how we'll create our sites with ASP.NET Core MVC. Then we'll finally build our first C# web application together. Stay tuned!

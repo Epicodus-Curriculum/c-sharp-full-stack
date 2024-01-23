@@ -7,7 +7,7 @@ For these types of situations, we'll use a data type called a **dictionary**.
 ## Dictionaries
 ---
 
-**Dictionaries** are a bit like phone books. Just as a phonebook stores pairs of names and phone numbers, a dictionary holds **key-value pairs**. With a phone book, we look up a number (value) by its key (a person's name).
+**Dictionaries** are a bit like phone books. Just as a phone book stores pairs of names and phone numbers, a dictionary holds **key-value pairs**. With a phone book, we look up a number (value) by its key (a person's name).
 
 Type this into the REPL:
 

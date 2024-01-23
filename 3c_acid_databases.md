@@ -1,11 +1,11 @@
-One of the biggest advantages of SQL database is that they are incredibly stable. In computer science, the acronym **ACID** is used to describe the ways in which a SQL database is reliable. In this lesson, we'll cover **ACID** and why it is important. The content in this lesson isn't required for this section's independent project. However, it is a key part of understanding how SQL databases work and how they are different from noSQL databases. We will be using a NoSQL database in the React course.
+One of the biggest advantages of SQL database is that they are incredibly stable. In computer science, the acronym **ACID** is used to describe the ways in which a SQL database is reliable. In this lesson, we'll cover **ACID** and why it is important. The content in this lesson isn't required for this section's independent project. However, it is a key part of understanding how SQL databases work and how they are different from NoSQL databases. As a reminder, we covered NoSQL databases previously in our React course.
 
 ## ACID Databases
 ---
 
 A SQL database must have all of the following:
 
-**Atomicity**: Just as an atom is undividable, the same must be true about a SQL database transaction. In other words, a transaction must either completely succeed or completely fail. For instance, if we were to make a query to return all of the `Album`s from our database, we would expect _all_ results to be returned, not just most of them. If our database cannot return every result, then the query should fail. After all, our database wouldn't be very reliable if it only gave us some of the information we needed.
+**Atomicity**: Just as an atom is indivisible, the same must be true about a SQL database transaction. In other words, a transaction must either completely succeed or completely fail. For instance, if we were to make a query to return all of the `Album`s from our database, we would expect _all_ results to be returned, not just most of them. If our database cannot return every result, then the query should fail. After all, our database wouldn't be very reliable if it only gave us some of the information we needed.
 
 **Consistency**: A SQL database must be consistent. This simply means that a database must always be in a valid state. In order to enforce this, any data we add to our database must be valid according to the constraints imposed by our database. A SQL database will enforce consistency by rejecting invalid transactions.
 
@@ -21,4 +21,4 @@ Ultimately, there are many levels of isolation leading to various tradeoffs in r
 
 **Durability**: Once a database transaction is complete, it remains complete. Data cannot be erased or changed without further transactions. This just means that SQL databases must retain their data even in the case of potential issues such as outages or power failures. For this reason, data is generally recorded in non-volatile memory, which does not need constant power like volatile memory does.
 
-In general, SQL databases are at their strongest when we can use relationships and a clear schema to represent our data. If we can't clearly define a schema and we don't need relationships in our application, noSQL databases can be a better solution.
+In general, SQL databases are at their strongest when we can use relationships and a clear schema to represent our data. If we can't clearly define a schema and we don't need relationships in our application, NoSQL databases can be a better solution.

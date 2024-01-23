@@ -24,7 +24,7 @@ With those warnings, let's get into the further exploration opportunities.
 
 This first further exploration opportunity is all about adding new properties to the `ApplicationUser` class to create a more robust and interesting user profile. What exactly you have users enter will certainly depend on what your website offers. For example, it's probably not necessary to gather a user's date of birth for a site that sells products. However, on a social media site, users may want to add that information to their profiles. 
 
-We already covered how to add properties to the `ApplicationUser` class in the lesson [identity Setup and Configuration](https://www.learnhowtoprogram.com/c-and-net/authentication-with-identity/identity-setup-and-configuration). If you want more information, check out this resources:
+We already covered how to add properties to the `ApplicationUser` class in the lesson [identity Setup and Configuration](/c-and-net/authentication-with-identity/identity-setup-and-configuration). If you want more information, check out this resources:
 
 * [An overview of adding custom user data.](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/customize-identity-model?view=aspnetcore-6.0#custom-user-data)
 * The [`IdentityUser`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.identityuser?view=aspnetcore-6.0) class that our `ApplicationUser` extends functionality from.
@@ -58,4 +58,4 @@ If you have the time, it's worth looking into other ways to secure development s
 
 Identity has its own UI that can be used instead of a custom UI like we built. To learn more about Identity UI, it's recommended to read first read through the docs on the ASP.NET Core [scaffolding tool `aspnet-codegenerator`](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/tools/dotnet-aspnet-codegenerator?view=aspnetcore-6.0) to get a sense of how it works and how to troubleshoot issues.
 
-Then, it will be helpful to work through the introductory guide in the [Introduction to Identity](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-6.0&tabs=netcore-cli) article that uses the scaffolder tool. Then check out the article [Scaffold Identity in ASP.NET Core projects](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/scaffold-identity?view=aspnetcore-6.0&tabs=netcore-cli) to learn more about using Identity UI.
+Then, it will be helpful to work through the introductory guide in the [Introduction to Identity](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-6.0&tabs=netcore-cli) article that uses the scaffolding tool. Then check out the article [Scaffold Identity in ASP.NET Core projects](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/scaffold-identity?view=aspnetcore-6.0&tabs=netcore-cli) to learn more about using Identity UI.

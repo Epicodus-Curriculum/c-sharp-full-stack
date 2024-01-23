@@ -89,7 +89,7 @@ namespace ToDoList.Models
 }
 ```
 
-Since we've updated our entity model, we need to create a new migration and update the database. In our `ToDolist/` directory, let's run the following command:
+Since we've updated our entity model, we need to create a new migration and update the database. In our `ToDoList/` directory, let's run the following command:
 
 ```bash
 $ dotnet ef migrations add AddUserToItem

@@ -5,38 +5,34 @@ directory: 11_database-basics-part-2
 lessons:
   - title: Best Restaurants in Town - Part 1
     filename: 3a_classwork_best_restaurants_in_town_two_day_project.md
-    day: sunday
+    day: monday
     type: exercise
   - title: ACID Databases
     filename: 3c_acid_databases.md
-    day: sunday
+    day: monday
     type: lesson
   - title: Best Restaurants in Town - Part 2
     filename: 3a_classwork_best_restaurants_in_town_two_day_project.md
-    day: monday
+    day: tuesday
     type: exercise
   - title: Best Restaurants in Town - Part 3
     filename: 3a_classwork_best_restaurants_in_town_two_day_project.md
-    day: tuesday
+    day: wednesday
     type: exercise
   - title: Technical Interview Practice
     filename: 4a_classwork_weekly_technical_interview_practice.md
-    day: tuesday
+    day: wednesday
     type: exercise
   - title: Best Restaurants in Town - Part 4
     filename: 3a_classwork_best_restaurants_in_town_two_day_project.md
-    day: wednesday
-    type: exercise
-  - title: Whiteboard Practice
-    filename: 4b_classwork_whiteboard_practice_prime_checker_and_multiples.md
-    day: wednesday
+    day: thursday
     type: exercise
   - title: Pull Requests and Submitting Great Work
     filename: developer_reality_pull_requests_and_submitting_great_work.md
-    day: wednesday
+    day: thursday
     type: lesson
     repo: shared-full-stack
   - title: Database Basics Independent Project
     filename: 5a_database_basics_independent_project.md
-    day: thursday
+    day: friday
     type: exercise

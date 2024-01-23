@@ -35,8 +35,8 @@ lessons:
     filename: 0g_delete_with_many_to_many.md
     day: weekend
     type: lesson
-  - title: 'Journal #11'
-    filename: 1_week_eleven_prompt.md
+  - title: 'Journal #16'
+    filename: 1_week_18_prompt.md
     day: weekend
     type: lesson
     repo: career-services-full-stack
@@ -45,8 +45,8 @@ lessons:
     day: monday
     type: lesson
     repo: pre-work-full-stack
-  - title: 'Journal #11 Discussion'
-    filename: 2_week_eleven_discussion_classwork.md
+  - title: 'Journal #16 Discussion'
+    filename: 2_week_18_discussion_classwork.md
     day: monday
     type: exercise
     repo: career-services-full-stack
@@ -70,6 +70,21 @@ lessons:
     filename: 2a_displaying_data_from_multiple_db_tables.md
     day: tuesday
     type: lesson
+  - title: Non-Technical Mock Interview
+    filename: mock_interview_curriculum_updates.md
+    day: tuesday
+    type: lesson
+    repo: career-services-full-stack
+  - title: Demonstrating Skills to Employers
+    filename: demonstrating_skills_to_employers.md
+    day: tuesday
+    type: lesson
+    repo: career-services-full-stack
+  - title: Formulate Answers to Most Common Interview Questions
+    filename: most_common_interview_questions.md
+    day: tuesday
+    type: lesson
+    repo: career-services-full-stack
   - title: Refactoring with Many-To-Many (Two-Day Project) - Part 1
     filename: 3a_classwork_refactoring_with_many_to_many.md
     day: wednesday
@@ -83,10 +98,6 @@ lessons:
     filename: 3a_classwork_refactoring_with_many_to_many.md
     day: thursday
     type: exercise
-  - title: Whiteboard Practice
-    filename: 4a_whiteboarding_practice.md
-    day: thursday
-    type: lesson
   - title: Technical Interview Prep
     filename: 4b_weekly_technical_interview_prep_week_4.md
     day: thursday

@@ -56,21 +56,6 @@ lessons:
     day: weekend
     type: lesson
     repo: shared-full-stack
-  - title: 'Journal #13'
-    filename: 1_week_thirteen_prompt.md
-    day: weekend
-    type: lesson
-    repo: career-services-full-stack
-  - title: Prior Course Section Survey
-    filename: course_section_survey.md
-    day: monday
-    type: lesson
-    repo: pre-work-full-stack
-  - title: 'Journal #13 Discussion'
-    filename: 2_week_thirteen_discussion_classwork.md
-    day: monday
-    type: exercise
-    repo: career-services-full-stack
   - title: Building an API - Part 1
     filename: 1a_classwork_building_an_api.md
     day: monday

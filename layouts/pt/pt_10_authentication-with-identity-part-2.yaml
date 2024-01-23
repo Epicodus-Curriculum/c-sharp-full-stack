@@ -5,47 +5,38 @@ directory: 15_authentication-with-identity-part-2
 lessons:
   - title: Library Catalog, Recipe Box - Part 5
     filename: 3a_classwork_library_catalog_or_recipe_box_two_day_project.md
-    day: sunday
+    day: monday
     type: exercise
   - title: Making an API Call with RestSharp
     filename: 0i_apis_with_restsharp.md
-    day: sunday
+    day: monday
     type: lesson
   - title: Deserializing API Responses with Newtonsoft.Json
     filename: 0j_deserializing_responses.md
-    day: sunday
+    day: monday
     type: lesson
   - title: API Calls in an ASP.NET Core MVC App
     filename: 0k_apis_with_mvc.md
-    day: sunday
+    day: monday
     type: lesson
   - title: Library Catalog, Recipe Box - Part 6
     filename: 3a_classwork_library_catalog_or_recipe_box_two_day_project.md
-    day: monday
+    day: tuesday
     type: exercise
   - title: Library Catalog, Recipe Box - Part 7
     filename: 3a_classwork_library_catalog_or_recipe_box_two_day_project.md
-    day: tuesday
+    day: wednesday
     type: exercise
-  - title: Internship Overview
-    filename: 1_internship_overview.md
-    day: wednesday
-    type: lesson
-    repo: career-services-full-stack
-  - title: Applying for Internships Pt. 1
-    filename: classwork_applying_for_internships.md
-    day: wednesday
+  - title: Applying for Jobs
+    filename: classwork_applying_for_jobs.md
+    day: thursday
     type: exercise
     repo: career-services-full-stack
   - title: Technical Interview Practice
     filename: 4b_weekly_technical_interview_prep_week_5.md
-    day: wednesday
-    type: lesson
-  - title: Whiteboard Practice
-    filename: 4a_whiteboarding_practice.md
-    day: wednesday
+    day: thursday
     type: lesson
   - title: Authentication with Identity Independent Project
     filename: 5a_advanced_databases_independent_project.md
-    day: thursday
+    day: friday
     type: exercise

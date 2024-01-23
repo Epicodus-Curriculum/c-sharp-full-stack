@@ -52,7 +52,7 @@ Our next program is for office administrators to track patients in a doctor's of
 Build out the following features that let an administrator:
 
 * Add a doctor to the system, including their name and specialty as columns.
-* Add a patient to a doctor, including their name and birthdate. `Patient` will be its own class, so make sure to build the relationship between a `Doctor` object and a `Patient` object.
+* Add a patient to a doctor, including their name and birth date. `Patient` will be its own class, so make sure to build the relationship between a `Doctor` object and a `Patient` object.
 * Add more than one doctor to a patient.
 
 Next, and after you complete the corresponding homework, add model validation with validation attributes to your project to ensure that form fields are not left empty and database errors are prevented.

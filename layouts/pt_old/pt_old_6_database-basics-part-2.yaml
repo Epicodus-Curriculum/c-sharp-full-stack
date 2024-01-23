@@ -8,7 +8,7 @@ lessons:
     day: sunday
     type: exercise
   - title: ACID Databases
-    filename: 3c_acid_databases.md
+    filename: 3c_acid_databases_old.md
     day: sunday
     type: lesson
   - title: Best Restaurants in Town - Part 2
@@ -37,6 +37,6 @@ lessons:
     type: lesson
     repo: shared-full-stack
   - title: Database Basics Independent Project
-    filename: 5a_database_basics_independent_project.md
+    filename: 5a_database_basics_independent_project_old.md
     day: thursday
     type: exercise

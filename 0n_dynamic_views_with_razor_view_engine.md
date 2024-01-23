@@ -85,7 +85,7 @@ We'll update our `Letter()` route to create a new instance of our `LetterVariabl
 ...
 ```
 
-Our `Letter()` route creates a new instance of the type `LetterVariable` and saves it to the variable `myLetterVariable`. We then access the the `myLetterVariable.Recipient` property and give it a value. Finally, we pass the `myLetterVariable` into the view. This ensures our corresponding `Letter.cshtml` view now has access to our `LetterVariable` object.
+Our `Letter()` route creates a new instance of the type `LetterVariable` and saves it to the variable `myLetterVariable`. We then access the `myLetterVariable.Recipient` property and give it a value. Finally, we pass the `myLetterVariable` into the view. This ensures our corresponding `Letter.cshtml` view now has access to our `LetterVariable` object.
 
 Our application is using what's called **model binding** to pass data from one part of an application to another. Because instances of `@Model` in the view represent the argument we've passed into the `View()` method, `@Model.Recipient` is the same as calling `myLetterVariable.Recipient`.
 

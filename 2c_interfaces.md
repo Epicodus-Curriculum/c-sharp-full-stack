@@ -36,7 +36,7 @@ However, the `Dispose()` method doesn't actually do much when we add it to our c
 
 What happens if we extend our `TriangleTests` class with `IDisposable` but don't actually add a `Dispose()` method? We'll get an error when we run our tests:
 
-<code style="color:red">
+<code style={{color:"red"}}>
 'TriangleTests' does not implement interface member 'IDisposable.Dispose()'
 </code>
 

@@ -76,7 +76,7 @@ So what happens if we store a long in an int?
 
 We'll actually get a helpful error message:
 
-<code style="color:red">
+<code style={{color:"red"}}>
 (1,22): error CS0266: Cannot implicitly convert type 'long' to 'int'. An explicit conversion exists (are you missing a cast?)
 </code>
 
@@ -98,7 +98,7 @@ This will work as expected! In this case, the `aNumber` variable is of the type 
 9222222222222222
 ```
 
-Generally we shouldn't use a `long` data type for small numbers that could be declared as `int`. That's because `long` takes up more space in memory than `int` does, and we should be mindful of conversing memory in simple cases like these. 
+Generally we shouldn't use a `long` data type for small numbers that could be declared as `int`. That's because `long` takes up more space in memory than `int` does, and we should be mindful of conserving memory in simple cases like these. 
 
 In the example projects for this course, we'll primarily use the `int` data type because we won't be working with long whole numbers. However, if you know that you are dealing with very large numbers in a project you create, you should be mindful to investigate whether or not it's best to use the `long` data type. 
 
@@ -154,7 +154,7 @@ We can store floats in a variable by declaring our variable of the `float` data 
 
 Notice that we need to include an `F` suffix at the end of the decimal number that we're declaring as a float: `3.14F`. If we don't include the `F`, we'll get an error:
 
-<code style="color:red">
+<code style={{color:"red"}}>
 (1,12): error CS0664: Literal of type double cannot be implicitly converted to type 'float'; use an 'F' suffix to create a literal of this type
 </code>
 

@@ -20,7 +20,7 @@ To access a page on a website, including one made with ASP.NET MVC, the user eit
 
 #### GET Requests
 
-Requests with GET methods _retrieve_ resources from the server. For example, when we navigate to the [Learn How to Program Courses page](https://www.learnhowtoprogram.com/courses) the client requests the resource at the URL `https://www.learnhowtoprogram.com/courses`. The server locates the content corresponding to the `/courses` URL path and sends it back to the client in a response. Our client essentially went out and _got_ the necessary resources to render a page.
+Requests with GET methods _retrieve_ resources from the server. For example, when we navigate to the [Learn How to Program Tracks page](https://www.learnhowtoprogram.com/tracks) the client requests the resource at the URL `https://www.learnhowtoprogram.com/tracks`. The server locates the content corresponding to the `/tracks` URL path and sends it back to the client in a response. Our client essentially went out and _got_ the necessary resources to render a page.
 
 #### POST Requests
 
@@ -38,7 +38,7 @@ We did this because we wanted to _add_ an `Item`.
 
 ### Path
 
-In addition to an HTTP method, the client's request to the server also includes a path. The **path** identifies the web resource that should be retrieved (GET) or acted on (POST). In the example `https://www.learnhowtoprogram.com/courses` the resource `/courses` is known as the path.
+In addition to an HTTP method, the client's request to the server also includes a path. The **path** identifies the web resource that should be retrieved (GET) or acted on (POST). In the example `https://www.learnhowtoprogram.com/tracks` the resource `/tracks` is known as the path.
 
 If we were visiting the form in our To Do List application, `/items/new` is the path.
 

@@ -119,7 +119,7 @@ We make a point to **avoid a common data type error** by parsing the user input 
 If we do NOT parse the string into an int in the above code, we'll get a compiler error:
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
 /Users/staff/Desktop/ShapeTracker.Solution/ShapeTracker/Program.cs(23,35): error CS1503: Argument 1: cannot convert from 'string' to 'int' [/Users/staff/Desktop/ShapeTracker.Solution/ShapeTracker/ShapeTracker.csproj]
 </code>
 </pre>
@@ -351,7 +351,7 @@ Any what do we do in the method body? We call on the `Triangle.CheckType()` inst
 
 So, what's next? We still need to add functionality to display all triangles as well as clear all triangles. It would also be nice to give our users the ability to continually create and check the type of new triangles until they decide they are done. 
 
-So how do we do this? Well, right now our application's flow ends in the `CheckTriangleType()` UI method, so if we're going to add in any additional functionality, we need to start there. We can prompt the user to consider what they want to do next, and give them a selection. Right now, let's offer to the user to create a new triangle or to exit the program. 
+So how do we do this? Well, right now our application's flow ends in the `CheckTriangleType()` UI method, so if we're going to add in any additional functionality, we need to start there. We can prompt the user to consider what they want to do next, and give them a selection. For now, let's offer the user to create a new triangle or to exit the program. 
 
 Here's how we'll update the `CheckTriangleType()` method:
 

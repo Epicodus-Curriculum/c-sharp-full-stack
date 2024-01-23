@@ -108,6 +108,6 @@ lessons:
     day: thursday
     type: lesson
   - title: Building An API Independent Project
-    filename: 5a_building_an_api_independent_project.md
+    filename: 5a_building_an_api_independent_project_old.md
     day: friday
     type: exercise

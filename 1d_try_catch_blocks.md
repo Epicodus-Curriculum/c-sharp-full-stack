@@ -71,7 +71,7 @@ Notice how we pass in two arguments to each `Console.WriteLine()` method call, l
 Console.WriteLine("StackTrace = {0}", ex.StackTrace);
 ```
 
-The second argument `ex.StacakTrace` supplies the value for `{0}` within the first argument's string. This is called a **composite format string**, in which we include **format items** in a string whose values get evaluated and set by an additional argument. Let's see another example:
+The second argument `ex.StackTrace` supplies the value for `{0}` within the first argument's string. This is called a **composite format string**, in which we include **format items** in a string whose values get evaluated and set by an additional argument. Let's see another example:
 
 ```csharp
 string name = "Stacey";

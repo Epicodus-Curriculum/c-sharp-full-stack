@@ -66,7 +66,7 @@ appsettings.json
 We recommend creating a new database for this walkthrough of using EF Core to communicate with a MySQL database. Doing so will preserve the database we set up with version of the To Do List that uses MySqlConnector. To Do this, follow these steps:
 
 1. Update the `database` key in the database connection string in `appsettings.json` to `to_do_list_with_ef_core`.
-2. Copying the `to_do_list_with_mysqlconnector` database by exporting it, and then importing it with the new name of `to_do_list_with_ef_core`. For exact instructions on importing and exporting databases, visit [this lesson from the weekend homework](https://www.learnhowtoprogram.com/lessons/creating-a-test-database-exporting-and-importing-databases-with-mysql-workbench).
+2. Copying the `to_do_list_with_mysqlconnector` database by exporting it, and then importing it with the new name of `to_do_list_with_ef_core`. For exact instructions on importing and exporting databases, visit [this lesson from the weekend homework](/c-and-net/database-basics/creating-a-test-database-exporting-and-importing-databases-with-mysql-workbench).
 
 ### Remove `DatabaseConfig.cs`
 
@@ -192,7 +192,7 @@ Let's explain the updates:
 
 With EF Core now configured to run as a service, EF Core will automatically handle opening and closing a database connection each time we query our database. Pretty neat! 
 
-Note that while we name our EF Core database context `ToDolistContext`, the name of the actual database is still set in `appsettings.json`.
+Note that while we name our EF Core database context `ToDoListContext`, the name of the actual database is still set in `appsettings.json`.
 
 And finally, if you'd like to read more about how to configure EF Core as a service, visit the documentation [Configuring DbContext with Dependency Injection](https://docs.microsoft.com/en-us/ef/core/miscellaneous/configuring-dbcontext#configuring-dbcontextoptions) and scroll down to the "Using DbContext with dependency injection" section. 
 

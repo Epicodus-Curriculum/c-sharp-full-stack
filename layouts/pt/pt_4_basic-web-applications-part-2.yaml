@@ -5,57 +5,57 @@ directory: 9_basic-web-applications-part-2
 lessons:
   - title: To Do List, Places You've Been, Packer Tracker, Tamagotchi
     filename: 3a_classwork_to_do_places_youve_been_packing_list_and_more.md
-    day: sunday
+    day: monday
     type: exercise
   - title: Objects Within Objects Setup
     filename: 3b_objects_within_objects_setup.md
-    day: sunday
+    day: monday
     type: lesson
   - title: Saving Objects Within Other Objects
     filename: 3c_saving_objects_within_other_objects.md
-    day: sunday
+    day: monday
     type: lesson
   - title: Objects Within Objects Interface Part 1
     filename: 3d_objects_within_objects_interface_part_one.md
-    day: sunday
+    day: monday
     type: lesson
   - title: Objects Within Objects Interface Part 2
     filename: 3e_objects_within_objects_interface_part_2_advanced_restful_routing.md
-    day: sunday
+    day: monday
     type: lesson
   - title: Using Static Content
     filename: 3f_using_static_content.md
-    day: sunday
+    day: monday
     type: lesson
   - title: Layouts and Partials
     filename: 3g_layouts_and_partials.md
-    day: sunday
+    day: monday
     type: lesson
   - title: To Do List, CD Organizer, Go Fish, Word Puzzle - Part 1
     filename: 4a_to_do_list_cd_organizer_hangman_and_go_fish_classwork.md
-    day: monday
+    day: tuesday
     type: exercise
   - title: Optional Features of C# Versions 9 and 10
     filename: 4d_net_6_and_c_sharp_10_features.md
-    day: monday
+    day: tuesday
     type: lesson
   - title: To Do List, CD Organizer, Go Fish, Word Puzzle - Part 2
     filename: 4a_to_do_list_cd_organizer_hangman_and_go_fish_classwork.md
-    day: tuesday
+    day: wednesday
     type: exercise
   - title: The Previous Hosting Model versus the New Minimal Hosting Model
     filename: 4d_the_old_hosting_model.md
-    day: tuesday
+    day: wednesday
     type: lesson
   - title: To Do List, CD Organizer, Go Fish, Word Puzzle - Part 3
     filename: 4a_to_do_list_cd_organizer_hangman_and_go_fish_classwork.md
-    day: wednesday
+    day: thursday
     type: exercise
   - title: Technical Interview Prep
     filename: 4b_technical_interview_prep.md
-    day: wednesday
+    day: thursday
     type: lesson
   - title: Basic Web Applications Independent Project
     filename: 5a_basic_mvc_web_apps_independent_project.md
-    day: thursday
+    day: friday
     type: exercise

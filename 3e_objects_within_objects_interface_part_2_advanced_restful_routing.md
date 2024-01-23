@@ -42,11 +42,11 @@ As discussed, users will no longer see `Item`s without first clicking on a paren
 
 ### Item DeleteAll Route
 
-Our `Item.ClearAll()` method won't clear all items as expected anymore. That's because we're not just saving each item to the static list `Item._instances`, we're also saving each `Item` object to the `Category.Items` property which is a list of all `Item` objects belonging to each `Catgeory`.
+Our `Item.ClearAll()` method won't clear all items as expected anymore. That's because we're not just saving each item to the static list `Item._instances`, we're also saving each `Item` object to the `Category.Items` property which is a list of all `Item` objects belonging to each `Category`.
 
 There's nothing wrong with our `Item.ClearAll()` method, and we still use it in our tests so we won't update that method. Instead, if we want to add functionality to clear the items from a `Category`, we'll need to create a new `Category` method that handles clearing out the `Category.Items` property. We'll leave that for further exploration. 
 
-For now, simply delete the `DeleteAll()` action in the `ItemsController.cs` along with the `Views/Itesm/DeleteAll.cshtml` view, as it is no longer functional.
+For now, simply delete the `DeleteAll()` action in the `ItemsController.cs` along with the `Views/Items/DeleteAll.cshtml` view, as it is no longer functional.
 
 ### Item Show Route (Detail Page)
 
@@ -369,7 +369,7 @@ We should now be able to build and run our application and navigate through it i
 
 If you're having a hard time conceptualizing how to plan your routes, controllers, and views, consider creating a diagram like the one below. Route names here don't follow RESTful convention exactly, but this is just a demonstration:
 
-<img src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/ToDoListActions%20.png" style="width: 75%;" />
+<img src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/ToDoListActions%20.png" style={{width: "75%"}} />
 
 Note: Open the image in a separate tab to see it at full size.
 

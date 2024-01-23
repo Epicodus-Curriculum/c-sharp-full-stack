@@ -47,7 +47,7 @@ public class DerivedClassToBeExtended : BaseClass
 Let's make this concrete with an example. Here's our base class:
 
 ```csharp
-namespace AnimalGeneaology.Models
+namespace AnimalGenealogy.Models
 {
   public class Feline
   {
@@ -61,7 +61,7 @@ namespace AnimalGeneaology.Models
 And here's a derived class that extends the functionality of the `Feline` class:
 
 ```csharp
-namespace AnimalGeneaology.Models
+namespace AnimalGenealogy.Models
 {
   public class Cat : Feline
   {
@@ -118,7 +118,7 @@ In summary, an abstract class exists simply for the purpose of organizing univer
 It's easy to create an abstract class. Let's update our `Feline` class to be abstract:
 
 ```csharp
-namespace AnimalGeneaology.Models
+namespace AnimalGenealogy.Models
 {
   public abstract class Feline
   {
@@ -137,7 +137,7 @@ Feline fel = new Feline();
 
 We would receive the following error:
 
-<code style="color:red">
+<code style={{color:"red"}}>
 error CS0144: Cannot create an instance of the abstract type or interface 'Feline'
 </code>
 
@@ -146,7 +146,7 @@ error CS0144: Cannot create an instance of the abstract type or interface 'Felin
 We can also declare members of an abstract class as `abstract`. That includes properties and methods, but not fields. For example, let's declare an abstract instance method called `Vocalize()` within the `Feline` class:
 
 ```csharp
-namespace AnimalGeneaology.Models
+namespace AnimalGenealogy.Models
 {
   public abstract class Feline
   {
@@ -164,7 +164,7 @@ Note that we declare the method is `abstract`. When a class member is declared a
 **When an abstract base class has abstract members, derived classes _must_ override the abstract member using the `override` modifier.** For instance, we'd need to include a `Vocalize()` method in the `Cat` class that overrides the `Vocalize()` method in the parent `Feline` class:
 
 ```csharp
-namespace AnimalGeneaology.Models
+namespace AnimalGenealogy.Models
 {
   public class Cat : Feline
   {
@@ -191,9 +191,9 @@ Want to try this out? Here's what we can do with our `Cat` class within the `Mai
 
 ```csharp
 using System;
-using AnimalGeneaology.Models;
+using AnimalGenealogy.Models;
 
-namespace AnimalGeneaology
+namespace AnimalGenealogy
 {
   class Program
   {
@@ -210,7 +210,7 @@ namespace AnimalGeneaology
 The above code will return:
 
 ```
-AnimalGeneaology.Models.Cat
+AnimalGenealogy.Models.Cat
 meow!
 ```
 
@@ -219,7 +219,7 @@ meow!
 We can also write regular, non-abstract methods in an abstract class. These methods should include code within the method body. For instance, We could include `Walk()` and `Hunt()` methods that looks like this:
 
 ```csharp
-namespace AnimalGeneaology.Models
+namespace AnimalGenealogy.Models
 {
   public abstract class Feline
   {
@@ -251,9 +251,9 @@ We can then update `Program.cs` to call on these methods:
 
 ```csharp
 using System;
-using AnimalGeneaology.Models;
+using AnimalGenealogy.Models;
 
-namespace AnimalGeneaology
+namespace AnimalGenealogy
 {
   class Program
   {
@@ -272,7 +272,7 @@ namespace AnimalGeneaology
 And we'll get this returned to us:
 
 ```
-AnimalGeneaology.Models.Cat
+AnimalGenealogy.Models.Cat
 meow!
 The feline walks.
 The feline hunts.
@@ -286,7 +286,7 @@ We can use `virtual` class members as another tool to control how functionality 
 Let's look at an example. We'll update the `Feline.Walk()` method to be virtual:
 
 ```csharp
-namespace AnimalGeneaology.Models
+namespace AnimalGenealogy.Models
 {
   public abstract class Feline
   {
@@ -313,7 +313,7 @@ namespace AnimalGeneaology.Models
 Now, we can optionally override the `Feline.Walk()` method by creating a new `Cat.Walk()` method with a new definition. Let's see how that works:
 
 ```csharp
-namespace AnimalGeneaology.Models
+namespace AnimalGenealogy.Models
 {
   public class Cat : Feline
   {
@@ -344,7 +344,7 @@ To override a base class (`Feline`) method within a derived class (`Cat`), we ne
 Without making any changes to the code in `Program.cs`, if we re-run the program, we'll get this returned to us in the terminal:
 
 ```
-AnimalGeneaology.Models.Cat
+AnimalGenealogy.Models.Cat
 meow!
 The cat walks.
 The feline hunts.

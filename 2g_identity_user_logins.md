@@ -175,12 +175,12 @@ else
 
 We added an `if/else` statement to display a greeting to the user if they are logged in. If they aren't, we display links to register or log in. Our if statement relies on accessing the `User` variable, which is a property called [RazorPageBase.User](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.razor.razorpagebase.user?view=aspnetcore-6.0), but is of the type [System.Security.Claims.ClaimsPrincipal](https://learn.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal?view=net-6.0). 
 
-We can access two properties through the `User.Indentity` property: 
+We can access two properties through the `User.Identity` property: 
 
-* [`User.Indentity.Name`](https://learn.microsoft.com/en-us/dotnet/api/system.security.principal.iidentity.isauthenticated?view=net-6.0) gives us the currently logged in user's name (for us, their email) or null if there is none.
-* [`User.Indentity.IsAuthenticated`](https://learn.microsoft.com/en-us/dotnet/api/system.security.principal.iidentity.name?view=net-6.0) gives us `true` if there's an authenticated user (meaning, a user who is logged in), or `false` if there is no currently logged in user.
+* [`User.Identity.Name`](https://learn.microsoft.com/en-us/dotnet/api/system.security.principal.iidentity.isauthenticated?view=net-6.0) gives us the currently logged in user's name (for us, their email) or null if there is none.
+* [`User.Identity.IsAuthenticated`](https://learn.microsoft.com/en-us/dotnet/api/system.security.principal.iidentity.name?view=net-6.0) gives us `true` if there's an authenticated user (meaning, a user who is logged in), or `false` if there is no currently logged in user.
 
-Note that we can access both of the above properties anywhere in our views, as needed. `User.Indentity.IsAuthenticated` is particularly useful for creating conditionals that display information only to authenticated users.
+Note that we can access both of the above properties anywhere in our views, as needed. `User.Identity.IsAuthenticated` is particularly useful for creating conditionals that display information only to authenticated users.
 
 ## Logging Out
 ---

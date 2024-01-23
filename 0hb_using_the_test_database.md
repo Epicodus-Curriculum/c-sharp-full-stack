@@ -58,7 +58,7 @@ namespace ToDoList.Tests
 
 * First, we include a new `using` directive to import `Microsoft.Extensions.Configuration` namespace. From this namespace, we'll use the `ConfigurationBuilder();` method to load `appsettings.json` with our app's configurations. 
 
-* Then we create a property that we'll use to same our app's configurations.
+* Then we create a property that we'll use to set our app's configurations.
 
 * Finally, we set up a constructor for the `ItemTests` class that does the work of setting up the database connection:
  

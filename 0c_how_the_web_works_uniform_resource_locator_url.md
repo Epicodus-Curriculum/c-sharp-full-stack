@@ -1,17 +1,17 @@
-As discussed in the last lesson, when we navigate to `https://www.learnhowtoprogram.com/courses` in our browser, the browser (or _client_) makes a request to the web server where that page's content is stored.
+As discussed in the last lesson, when we navigate to `https://www.learnhowtoprogram.com/tracks` in our browser, the browser (or _client_) makes a request to the web server where that page's content is stored.
 
 One of the most important pieces of this request is the specific address of the content we're attempting to view. This address is called the **URL**, short for [**Uniform Resource Locator**](https://en.wikipedia.org/wiki/Uniform_Resource_Locator), or **URI**, short for **Uniform Resource Identifier**. (The difference is largely semantic.) In this lesson we'll explore the URL in detail.
 
 ## URL Elements
 ---
 
-Certain elements must be included in the URL for a request to be successful. For instance, if we were requesting content at the URL `https://www.learnhowtoprogram.com/courses`, these elements could be identified as:
+Certain elements must be included in the URL for a request to be successful. For instance, if we were requesting content at the URL `https://www.learnhowtoprogram.com/tracks`, these elements could be identified as:
 
 1. **Scheme**: `http://`
 
 2. **Host**: `www.learnhowtoprogram.com`
 
-3. **Path**: `/courses`
+3. **Path**: `/tracks`
 
 Let's discuss each in greater detail.
 
@@ -27,7 +27,7 @@ The **host** details _where_ the requested resource is located. In a URL the hos
 
 ### 3. Path
 
-The **path** consists of one or more segments separated by slashes. It provides a name for identifying the specific resource requested.  In our example the path indicates the resource: `/courses`.
+The **path** consists of one or more segments separated by slashes. It provides a name for identifying the specific resource requested.  In our example the path indicates the resource: `/tracks`.
 
 ## Optional URL Elements
 ---
@@ -38,19 +38,20 @@ Not all elements in a URL are required. Here are two that are optional.
 
 There may be times when URL contents must provide additional details for a resource to be identified. For example, if we use the search functionality on Learn How to Program, the server must know what term(s) we've searched for to return relevant information.
 
-When we enter _"internet"_ into the search bar on LearnHowToProgram and submit, the request is made to this URL:
+When we enter _"internet"_ into the search bar on DuckDuckGo and submit, the request is made to this URL:
 
 ```
-https://www.learnhowtoprogram.com/lessons?utf8=✓&search=internet&commit=Search
+https://duckduckgo.com/?q=internet&va=n&t=hu&ia=web
 ```
 
-Notice the `?` symbol after the path. This indicates the beginning of a **query string**. There are 3 key-value pairs that make up the parameters sent in this request:
+Notice the `?` symbol after the path. This indicates the beginning of a **query string**. There are 4 key-value pairs that make up the parameters sent in this request:
 
-* `utf8=✓`
-* `search=internet`
-* `commit=Search`
+* `q=internet`
+* `va=n`
+* `t=hu`
+* `ia=web`
 
-Our `search` parameter is one of them. It has a key of `search` and a value of `internet`. Query parameters are separated by the `&` symbol when there is more than one. The server will use this value to query the database for lessons whose text contains the term `internet`.
+Our search parameter is one of them. It has a key of `q` and a value of `internet`. Query parameters are separated by the `&` symbol when there is more than one. The server will use this value to query the database for lessons whose text contains the term `internet`.
 
 ### `#` Fragment
 

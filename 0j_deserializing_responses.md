@@ -127,7 +127,7 @@ For instance, if the response information we'd like to deserialize is contained 
 
 Since this can be confusing, let's take a look at what this might look like. We'll update our console app to display data from the multimedia array that's a part of every article object. The multimedia key is set to an array of objects. We'll display data from each object in the multimedia array. 
 
-If you're not sure what multimedia array I am talking about, take a moment to an API call via Postman to `https://api.nytimes.com/svc/topstories/v2/home.json?api-key=[YOUR-API-KEY]` and locate the multimedia key in an article object.
+If you're not sure what multimedia array I am talking about, take a moment to make an API call via Postman to `https://api.nytimes.com/svc/topstories/v2/home.json?api-key=[YOUR-API-KEY]` and locate the multimedia key in an article object.
 
 We'll make a `Multimedia` class to represent individual multimedia objects in the array. We won't include all multimedia properties, just a few for this example. Then, we'll update our `Article` class to contain a `Multimedia` property with the type `List<Multimedia>`.
 

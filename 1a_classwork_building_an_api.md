@@ -25,7 +25,7 @@ You may work with a pair for the entire course section or split the section into
 
 Select an API to build from the options below, and make sure to complete the following requirements:
 
-**1. Whatever API you choose to build, you'll be expected to implement a further exploration topic from the lesson [Further Exploration with APIs](https://www.learnhowtoprogram.com/c-and-net/building-an-api/further-exploration-with-apis).** Take some time to learn a bit about each further exploration topic, and then pick at least one to implement in your API.
+**1. Whatever API you choose to build, you'll be expected to implement a further exploration topic from the lesson [Further Exploration with APIs](/c-and-net/building-an-api/further-exploration-with-apis).** Take some time to learn a bit about each further exploration topic, and then pick at least one to implement in your API.
 
 **2. You are expected to create robust documentation of your API's endpoints in your project's README.md.** For any further exploration topic that you implement in your API you should explain what it is and how to interact with it.
 
@@ -36,7 +36,7 @@ Build an API that allows users to `GET` and `POST` reviews about various travel 
 * As a user, I want to `GET` and `POST` reviews about travel destinations.
 * As a user, I want to `GET` reviews by country or city.
 * As a user, I want to see the most popular travel destinations by number of reviews or by overall rating.
-* As a user, I want to `PUT` and `DELETE` reviews, but only if I wrote them. (Start by requiring a `user_name` param to match the `user_name` of the author on the message. You can always try authentication later.)
+* As a user, I want to `PUT` and `DELETE` reviews, but only if I wrote them. (Start by requiring a `user_name` param to match the `user_name` of the author on the message. For now, don't worry about authentication or adding a User class with Identity. You can always try authentication later.)
 * As a user, I want to look up random destinations just for fun.
 
 ### Message Board API
@@ -46,8 +46,8 @@ Create a message board service that can be accessed via your API. Users should b
 * As a user, I want to be able to `GET` all messages related to a specific group.
 * As a user, I want to be able to `POST` messages to a specific group.
 * As a user, I want to be able to see a list of all groups.
-* As a user, I want to input date parameters and retrieve only messages posted during that timeframe.
-* As a user, I want to be able to `PUT` and `DELETE` messages, but only if I wrote them. (Start by requiring a `user_name` param to match the `user_name` of the author on the message. You can always try authentication later.)
+* As a user, I want to input date parameters and retrieve only messages posted during that time frame.
+* As a user, I want to be able to `PUT` and `DELETE` messages, but only if I wrote them. (Start by requiring a `user_name` param to match the `user_name` of the author on the message. For now, don't worry about authentication or adding a User class with Identity.  You can always try authentication later.)
 
 ### API of Choice
 
@@ -58,6 +58,6 @@ APIs aren't just used for data interaction and manipulation. They can also be us
 
 * Application successfully returns responses for each API call.
 * README thoroughly describes all endpoints along with parameters that can be used.
-* A [further exploration topic](https://www.learnhowtoprogram.com/c-and-net/building-an-api/further-exploration-with-apis) has been implemented in the API.
+* A [further exploration topic](/c-and-net/building-an-api/further-exploration-with-apis) has been implemented in the API.
 * README thoroughly describes the further exploration topic that's been implemented in the API.
 * Application works as expected.

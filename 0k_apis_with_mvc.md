@@ -9,7 +9,7 @@ For this next example project, you may build the application from scratch or sca
 $ dotnet new mvc -o MvcApiCall -f net6.0
 ```
 
-If you create your MVC app from scratch, follow along with the basic structure for an ASP.NET Core MVC app outlined [in this LearnHowToProgram.com lesson](https://www.learnhowtoprogram.com/c-and-net/basic-web-applications/configuration-quick-reference). The directory name for our project will be `MvcApiCall`. 
+If you create your MVC app from scratch, follow along with the basic structure for an ASP.NET Core MVC app outlined [in this LearnHowToProgram.com lesson](/c-and-net/basic-web-applications/configuration-quick-reference). The directory name for our project will be `MvcApiCall`. 
 
 **Don't initialize or save your changes to Git until you've completed the setup steps for protecting your API key.** 
 
@@ -157,7 +157,7 @@ namespace MvcApiCall.Models
     public static async Task<string> ApiCall(string apiKey)
     {
       RestClient client = new RestClient("https://api.nytimes.com/svc/topstories/v2");
-      RestRequest request = new RestRequest($"home.json?api-key={apiKey}", Method.GET);
+      RestRequest request = new RestRequest($"home.json?api-key={apiKey}", Method.Get);
       RestResponse response = await client.ExecuteAsync(request);
       return response.Content;
     }
@@ -179,6 +179,7 @@ If you are working with a scaffolded MVC app (using the `dotnet new` tool), simp
 ```csharp
 using Microsoft.AspNetCore.Mvc;
 using MvcApiCall.Models;
+using System.Collections.Generic; // New using directive added so that we can use List<Article> in the Index action.
 
 namespace MvcApiCall.Controllers
 {
@@ -186,7 +187,7 @@ namespace MvcApiCall.Controllers
   {
     public IActionResult Index()
     {
-        Task<string> allArticles = Article.GetArticles("[YOUR-API-KEY-HERE]");
+        List<Article> allArticles = Article.GetArticles("[YOUR-API-KEY-HERE]");
         return View(allArticles);
     }
   }
@@ -240,7 +241,8 @@ Here's how we'll update our `HomeController.cs`:
 ```csharp
 using Microsoft.AspNetCore.Mvc;
 using MvcApiCall.Models;
-using Microsoft.Extensions.Configuration;
+using System.Collections.Generic;
+using Microsoft.Extensions.Configuration; // New using directive.
 
 namespace MvcApiCall.Controllers
 {
@@ -256,7 +258,7 @@ namespace MvcApiCall.Controllers
 
     public IActionResult Index()
     {
-        Task<string> allArticles = Article.GetArticles(_apikey); // Using _apikey here!
+        List<Article> allArticles = Article.GetArticles(_apikey); // Using _apikey here!
         return View(allArticles);
     }
   }

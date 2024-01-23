@@ -59,7 +59,7 @@ $ dotnet ef migrations add AddTagEntity
 ```
 
 ```
-$ donent ef database update
+$ dotnet ef database update
 ```
 
 ### Creating the JOIN Entity

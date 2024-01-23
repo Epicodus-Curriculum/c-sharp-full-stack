@@ -24,7 +24,7 @@ lessons:
     day: weekend
     type: lesson
   - title: 'How the Web Works: Server-Side Rendering'
-    filename: 0f_how_the_web_works_server-side_rendering.md
+    filename: 0f_how_the_web_works_server-side_rendering_old.md
     day: weekend
     type: lesson
   - title: 'How the Web Works: MVC Pattern'
@@ -187,6 +187,6 @@ lessons:
     day: thursday
     type: lesson
   - title: Basic Web Applications Independent Project
-    filename: 5a_basic_mvc_web_apps_independent_project.md
+    filename: 5a_basic_mvc_web_apps_independent_project_old.md
     day: friday
     type: exercise

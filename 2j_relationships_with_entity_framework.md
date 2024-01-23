@@ -5,7 +5,7 @@ In this lesson, we'll learn how to create database relationships using EF Core *
 
 Before we get started, let's review one-to-many relationships. Let's say we have two classes, `Team` and `Player`. We can conceptualize a one-to-many relationship between `Team` and `Player` by recognizing the following:
 
-* One `Team` has many `Player`s in it.s
+* One `Team` has many `Player`s in it.
 * A `Player` may only belong to one `Team` at a time. 
 
 We would integrate this one-to-many relationship into a database by making sure that each `Player` entry has a `TeamId` to denote which specific `Team` they belong to, "linking" the tables together. In this case, a `Player` entry can only have one `TeamId` value, because a `Player` can only belong to one team.

@@ -10,7 +10,7 @@ friends
 -------
 
  id | name    | phone
- ---+---------+-----------
+ ---|---------|-----------
  1  | Pedro   | 9165551212
  2  | Jessica | 3235551212
  3  | Jake    | 4155551212
@@ -23,7 +23,7 @@ cities
 ------
 
  id | city     | state | friend_id
- ---+----------+-------+----------
+ ---|----------|-------|----------
   1 | Chicago  | IL    | 1
   2 | New York | NY    | 1
   3 | Oakland  | CA    | 2
@@ -35,12 +35,11 @@ Each city contains a `friend_id` that corresponds to the friend who has visited 
 However, what if Jessica, Jake, _and_ Pedro have all been to Chicago? To record this, our `cities` table would look like this:
 
 ```
-
 friends
 -------
 
  id | name    | phone
- ---+---------+-----------
+ ---|---------|-----------
  1  | Pedro   | 9165551212
  2  | Jessica | 3235551212
  3  | Jake    | 4155551212
@@ -50,7 +49,7 @@ cities
 ------
 
  id | city     | state | friend_id
- ---+----------+-------+----------
+ ---|----------|-------|----------
   1 | Chicago  | IL    | 1
   2 | New York | NY    | 1
   3 | Oakland  | CA    | 2
@@ -76,7 +75,7 @@ friends
 -------
 
  id | name    | phone
- ---+---------+-----------
+ ---|---------|-----------
  1  | Pedro   | 9165551212
  2  | Jessica | 3235551212
  3  | Jake    | 4155551212
@@ -86,7 +85,7 @@ cities
 ------
 
  id | city     | state
- ---+----------+------
+ ---|----------|------
  1  | Chicago  | IL
  2  | New York | NY
  3  | Oakland  | CA
@@ -97,7 +96,7 @@ cities_friends
 --------------
 
  id | city_id | friend_id
- ---+---------+----------
+ ---|---------|----------
  1  | 1       | 1
  2  | 1       | 2
  3  | 2       | 3
@@ -119,7 +118,7 @@ courses
 -------
 
  id | course
- ---+------------------------
+ ---|------------------------
   1 | Epicodus
   2 | How to cook vegan
   3 | Intro to rocket science
@@ -128,7 +127,7 @@ students
 --------
 
  id | student
- ---+--------
+ ---|--------
   1 | libby  
   2 | tiny   
   3 | bub    
@@ -139,7 +138,7 @@ enrollments
 -----------
 
  id | student_id | course_id
- ---------------------------
+ ---|------------|----------
   1 | 1          | 1
   2 | 2          | 1
   3 | 3          | 2
