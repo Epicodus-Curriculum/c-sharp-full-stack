@@ -26,7 +26,7 @@ Let's create a new project directory. This will have some similarities to the pr
 
 The resulting structure should look like this:
 
-```
+<pre>
 FriendLetter.Solution/
 ├── .gitignore
 └── FriendLetter/
@@ -35,7 +35,7 @@ FriendLetter.Solution/
     ├── Views/
     ├── FriendLetter.csproj
     └── Program.cs
-```
+</pre>
 
 **Note that we'll use the above basic folder and file structure in all of our ASP.NET Core MVC applications.** In this lesson, we'll cover the configurations for the `.gitignore`, `Friendletter.csproj`, and `Program.cs` files. In upcoming lessons, we'll learn more about what goes in the models, views, and controllers folders.
 
@@ -214,7 +214,7 @@ We don't need to worry about perfectly understanding how middleware function wit
 
 Let's review the key takeaways from this lesson. To set up and configure an ASP.NET Core MVC web app, you'll need the following files and folders:
 
-```
+<pre>
 ProjectName.Solution/
 ├── .gitignore
 └── ProjectName/
@@ -223,7 +223,7 @@ ProjectName.Solution/
     ├── Views/
     ├── ProjectName.csproj
     └── Program.cs
-```
+</pre>
 
 Between our console apps and our new web apps built with ASP.NET Core Model-View-Controller (MVC), the biggest differences are the new folders called `Controllers` and `Views`, as well as the contents of `Program.cs`. We'll cover what goes in the `Controllers` and `Views` folders in upcoming lessons. As for `Program.cs`, keep in mind that the code therein does a few key things:
 

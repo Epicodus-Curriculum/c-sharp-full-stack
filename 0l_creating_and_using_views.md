@@ -9,13 +9,13 @@ The `Views` directory is further divided into subdirectories, one for each contr
 
 The resulting structure for our `Views` should look like this:
 
-```
+<pre>
 FriendLetter.Solution
 └── FriendLetter
     └── Views
         └── Home
             └── Letter.cshtml
-```
+</pre>
 
 ## Writing a View
 ---

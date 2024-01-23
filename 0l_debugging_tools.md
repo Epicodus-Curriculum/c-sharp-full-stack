@@ -38,7 +38,7 @@ Finally, take note that compiler errors typically have an ID number that we can 
 
 Failed!  - Failed:     1, Passed:     8, Skipped:     0, Total:     9, Duration: 117 ms - ShapeTracker.Tests.dll (net6.0)
 </code>
-```
+</pre>
 
 In the failure message, we can get the following helpful information about what went wrong:
 
