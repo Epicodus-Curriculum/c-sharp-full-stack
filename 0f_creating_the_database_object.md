@@ -18,7 +18,7 @@ You are welcome to code along with these lessons, or simply to read through them
 
 Let's start refactoring our To Do List app to use a MySQL database. After following along with last section's lessons, our To Do List's file and folder structure should look like this:
 
-```
+<pre>
 ToDoList.Solution
 ├── ToDoList
 │   ├── Controllers
@@ -47,7 +47,7 @@ ToDoList.Solution
     │   ├── CategoryTests.cs
     │   └── ItemTests.cs
     └── ToDoList.Tests.csproj
-```
+</pre>
 
 Your project directory may be slightly different if you added a `Shared` directory with a `_Layout.cshtml` file or if you included static assets in a `wwwroot` directory (with related subdirectories).
 

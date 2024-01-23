@@ -7,7 +7,7 @@ When MVC apps run on a server, they use a `wwwroot` folder as their web root. Th
 
 If we want to add a stylesheet to our project, we need to create a `wwwroot` directory at the top-level of our `ToDoList` production project, like this:
 
-```
+<pre>
 ToDoList.Solution
 ├── ToDoList
 │   ├── Controllers
@@ -19,11 +19,11 @@ ToDoList.Solution
 └── ToDoList.Tests
     ├── ModelTests
     └── ToDoList.Tests.csproj
-```
+</pre>
 
 In that directory, we add a `CSS` subdirectory with a `styles.css` file inside it. This folder will store any non-C# related files required to run your application, such as images, videos, music, stylesheets, scripts, etc.
 
-```
+<pre>
 ToDoList.Solution
 ├── ToDoList
 │   ├── Controllers
@@ -37,7 +37,7 @@ ToDoList.Solution
 └── ToDoList.Tests
     ├── ModelTests
     └── ToDoList.Tests.csproj
-```
+</pre>
 
 Then we link this stylesheet with a standard `<link>` element on any views that we want to style. To reference the root folder in our `<link>`, we use the syntax `~/`.
 

@@ -31,7 +31,7 @@ We'll update this project to work with ASP.NET Core MVC. First we'll add the nec
 
 The resulting structure should look like this:
 
-```
+<pre>
 ToDoList.Solution
 ├── .gitignore
 ├── ToDoList
@@ -50,7 +50,7 @@ ToDoList.Solution
     ├── ModelTests
     │   └── ItemTests.cs
     └── ToDoList.Tests.csproj
-```
+</pre>
 
 ### Add ASP.NET Core MVC
 
