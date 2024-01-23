@@ -185,13 +185,13 @@ Our `MySQLDataReader` `rdr` object has many [methods](https://mysqlconnector.net
 
 We also pass in a number value as an argument to both methods. This is because rows from the database are returned by the `rdr.Read()` method as indexed arrays. Let's use the following table as an example to demonstrate:
 
-<pre>
+```
  id | description
  ---+---------
  1  | Mow the lawn
  2  | Walk the dog
  3  | Make dinner
-</pre>
+```
 
 When the reader object returns the first entry in this example database, it'll look like this:
 

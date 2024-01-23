@@ -5,7 +5,6 @@ Before we begin implementing many-to-many relationships, let's review what they 
 
 Imagine we have the following database table containing our friends' contact information:
 
-
 ```
 friends
 -------
@@ -71,7 +70,6 @@ We can't accurately reflect this information with the tools we used to associate
 
 The right way to handle a many-to-many relationship is by using a third table called **join table**.
 
-
 ```
 friends
 -------
@@ -114,7 +112,6 @@ cities_friends
 Join tables are generally named by combining names of the two tables they're "joining." In this case, we have `cities` and `friends` separated by an underscore. But if the type of interaction the join table is recording has a more descriptive name, we can use that instead. For instance, we could call the join table above `visits`.
 
 Let's consider one more example. Let's say we're making an application for a school. Each course the school offers has many different students in it. A student is also capable of taking many different courses. Recording this information in a many-to-many database relationship might look like this:
-
 
 ```
 courses
