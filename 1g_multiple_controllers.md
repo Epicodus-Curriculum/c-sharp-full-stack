@@ -13,7 +13,7 @@ Let's alter our To Do List to use multiple controllers. Our `HomeController` wil
 
 The resulting project structure should look like this:
 
-<pre>
+```
 ToDoList.Solution
 ├── ToDoList
 │   ├── Controllers
@@ -30,7 +30,7 @@ ToDoList.Solution
 │           ├── CreateForm.cshtml
 │           └── Index.cshtml
 └── ToDoList.Tests
-</pre>
+```
 
 ## `ItemsController`
 ---
