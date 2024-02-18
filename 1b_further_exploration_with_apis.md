@@ -5,7 +5,7 @@ It’s time to do a deep dive on your own. In the classwork for this course sect
 * Pagination
 * Enable CORS
 
-**For your independent project this course section, you'll also be tasked with incorporating one or more of the preceding further exploration topics into the API you create.** The goal of this further exploration objective is for you to practice the skills that developers use everyday when they are tasked with implementing a new feature that may not have step-by-step guides for the exact implementation they need.
+**For your independent project this course section, you'll also be tasked with incorporating one or more of the preceding further exploration topics into the API you create.** The goal of this further exploration objective is for you to practice the skills that developers use every day when they are tasked with implementing a new feature that may not have step-by-step guides for the exact implementation they need.
 
 In this lesson, we'll learn a bit about each further exploration topic as well as basic expectations you should have for this practice. 
 
