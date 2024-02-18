@@ -1,6 +1,6 @@
 In this lesson, we'll learn how to use the `aspnet-codegenerator` tool to scaffold files within our application. While `dotnet new` scaffolds entire projects based on templates, the `aspnet-codegenerator` tool can create files like controllers. This can save us a lot of work!
 
-**In this section's code review, you should not be using a scaffolding tool to create the boilerplate code for your routes.** We want to see an understanding of this material and an ability to create it on your own, without the use of this tool.However, past this code review and in personal projects, feel free to use `aspnet-codegenerator` to spin up a project files quickly!
+**In this section's code review, you should not be using a scaffolding tool to create the boilerplate code for your routes.** We want to see an understanding of this material and an ability to create it on your own, without the use of this tool. However, past this code review and in personal projects, feel free to use `aspnet-codegenerator` to spin up a project files quickly!
 
 ## Scaffolding our Controller
 ---
