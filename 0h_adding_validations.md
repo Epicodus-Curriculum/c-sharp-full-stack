@@ -1,6 +1,6 @@
 In this lesson, we'll learn how to add validation to our models. Some of this information will be a review, since we're already familiar with adding validation attributes to our models in MVC apps, and this process is no different with APIs. However, we'll review some new information on how model validation is actually performed in API controllers.
 
-We won't update the Cretaceous Park API to include model validation. Instead this will be further exploration for you to do in your projects in class.
+We won't update the Cretaceous Park API to include model validation. Instead, this will be further exploration for you to do in your projects in class.
 
 ## Adding Model Validation
 ---
@@ -81,9 +81,9 @@ This is because all controllers that have the `[ApiController]` attribute perfor
 
 Finally, keep in mind that some data annotations in the `System.ComponentModel.DataAnnotations` namespace overlap with [data annotations that we can use on our EF Core models in code-first development](https://learn.microsoft.com/en-us/ef/ef6/modeling/code-first/data-annotations). A good example is the `[required]` attribute, which will make a model property required in our .NET app (MVC or API), as well as, update our database field to be non-nullable (required).
 
-So as a precaution after you add validation attributes to your model properties, you should create a new migration and see if any changes are made to the database entities, and if so, determine whether or not you want those changes applied to your database. (Remember that you can always reverse the last migration with `dotnet ef migrations remove`.) 
+So, as a precaution after you add validation attributes to your model properties, you should create a new migration and see if any changes are made to the database entities, and if so, determine whether or not you want those changes applied to your database. (Remember that you can always reverse the last migration with `dotnet ef migrations remove`.) 
 
-Typically the requirements that we add to our project models, we'll also want applied to our database. However, if you don't want the changes applied to your database, use a ViewModel to separate the database entity model from the ViewModel that you use to handle incoming requests and validate them. 
+Typically, the requirements that we add to our project models, we'll also want applied to our database. However, if you don't want the changes applied to your database, use a ViewModel to separate the database entity model from the ViewModel that you use to handle incoming requests and validate them. 
 
 Use a ViewModel for an API? Yes, and no. The concept is similar to a ViewModel — we're creating a model to use for something other than describing our database entity models. But for APIs, this would be for validating a request instead of being used to shape and validate data used in a view. Because of this, it's best to use a different name than ViewModel; perhaps we could call it a RequestModel instead. To learn more about this topic, check out this interesting discussion in [this Stack Exchange thread](https://softwareengineering.stackexchange.com/questions/399508/is-creating-viewmodels-in-web-api-a-bad-practice).
 
