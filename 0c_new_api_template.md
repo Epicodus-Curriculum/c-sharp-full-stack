@@ -82,7 +82,7 @@ If you are wondering, we'll leave implicit using directives enabled in our `.csp
 
 ### Getting to Know `appsettings.{Environment}.json`
 
-Did you notice that there's an `appsetting.json` and an `appsettings.Development.json` in our scaffolded project? Both of these files serve the same purpose of adding configurations to our projects. However, the configurations in `appsettings.Development.json` are used only if we are running our project in a development environment. Similarly, if we had an `appsettings.Production.json`, the configurations within it would be used when we are running our project in a production environment.
+Did you notice that there's an `appsettings.json` and an `appsettings.Development.json` in our scaffolded project? Both of these files serve the same purpose of adding configurations to our projects. However, the configurations in `appsettings.Development.json` are used only if we are running our project in a development environment. Similarly, if we had an `appsettings.Production.json`, the configurations within it would be used when we are running our project in a production environment.
 
 According to the docs, `appsettings.json` is loaded first, and then the `appsettings.{Environment}.json` files are loaded second. Configurations from all files are used. However:
 
