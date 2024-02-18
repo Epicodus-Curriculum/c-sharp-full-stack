@@ -271,7 +271,7 @@ Next, we'll update our `Properties/launchSettings.json` and then run our boilerp
 
 The configurations in `launchSettings.json` will look similar to what we've seen in the past. One thing to note is that our `"applicationUrl"` won't point to `https://localhost:5001;http://localhost:5000` like we so often reference in the curriculum. It's up to you to choose the port numbers that you prefer, but we'll continue to use the ports `https://localhost:5001`/`http://localhost:5000` in the LearnHowToProgram.com curriculum.
 
-If you want to update the application URL for CretaceousApi to use ports 5001 and 5000, make the update to the `"applicationUrl"` key, within`"CretaceousApi"` object:
+If you want to update the application URL for CretaceousApi to use ports 5001 and 5000, make the update to the `"applicationUrl"` key, within `"CretaceousApi"` object:
 
 <div class="filename">Properties/launchSettings.json</div>
 
