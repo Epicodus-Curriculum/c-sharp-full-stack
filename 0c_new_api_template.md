@@ -133,7 +133,7 @@ Notice that we're setting `"Microsoft.AspNetCore": "Information"`. Shouldn't thi
 
 ### Building a Host for Web APIs in `Program.cs`
 
-Next, let's check out the changes in `Program.cs`. Take note that the `Program.cs` template uses implicit using directives and top level statements, and we'll make use of both of these features.s
+Next, let's check out the changes in `Program.cs`. Take note that the `Program.cs` template uses implicit using directives and top level statements, and we'll make use of both of these features.
 
 <div class="filename">Program.cs</div>
 
