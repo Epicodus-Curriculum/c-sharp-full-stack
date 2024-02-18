@@ -385,7 +385,7 @@ The `[ApiController]` attribute does a few things, all which you can read about 
 * It requires specifying API routes with attributes. We specify routes with the `[Route]` attribute and other attributes that we add to our controller actions.
 * It performs automatic model validation such that we don't have to check `ModelState` in an if statement in our controller actions. We'll see how we can add validations to our models in a later lesson.
 
-With the `[Route("[controller]")]` attribute, we're specifying that we want our route's to match the name of the controller class minus the `Controller` suffix. That means that any actions within our `WeatherForecastController` will have a base request URL of `http://localhost:5000/weatherforecast`.
+With the `[Route("[controller]")]` attribute, we're specifying that we want our routes to match the name of the controller class minus the `Controller` suffix. That means that any actions within our `WeatherForecastController` will have a base request URL of `http://localhost:5000/weatherforecast`.
 
 Next, notice that our `WeatherForecastController` extends from the `ControllerBase` class, and not from the `Controller` class like in our MVC applications. Well, the `Controller` class supports views, while [the `ControllerBase` class](https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-6.0#controllerbase-class) does not. That's why we extend from the `ControllerBase` class.
 
