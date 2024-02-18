@@ -15,7 +15,7 @@ With that we have a solid list of information we need to include in our README. 
 
 ### Endpoints
 
-To document out projects endpoints, a code block or markdown table will work well to list the endpoints and the [HTTP request method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) for the endpoint. Here's what this should look like for our AnimalsController:
+To document out project's endpoints, a code block or markdown table will work well to list the endpoints and the [HTTP request method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) for the endpoint. Here's what this should look like for our AnimalsController:
 
 ```
 GET http://localhost:5000/api/animals/
