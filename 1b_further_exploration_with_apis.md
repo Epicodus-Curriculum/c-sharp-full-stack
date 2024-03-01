@@ -5,7 +5,7 @@ It’s time to do a deep dive on your own. In the classwork for this course sect
 * Pagination
 * Enable CORS
 
-**For your independent project this course section, you'll also be tasked with incorporating one or more of the preceding further exploration topics into the API you create.** The goal of this further exploration objective is for you to practice the skills that developers use everyday when they are tasked with implementing a new feature that may not have step-by-step guides for the exact implementation they need.
+**For your independent project this course section, you'll also be tasked with incorporating one or more of the preceding further exploration topics into the API you create.** The goal of this further exploration objective is for you to practice the skills that developers use every day when they are tasked with implementing a new feature that may not have step-by-step guides for the exact implementation they need.
 
 In this lesson, we'll learn a bit about each further exploration topic as well as basic expectations you should have for this practice. 
 
@@ -25,7 +25,7 @@ There are tutorials available online for each of these objectives, but you’ll 
 
 ### Token-Based Authentication and Authorization
 
-A good API usually has an authentication scheme. Otherwise users can access all the endpoints in your API. Malicious or misinformed users could make `POST` or `PUT` requests that seriously harm your database and the overall functionality of your application.
+A good API usually has an authentication scheme. Otherwise, users can access all the endpoints in your API. Malicious or misinformed users could make `POST` or `PUT` requests that seriously harm your database and the overall functionality of your application.
 
 The standard for authentication is to use JSON Web Tokens (also known as JWT) for authentication. These are simply encrypted JSON tokens storing a user's credentials. There are quite a few tutorials available for integrating JWT authentication into a .NET 6 API. Try adding authentication into your own application.
 

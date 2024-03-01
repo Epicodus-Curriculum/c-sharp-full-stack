@@ -82,7 +82,7 @@ If you are wondering, we'll leave implicit using directives enabled in our `.csp
 
 ### Getting to Know `appsettings.{Environment}.json`
 
-Did you notice that there's an `appsetting.json` and an `appsettings.Development.json` in our scaffolded project? Both of these files serve the same purpose of adding configurations to our projects. However, the configurations in `appsettings.Development.json` are used only if we are running our project in a development environment. Similarly, if we had an `appsettings.Production.json`, the configurations within it would be used when we are running our project in a production environment.
+Did you notice that there's an `appsettings.json` and an `appsettings.Development.json` in our scaffolded project? Both of these files serve the same purpose of adding configurations to our projects. However, the configurations in `appsettings.Development.json` are used only if we are running our project in a development environment. Similarly, if we had an `appsettings.Production.json`, the configurations within it would be used when we are running our project in a production environment.
 
 According to the docs, `appsettings.json` is loaded first, and then the `appsettings.{Environment}.json` files are loaded second. Configurations from all files are used. However:
 
@@ -133,7 +133,7 @@ Notice that we're setting `"Microsoft.AspNetCore": "Information"`. Shouldn't thi
 
 ### Building a Host for Web APIs in `Program.cs`
 
-Next, let's check out the changes in `Program.cs`. Take note that the `Program.cs` template uses implicit using directives and top level statements, and we'll make use of both of these features.s
+Next, let's check out the changes in `Program.cs`. Take note that the `Program.cs` template uses implicit using directives and top-level statements, and we'll make use of both of these features.
 
 <div class="filename">Program.cs</div>
 
@@ -207,7 +207,7 @@ This if statement checks if our application is being run in a development enviro
 
 Swagger UI is the very cool user interface for our documentation that we can always find at `http://localhost:<port>/swagger/v1/swagger.json`. We'll check out Swagger UI in a little bit; there's more information to cover before we do that.
 
-We only have Swagger configured to run during development, because it's recommend to only be used in development. While Swagger UI can be used to document API endpoints publicly, this needs to be done with care and intention in order to not expose sensitive data. As we'll see, we can use Swagger UI to send actual requests to our API. If we make that publicly available, a malicious user could access key information about our API or change our API in ways that we don't want.
+We only have Swagger configured to run during development, because it's recommended to only be used in development. While Swagger UI can be used to document API endpoints publicly, this needs to be done with care and intention in order to not expose sensitive data. As we'll see, we can use Swagger UI to send actual requests to our API. If we make that publicly available, a malicious user could access key information about our API or change our API in ways that we don't want.
 
 So, Swagger is usually used for developers in development, and public-facing documentation is created elsewhere. That said, we can configure what endpoints are visible and accessible through Swagger, and use Swagger documentation effectively as public-facing documentation. However, using Swagger documentation could potentially slow up our applications performance. Considerations like these need to be made before using Swagger documentation in production. We'll revisit this topic when we learn how to document our API's endpoints, and soon we'll see exactly what Swagger documentation looks like!
 
@@ -271,7 +271,7 @@ Next, we'll update our `Properties/launchSettings.json` and then run our boilerp
 
 The configurations in `launchSettings.json` will look similar to what we've seen in the past. One thing to note is that our `"applicationUrl"` won't point to `https://localhost:5001;http://localhost:5000` like we so often reference in the curriculum. It's up to you to choose the port numbers that you prefer, but we'll continue to use the ports `https://localhost:5001`/`http://localhost:5000` in the LearnHowToProgram.com curriculum.
 
-If you want to update the application URL for CretaceousApi to use ports 5001 and 5000, make the update to the `"applicationUrl"` key, within`"CretaceousApi"` object:
+If you want to update the application URL for CretaceousApi to use ports 5001 and 5000, make the update to the `"applicationUrl"` key, within `"CretaceousApi"` object:
 
 <div class="filename">Properties/launchSettings.json</div>
 
@@ -385,7 +385,7 @@ The `[ApiController]` attribute does a few things, all which you can read about 
 * It requires specifying API routes with attributes. We specify routes with the `[Route]` attribute and other attributes that we add to our controller actions.
 * It performs automatic model validation such that we don't have to check `ModelState` in an if statement in our controller actions. We'll see how we can add validations to our models in a later lesson.
 
-With the `[Route("[controller]")]` attribute, we're specifying that we want our route's to match the name of the controller class minus the `Controller` suffix. That means that any actions within our `WeatherForecastController` will have a base request URL of `http://localhost:5000/weatherforecast`.
+With the `[Route("[controller]")]` attribute, we're specifying that we want our routes to match the name of the controller class minus the `Controller` suffix. That means that any actions within our `WeatherForecastController` will have a base request URL of `http://localhost:5000/weatherforecast`.
 
 Next, notice that our `WeatherForecastController` extends from the `ControllerBase` class, and not from the `Controller` class like in our MVC applications. Well, the `Controller` class supports views, while [the `ControllerBase` class](https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-6.0#controllerbase-class) does not. That's why we extend from the `ControllerBase` class.
 
